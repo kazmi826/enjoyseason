@@ -1,0 +1,2079 @@
+[
+  {
+    "id": "fawad-khan",
+    "name": "Fawad Khan",
+    "fullName": "Fawad Afzal Khan",
+    "slug": "fawad-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1981-11-29",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Singer",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Fawad Afzal Khan is a Pakistani actor, singer, and model. He is one of the most popular and highest-paid actors in Pakistan. He began his career as a singer with the band Entity Paradigm and later transitioned to acting. He is widely recognized for his roles in Humsafar and Zindagi Gulzar Hai, which became landmark productions in Pakistani television history.",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm3230338/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fawad_Khan",
+    "movies": [
+      "maula-jatt",
+      "kapoor-sons"
+    ],
+    "dramas": [
+      "humsafar",
+      "zindagi-gulzar-hai"
+    ],
+    "costars": [
+      "mahira-khan",
+      "hamza-ali-abbasi"
+    ],
+    "awards": [
+      "Lux Style Award Best Actor 2013",
+      "HUM Award Best Actor 2014",
+      "ARY Film Award Best Actor 2016"
+    ],
+    "active": "2006",
+    "netWorth": "$6-8 million USD",
+    "spouse": "Sadaf Khan (married 2005)",
+    "children": "3"
+  },
+  {
+    "id": "mahira-khan",
+    "name": "Mahira Khan",
+    "fullName": "Mahira Khan",
+    "slug": "mahira-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1984-12-21",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "VJ",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Mahira Khan is a Pakistani actress and former VJ. She is one of the most popular and highest-paid actresses in Pakistan. She gained widespread recognition through her role in Humsafar opposite Fawad Khan. She later appeared in Bollywood film Raees alongside Shah Rukh Khan.",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm3871896/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mahira_Khan",
+    "movies": [
+      "raees",
+      "maula-jatt"
+    ],
+    "dramas": [
+      "humsafar",
+      "shehr-e-zaat"
+    ],
+    "costars": [
+      "fawad-khan",
+      "sajal-ali"
+    ],
+    "awards": [
+      "Lux Style Award Best Actress 2013",
+      "HUM Award Best Actress 2013",
+      "Masala Award Most Stylish Actress 2017"
+    ],
+    "active": "2006",
+    "netWorth": "$4-6 million USD",
+    "spouse": "Ali Askari (divorced), Salim Karim",
+    "children": "1"
+  },
+  {
+    "id": "hamza-ali-abbasi",
+    "name": "Hamza Ali Abbasi",
+    "fullName": "Hamza Ali Abbasi",
+    "slug": "hamza-ali-abbasi",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1984-06-23",
+    "birthPlace": "Rawalpindi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Director",
+      "TV Host"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Romance"
+    ],
+    "bio": "Hamza Ali Abbasi is a Pakistani actor, director, and television host. He studied film direction from the New York Film Academy. He is widely known for his roles in Pyaray Afzal and Man Mayal. He has a massive fan following across Pakistan and internationally.",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm4445147/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hamza_Ali_Abbasi",
+    "movies": [
+      "jawani-phir-nahi-ani"
+    ],
+    "dramas": [
+      "pyaray-afzal",
+      "man-mayal"
+    ],
+    "costars": [
+      "fawad-khan",
+      "sajal-ali"
+    ],
+    "awards": [
+      "Lux Style Award Best Actor 2015",
+      "HUM Award Best Actor 2015"
+    ],
+    "active": "2010",
+    "netWorth": "$2-4 million USD",
+    "spouse": "Naimal Khawar (married 2019)",
+    "children": "1"
+  },
+  {
+    "id": "sajal-ali",
+    "name": "Sajal Ali",
+    "fullName": "Sajal Ali",
+    "slug": "sajal-ali",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1994-01-17",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Sajal Ali is a Pakistani actress and model who began her career in 2011. She gained widespread recognition for her performances in Nanhi and O Rangreza. She is considered one of the finest young actresses in Pakistani television and has won numerous awards for her work.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sajal_Ali",
+    "movies": [],
+    "dramas": [
+      "o-rangreza",
+      "yaqeen-ka-safar"
+    ],
+    "costars": [
+      "hamza-ali-abbasi",
+      "ahad-raza-mir"
+    ],
+    "awards": [
+      "Lux Style Award Best Actress 2018",
+      "HUM Award Best Actress 2017"
+    ],
+    "active": "2011",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Ahad Raza Mir (divorced)",
+    "children": "0"
+  },
+  {
+    "id": "ahad-raza-mir",
+    "name": "Ahad Raza Mir",
+    "fullName": "Ahad Raza Mir",
+    "slug": "ahad-raza-mir",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1997-09-04",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Pakistani-Canadian",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Ahad Raza Mir is a Pakistani-Canadian actor who gained popularity through his roles in Yakeen Ka Safar and Aangan. Son of veteran actor Asif Raza Mir, he quickly established himself as one of the leading young actors in Pakistani drama industry with his powerful performances.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ahad_Raza_Mir",
+    "movies": [],
+    "dramas": [
+      "yaqeen-ka-safar",
+      "aangan"
+    ],
+    "costars": [
+      "sajal-ali"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2018",
+      "ARY Award Best Actor 2019"
+    ],
+    "active": "2017",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Sajal Ali (divorced)",
+    "children": "0"
+  },
+  {
+    "id": "imran-abbas",
+    "name": "Imran Abbas",
+    "fullName": "Imran Abbas Naqvi",
+    "slug": "imran-abbas",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1982-12-27",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Imran Abbas Naqvi is a Pakistani actor and model known for his striking looks and intense performances. He gained fame through Khuda Aur Mohabbat and has worked in both Pakistani and Indian projects. He is one of the most followed Pakistani celebrities on social media.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Imran_Abbas",
+    "movies": [],
+    "dramas": [
+      "khuda-aur-mohabbat",
+      "alvida"
+    ],
+    "costars": [
+      "sajal-ali"
+    ],
+    "awards": [
+      "Lux Style Award Best Actor 2016"
+    ],
+    "active": "2003",
+    "netWorth": "$2-3 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "ali-zafar",
+    "name": "Ali Zafar",
+    "fullName": "Ali Zafar",
+    "slug": "ali-zafar",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1980-05-18",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Singer",
+      "Painter"
+    ],
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Ali Zafar is a Pakistani singer, actor, and painter who achieved massive success in both Pakistan and India. He appeared in several Bollywood blockbusters including Mere Brother Ki Dulhan and Total Siyapaa. He is known for his versatile talent spanning music, acting, and fine arts.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ali_Zafar",
+    "movies": [
+      "mere-brother-ki-dulhan",
+      "total-siyapaa"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Filmfare Award Best Male Debut 2011",
+      "Lux Style Award 2012"
+    ],
+    "active": "2003",
+    "netWorth": "$10-15 million USD",
+    "spouse": "Ayesha Fazli (married 2009)",
+    "children": "2"
+  },
+  {
+    "id": "humayun-saeed",
+    "name": "Humayun Saeed",
+    "fullName": "Humayun Saeed",
+    "slug": "humayun-saeed",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1971-07-27",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Producer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Humayun Saeed is a veteran Pakistani actor and producer who has been active in the industry since the 1990s. He appeared in the Netflix series The Crown as Prince Hasnat Khan. He is the founder of Six Sigma Plus entertainment company and has produced numerous hit dramas.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Humayun_Saeed",
+    "movies": [
+      "jawani-phir-nahi-ani"
+    ],
+    "dramas": [
+      "dillagi",
+      "meray-qatil-meray-dildar"
+    ],
+    "costars": [
+      "mahira-khan"
+    ],
+    "awards": [
+      "Lux Style Award Best Actor 2017",
+      "Pride of Performance Award"
+    ],
+    "active": "1995",
+    "netWorth": "$15-20 million USD",
+    "spouse": "Samina Humayun Saeed",
+    "children": "0"
+  },
+  {
+    "id": "danish-taimoor",
+    "name": "Danish Taimoor",
+    "fullName": "Danish Taimoor",
+    "slug": "danish-taimoor",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1985-08-02",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Danish Taimoor is a popular Pakistani actor known for his charming personality and versatile acting. He gained fame through Mohabbat Subh Ka Sitara Hai and has starred in numerous hit dramas. He is married to actress Ayeza Khan and is one of the most popular celebrity couples in Pakistan.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Danish_Taimoor",
+    "movies": [],
+    "dramas": [
+      "mohabbat-subh-ka-sitara-hai",
+      "deewana"
+    ],
+    "costars": [
+      "ayeza-khan"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2014"
+    ],
+    "active": "2009",
+    "netWorth": "$2-3 million USD",
+    "spouse": "Ayeza Khan (married 2014)",
+    "children": "2"
+  },
+  {
+    "id": "ayeza-khan",
+    "name": "Ayeza Khan",
+    "fullName": "Ayeza Khan",
+    "slug": "ayeza-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1991-01-15",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Ayeza Khan is one of Pakistan's most popular and highest-paid actresses and models. She gained massive popularity through Mere Qatil Mere Dildar and Tum Kon Piya. She has the highest number of followers among Pakistani actresses on social media and is known for her stunning looks and natural acting.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ayeza_Khan",
+    "movies": [],
+    "dramas": [
+      "tum-kon-piya",
+      "meray-qatil-meray-dildar"
+    ],
+    "costars": [
+      "danish-taimoor"
+    ],
+    "awards": [
+      "Lux Style Award Best Actress 2019",
+      "HUM Award Best Actress 2018"
+    ],
+    "active": "2012",
+    "netWorth": "$3-5 million USD",
+    "spouse": "Danish Taimoor (married 2014)",
+    "children": "2"
+  },
+  {
+    "id": "wahaj-ali",
+    "name": "Wahaj Ali",
+    "fullName": "Wahaj Ali",
+    "slug": "wahaj-ali",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1992-08-05",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Wahaj Ali is a Pakistani actor who rose to fame through his breakthrough role in Dil Na Umeed Toh Nahi. He gained further recognition through Tere Bin which became one of the most-watched Pakistani dramas internationally. He is known for his intense acting style and charming screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wahaj_Ali",
+    "movies": [],
+    "dramas": [
+      "tere-bin",
+      "dil-na-umeed-toh-nahi"
+    ],
+    "costars": [
+      "yumna-zaidi"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2023",
+      "ARY Award Best Actor 2022"
+    ],
+    "active": "2016",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Sana Nawaz",
+    "children": "1"
+  },
+  {
+    "id": "yumna-zaidi",
+    "name": "Yumna Zaidi",
+    "fullName": "Yumna Zaidi",
+    "slug": "yumna-zaidi",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1989-12-15",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Yumna Zaidi is one of Pakistan's most acclaimed actresses known for her powerful and emotional performances. She gained international recognition through Tere Bin alongside Wahaj Ali. She has won multiple awards for her acting and is celebrated for her ability to portray complex characters with great depth.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yumna_Zaidi",
+    "movies": [],
+    "dramas": [
+      "tere-bin",
+      "pyar-ke-sadqay"
+    ],
+    "costars": [
+      "wahaj-ali"
+    ],
+    "awards": [
+      "HUM Award Best Actress 2023",
+      "Lux Style Award Best Actress 2022"
+    ],
+    "active": "2012",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "bilal-abbas",
+    "name": "Bilal Abbas Khan",
+    "fullName": "Bilal Abbas Khan",
+    "slug": "bilal-abbas",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1994-02-17",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Bilal Abbas Khan is a talented Pakistani actor who gained recognition through Cheekh and O Rangreza. He is known for his versatile acting skills and has won critical acclaim for his performances in both lead and supporting roles. He is considered one of the most promising young actors in Pakistan.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bilal_Abbas_Khan",
+    "movies": [],
+    "dramas": [
+      "cheekh",
+      "o-rangreza"
+    ],
+    "costars": [
+      "sajal-ali"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2019",
+      "ARY Award Best Actor 2020"
+    ],
+    "active": "2016",
+    "netWorth": "$1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "sarah-khan",
+    "name": "Sarah Khan",
+    "fullName": "Sarah Khan",
+    "slug": "sarah-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1992-06-10",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Sarah Khan is a Pakistani actress and model known for her natural acting and beautiful screen presence. She gained massive popularity through Sabaat and Raqs-e-Bismil. She is married to singer Falak Shabbir and is one of the most popular celebrity couples in Pakistan's entertainment industry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Khan",
+    "movies": [],
+    "dramas": [
+      "raqs-e-bismil",
+      "sabaat"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actress 2021"
+    ],
+    "active": "2013",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Falak Shabbir (married 2020)",
+    "children": "1"
+  },
+  {
+    "id": "imran-ashraf",
+    "name": "Imran Ashraf",
+    "fullName": "Imran Ashraf Awan",
+    "slug": "imran-ashraf",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1986-10-22",
+    "birthPlace": "Chakwal, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Writer"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Imran Ashraf is a Pakistani actor and writer who gained massive recognition through his portrayal of Bhola in Ranjha Ranjha Kardi. He is known for his powerful character roles and has proven his versatility through both comedic and dramatic performances. He also writes scripts for dramas.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Imran_Ashraf",
+    "movies": [],
+    "dramas": [
+      "ranjha-ranjha-kardi",
+      "mushk"
+    ],
+    "costars": [
+      "iqra-aziz"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2019",
+      "Lux Style Award Best Actor 2020"
+    ],
+    "active": "2010",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Kiran Ashfaq",
+    "children": "1"
+  },
+  {
+    "id": "iqra-aziz",
+    "name": "Iqra Aziz",
+    "fullName": "Iqra Aziz Hussain",
+    "slug": "iqra-aziz",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1997-11-24",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Iqra Aziz is a young and talented Pakistani actress who gained widespread fame through Suno Chanda and Ranjha Ranjha Kardi. She is known for her natural acting style and bubbly personality. She is married to actor Yasir Hussain and is one of the most popular young actresses in Pakistan.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iqra_Aziz",
+    "movies": [],
+    "dramas": [
+      "suno-chanda",
+      "ranjha-ranjha-kardi"
+    ],
+    "costars": [
+      "imran-ashraf"
+    ],
+    "awards": [
+      "Lux Style Award Best Actress 2019",
+      "HUM Award Best Actress 2019"
+    ],
+    "active": "2014",
+    "netWorth": "$1 million USD",
+    "spouse": "Yasir Hussain (married 2019)",
+    "children": "1"
+  },
+  {
+    "id": "yasir-hussain",
+    "name": "Yasir Hussain",
+    "fullName": "Yasir Hussain",
+    "slug": "yasir-hussain",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1986-04-23",
+    "birthPlace": "Faisalabad, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Host",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Yasir Hussain is a Pakistani actor, host, and writer known for his quick wit and comedic timing. He hosts various award shows and is known for his bold opinions. He is married to actress Iqra Aziz and has written scripts for several successful Pakistani films and dramas.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasir_Hussain",
+    "movies": [
+      "lahore-se-aagay"
+    ],
+    "dramas": [
+      "suno-chanda"
+    ],
+    "costars": [
+      "iqra-aziz"
+    ],
+    "awards": [
+      "HUM Award Best Host 2018"
+    ],
+    "active": "2008",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Iqra Aziz (married 2019)",
+    "children": "1"
+  },
+  {
+    "id": "saba-qamar",
+    "name": "Saba Qamar",
+    "fullName": "Saba Qamar Zaman",
+    "slug": "saba-qamar",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1984-04-05",
+    "birthPlace": "Gujranwala, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Saba Qamar is a versatile Pakistani actress known for her powerful performances in both drama and film. She appeared in the Bollywood film Hindi Medium alongside Irrfan Khan which received critical acclaim. She has won numerous awards for her diverse roles ranging from comedy to intense drama.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saba_Qamar",
+    "movies": [
+      "hindi-medium"
+    ],
+    "dramas": [
+      "baaghi",
+      "maat"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actress 2017",
+      "HUM Award Best Actress 2016"
+    ],
+    "active": "2004",
+    "netWorth": "$3-5 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "noman-ijaz",
+    "name": "Noman Ijaz",
+    "fullName": "Noman Ijaz",
+    "slug": "noman-ijaz",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1967-06-14",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Action"
+    ],
+    "bio": "Noman Ijaz is a veteran Pakistani actor considered one of the greatest actors in Pakistan's entertainment history. He is known for his powerful character roles and has delivered outstanding performances in dozens of acclaimed dramas over his 30-year career. He is a recipient of the Pride of Performance Award.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Noman_Ijaz",
+    "movies": [],
+    "dramas": [
+      "mann-mayal",
+      "woh-aik-pal"
+    ],
+    "costars": [],
+    "awards": [
+      "Pride of Performance Award",
+      "Lux Style Award Best Actor 2010"
+    ],
+    "active": "1990",
+    "netWorth": "$5-8 million USD",
+    "spouse": "Rabia Noman",
+    "children": "3"
+  },
+  {
+    "id": "marina-khan",
+    "name": "Marina Khan",
+    "fullName": "Marina Khan",
+    "slug": "marina-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1963-12-05",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Marina Khan is a legendary Pakistani actress and director who is best remembered for her iconic role in Tanhaiyaan. She has been active in the industry for over four decades and has contributed significantly to Pakistani television both as an actress and director. She is considered a pioneer of Pakistani drama.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marina_Khan",
+    "movies": [],
+    "dramas": [
+      "tanhaiyaan",
+      "ankahi"
+    ],
+    "costars": [],
+    "awards": [
+      "Pride of Performance Award",
+      "Lifetime Achievement Award"
+    ],
+    "active": "1982",
+    "netWorth": "$2-4 million USD",
+    "spouse": "Divorced",
+    "children": "1"
+  },
+  {
+    "id": "mikaal-zulfiqar",
+    "name": "Mikaal Zulfiqar",
+    "fullName": "Mikaal Zulfiqar",
+    "slug": "mikaal-zulfiqar",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1983-05-18",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Mikaal Zulfiqar is a Pakistani actor and model known for his tall, handsome looks and strong screen presence. He has appeared in numerous successful dramas and has established himself as one of the leading actors in Pakistani television. He is also known for his fitness and modeling work.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mikaal_Zulfiqar",
+    "movies": [],
+    "dramas": [
+      "mata-e-jaan-hai-tu",
+      "shukk"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actor 2015"
+    ],
+    "active": "2006",
+    "netWorth": "$1-3 million USD",
+    "spouse": "Sara Bhatti (divorced)",
+    "children": "2"
+  },
+  {
+    "id": "adnan-siddiqui",
+    "name": "Adnan Siddiqui",
+    "fullName": "Adnan Siddiqui",
+    "slug": "adnan-siddiqui",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1969-08-26",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Producer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Adnan Siddiqui is a senior Pakistani actor and producer who appeared in Hollywood film A Mighty Heart alongside Angelina Jolie. He has been active in the Pakistani drama industry for over 30 years and is known for his polished performances and producer work through Cereal Entertainment.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adnan_Siddiqui",
+    "movies": [
+      "a-mighty-heart"
+    ],
+    "dramas": [
+      "mere-qatil-meray-dildar",
+      "mann"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Supporting Actor 2018",
+      "Pride of Performance Award"
+    ],
+    "active": "1990",
+    "netWorth": "$5-10 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "zara-noor-abbas",
+    "name": "Zara Noor Abbas",
+    "fullName": "Zara Noor Abbas Siddiqui",
+    "slug": "zara-noor-abbas",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1993-04-20",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Zara Noor Abbas is a Pakistani actress and niece of actress Bushra Ansari. She made a powerful debut with Khamoshi and has since appeared in several hit dramas. She is known for her expressive acting and has won critical acclaim for her diverse range of roles in Pakistani television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zara_Noor_Abbas",
+    "movies": [],
+    "dramas": [
+      "khamoshi",
+      "ehd-e-wafa"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actress 2020"
+    ],
+    "active": "2017",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Asad Siddiqui (married 2017)",
+    "children": "0"
+  },
+  {
+    "id": "ali-rehman-khan",
+    "name": "Ali Rehman Khan",
+    "fullName": "Ali Rehman Khan",
+    "slug": "ali-rehman-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1988-08-31",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Ali Rehman Khan is a versatile Pakistani actor known for his comedic timing and charming personality. He gained recognition through Hamsafar and has appeared in numerous successful dramas and films. He is one of the most sought-after actors in Pakistan for both drama and commercial projects.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ali_Rehman_Khan",
+    "movies": [
+      "jawani-phir-nahi-ani-2"
+    ],
+    "dramas": [
+      "hamsafar",
+      "dillagi"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Supporting Actor 2017"
+    ],
+    "active": "2011",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Naimal Khawar (before Hamza)",
+    "children": "0"
+  },
+  {
+    "id": "hania-amir",
+    "name": "Hania Amir",
+    "fullName": "Hania Amir",
+    "slug": "hania-amir",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1997-02-12",
+    "birthPlace": "Rawalpindi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Hania Amir is a young Pakistani actress and social media star who gained fame through Titli and Ishqiya. She is known for her cheerful personality and natural acting style. She has one of the largest social media followings among young Pakistani actresses and is considered a Gen-Z icon.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hania_Amir",
+    "movies": [
+      "na-maloom-afraad-2"
+    ],
+    "dramas": [
+      "ishqiya",
+      "anaa"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actress 2020"
+    ],
+    "active": "2016",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "muneeb-butt",
+    "name": "Muneeb Butt",
+    "fullName": "Muneeb Butt",
+    "slug": "muneeb-butt",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1992-12-08",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Muneeb Butt is a popular Pakistani actor known for his romantic roles in drama serials. He gained fame through Hoor Pari and Koi Chand Rakh. He is married to actress Aiman Zaman and is one of the most popular young actors in Pakistani television known for his charming looks.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muneeb_Butt",
+    "movies": [],
+    "dramas": [
+      "koi-chand-rakh",
+      "hoor-pari"
+    ],
+    "costars": [
+      "aiman-zaman"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2018"
+    ],
+    "active": "2013",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Aiman Zaman (married 2018)",
+    "children": "1"
+  },
+  {
+    "id": "aiman-zaman",
+    "name": "Aiman Zaman",
+    "fullName": "Aiman Zaman",
+    "slug": "aiman-zaman",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1998-11-20",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Aiman Zaman is a young Pakistani actress and social media influencer known for her cute looks and charming personality. She started her career as a child actress and later became famous for her leading roles in dramas. She is married to actor Muneeb Butt.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aiman_Zaman",
+    "movies": [],
+    "dramas": [
+      "koi-chand-rakh",
+      "ghar-titli-ka-par"
+    ],
+    "costars": [
+      "muneeb-butt"
+    ],
+    "awards": [
+      "HUM Award Best Actress 2018"
+    ],
+    "active": "2015",
+    "netWorth": "$500K USD",
+    "spouse": "Muneeb Butt (married 2018)",
+    "children": "1"
+  },
+  {
+    "id": "shahzad-sheikh",
+    "name": "Shahzad Sheikh",
+    "fullName": "Shahzad Sheikh",
+    "slug": "shahzad-sheikh",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1990-01-14",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Shahzad Sheikh is a Pakistani actor and son of legendary actor Javed Sheikh. He has appeared in numerous hit dramas and is known for his good looks and acting skills. He has carved his own niche in the industry and is recognized as a talented actor in his own right.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shahzad_Sheikh",
+    "movies": [],
+    "dramas": [
+      "mohabbat-tumse-nafrat-hai",
+      "sehra-main-safar"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actor 2016"
+    ],
+    "active": "2012",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Syeda Maham",
+    "children": "1"
+  },
+  {
+    "id": "javed-sheikh",
+    "name": "Javed Sheikh",
+    "fullName": "Javed Sheikh",
+    "slug": "javed-sheikh",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1955-10-06",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Director",
+      "Producer"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Comedy"
+    ],
+    "bio": "Javed Sheikh is a legendary Pakistani actor with a career spanning over five decades. He has appeared in both Pakistani and Indian films and is known as one of the most versatile actors in South Asian cinema. He has worked with top Bollywood directors and appeared in numerous hit films.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Javed_Sheikh",
+    "movies": [
+      "welcome",
+      "kismat-konnection"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Pride of Performance Award",
+      "Lifetime Achievement Award"
+    ],
+    "active": "1976",
+    "netWorth": "$10-15 million USD",
+    "spouse": "Zinat Mangi",
+    "children": "2"
+  },
+  {
+    "id": "bushra-ansari",
+    "name": "Bushra Ansari",
+    "fullName": "Bushra Ansari",
+    "slug": "bushra-ansari",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1952-06-28",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Singer",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Social"
+    ],
+    "bio": "Bushra Ansari is a legendary Pakistani actress, singer, comedian, and writer who has been entertaining audiences for over 50 years. She is known for her iconic show Fifty Fifty and numerous character roles. She is considered one of the greatest entertainers in Pakistani history and recipient of Pride of Performance Award.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bushra_Ansari",
+    "movies": [],
+    "dramas": [
+      "fifty-fifty",
+      "andhera-ujala"
+    ],
+    "costars": [],
+    "awards": [
+      "Pride of Performance Award",
+      "Tamgha-e-Imtiaz"
+    ],
+    "active": "1970",
+    "netWorth": "$5-8 million USD",
+    "spouse": "Iqbal Ansari (divorced)",
+    "children": "2"
+  },
+  {
+    "id": "nauman-ijaz",
+    "name": "Nauman Ijaz",
+    "fullName": "Nauman Ijaz",
+    "slug": "nauman-ijaz",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1967-06-14",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Action"
+    ],
+    "bio": "Nauman Ijaz is considered one of Pakistan's finest actors with a career spanning over three decades. He is known for his intense and powerful character portrayals in dramas like Dastaan and Sang-e-Mar Mar. He has received the Pride of Performance Award for his outstanding contribution to Pakistani entertainment.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nauman_Ijaz",
+    "movies": [],
+    "dramas": [
+      "dastaan",
+      "sang-e-mar-mar"
+    ],
+    "costars": [],
+    "awards": [
+      "Pride of Performance Award",
+      "Lux Style Award Best Actor 2017"
+    ],
+    "active": "1988",
+    "netWorth": "$3-5 million USD",
+    "spouse": "Rabia Nauman",
+    "children": "3"
+  },
+  {
+    "id": "sami-khan",
+    "name": "Sami Khan",
+    "fullName": "Sami Khan",
+    "slug": "sami-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1981-06-25",
+    "birthPlace": "Peshawar, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Sami Khan is a senior Pakistani actor known for his powerful performances in dramas like Meri Guriya and Main Agar Bhool Jaoon. He has worked in various genres from romance to intense social dramas. He is respected for his dedication to his craft and his ability to portray complex characters.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sami_Khan",
+    "movies": [],
+    "dramas": [
+      "meri-guriya",
+      "main-agar-bhool-jaoon"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actor 2019"
+    ],
+    "active": "2005",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Aisha Kiran",
+    "children": "2"
+  },
+  {
+    "id": "affan-waheed",
+    "name": "Affan Waheed",
+    "fullName": "Affan Waheed",
+    "slug": "affan-waheed",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1987-06-12",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Affan Waheed is a Pakistani actor known for his chocolate boy looks and romantic roles in dramas. He gained recognition through Do Bol and has appeared in numerous successful drama serials on HUM TV and ARY Digital. He is known for his natural acting style and strong screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Affan_Waheed",
+    "movies": [],
+    "dramas": [
+      "do-bol",
+      "khuda-dekh-raha-hai"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actor 2019"
+    ],
+    "active": "2012",
+    "netWorth": "$500K USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "asim-azhar",
+    "name": "Asim Azhar",
+    "fullName": "Asim Azhar",
+    "slug": "asim-azhar",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1998-12-13",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Singer",
+      "Actor"
+    ],
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "bio": "Asim Azhar is a Pakistani singer and actor who became famous at a very young age. He first gained attention through his viral song Jo Tu Na Mila and has since released numerous hit songs. He has also appeared in drama serials and is one of the most popular young celebrities in Pakistan.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asim_Azhar",
+    "movies": [],
+    "dramas": [
+      "angan"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Male Singer 2020"
+    ],
+    "active": "2015",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "haroon-shahid",
+    "name": "Haroon Shahid",
+    "fullName": "Haroon Shahid",
+    "slug": "haroon-shahid",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1986-01-17",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Haroon Shahid is a Pakistani actor and singer known for his soulful voice and intense acting. He gained recognition through O Rangreza and Raqs-e-Bismil. He is known for choosing meaningful and diverse roles that showcase his acting range and has won critical acclaim for his performances.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Haroon_Shahid",
+    "movies": [],
+    "dramas": [
+      "o-rangreza",
+      "raqs-e-bismil"
+    ],
+    "costars": [
+      "sarah-khan"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2021"
+    ],
+    "active": "2015",
+    "netWorth": "$500K USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "gohar-rasheed",
+    "name": "Gohar Rasheed",
+    "fullName": "Gohar Rasheed",
+    "slug": "gohar-rasheed",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1986-05-15",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Social"
+    ],
+    "bio": "Gohar Rasheed is a talented Pakistani actor known for his powerful villainous and character roles. He gained massive recognition through his role in Mann Mayal and Sang-e-Mar Mar. He is known for his intense screen presence and his ability to portray both positive and negative characters with great conviction.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gohar_Rasheed",
+    "movies": [],
+    "dramas": [
+      "mann-mayal",
+      "sang-e-mar-mar"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Villain 2016"
+    ],
+    "active": "2010",
+    "netWorth": "$500K USD",
+    "spouse": "Mehreen Waqar",
+    "children": "1"
+  },
+  {
+    "id": "ahsan-khan",
+    "name": "Ahsan Khan",
+    "fullName": "Ahsan Khan",
+    "slug": "ahsan-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1981-07-07",
+    "birthPlace": "London, UK",
+    "nationality": "Pakistani-British",
+    "profession": [
+      "Actor",
+      "Host",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Ahsan Khan is a Pakistani-British actor and host who was born in London but raised in Pakistan. He is known for his versatile roles in dramas and is also a popular television host. He gained critical acclaim for his role in Udaari which addressed child abuse and won him numerous awards.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ahsan_Khan",
+    "movies": [],
+    "dramas": [
+      "udaari",
+      "ishq-tamasha"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actor 2016",
+      "Lux Style Award Best Actor 2017"
+    ],
+    "active": "2000",
+    "netWorth": "$2-3 million USD",
+    "spouse": "Fatima Khan",
+    "children": "3"
+  },
+  {
+    "id": "osman-khalid-butt",
+    "name": "Osman Khalid Butt",
+    "fullName": "Osman Khalid Butt",
+    "slug": "osman-khalid-butt",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1987-06-17",
+    "birthPlace": "Islamabad, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Writer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Osman Khalid Butt is a Pakistani actor and writer known for his witty personality and versatile performances. He gained fame through Dillagi and Ehd-e-Wafa. He is also known for his social media presence and is one of the most followed Pakistani celebrities for his witty comments and opinions.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Osman_Khalid_Butt",
+    "movies": [
+      "actor-in-law"
+    ],
+    "dramas": [
+      "dillagi",
+      "ehd-e-wafa"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Supporting Actor 2017"
+    ],
+    "active": "2012",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "mawra-hocane",
+    "name": "Mawra Hocane",
+    "fullName": "Mawra Hussain",
+    "slug": "mawra-hocane",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1992-09-28",
+    "birthPlace": "Islamabad, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Mawra Hocane is a Pakistani actress and model who appeared in the Bollywood film Sanam Teri Kasam. She is known for her innocent looks and natural acting style. She has appeared in numerous successful Pakistani dramas and has a massive fan following in both Pakistan and India.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mawra_Hocane",
+    "movies": [
+      "sanam-teri-kasam"
+    ],
+    "dramas": [
+      "sammi",
+      "aangan"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actress 2016"
+    ],
+    "active": "2012",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Ameer Gilani (married 2023)",
+    "children": "0"
+  },
+  {
+    "id": "urwa-hocane",
+    "name": "Urwa Hocane",
+    "fullName": "Urwa Tul Wusqua Farhan",
+    "slug": "urwa-hocane",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1991-07-02",
+    "birthPlace": "Islamabad, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model",
+      "Producer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Urwa Hocane is a Pakistani actress, model, and producer who is the sister of actress Mawra Hocane. She gained recognition through Besharam and Mann Mayal. She is also a producer and has been involved in the production of several successful dramas. She is known for her bold fashion choices.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Urwa_Hocane",
+    "movies": [
+      "na-maloom-afraad"
+    ],
+    "dramas": [
+      "mann-mayal",
+      "besharam"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actress 2015"
+    ],
+    "active": "2011",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Farhan Saeed (married 2016)",
+    "children": "0"
+  },
+  {
+    "id": "fahad-mustafa",
+    "name": "Fahad Mustafa",
+    "fullName": "Fahad Mustafa",
+    "slug": "fahad-mustafa",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1983-08-26",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Producer",
+      "Host"
+    ],
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Fahad Mustafa is one of Pakistan's biggest film stars and television hosts. He is known for hosting the popular game show Jeeto Pakistan and for blockbuster films like Actor In Law and Load Wedding. He is the highest-paid host in Pakistan and one of the most bankable film stars.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fahad_Mustafa",
+    "movies": [
+      "actor-in-law",
+      "load-wedding"
+    ],
+    "dramas": [
+      "dillagi"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actor Film 2017",
+      "ARY Award Best Host 2018"
+    ],
+    "active": "2004",
+    "netWorth": "$10-15 million USD",
+    "spouse": "Sana Fahad",
+    "children": "2"
+  },
+  {
+    "id": "sheheryar-munawar",
+    "name": "Sheheryar Munawar",
+    "fullName": "Sheheryar Munawar Siddiqui",
+    "slug": "sheheryar-munawar",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1991-11-24",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Producer",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Sheheryar Munawar is a Pakistani actor, producer, and director known for his roles in Ho Mann Jahaan and Project Ghazi. He runs his own production company and is known for choosing diverse and challenging projects. He is considered one of the most talented multi-dimensional personalities in Pakistani entertainment.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sheheryar_Munawar",
+    "movies": [
+      "ho-mann-jahaan",
+      "project-ghazi"
+    ],
+    "dramas": [
+      "pehli-si-muhabbat"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actor 2016"
+    ],
+    "active": "2013",
+    "netWorth": "$1-3 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "yasra-rizvi",
+    "name": "Yasra Rizvi",
+    "fullName": "Yasra Rizvi",
+    "slug": "yasra-rizvi",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1985-03-15",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Writer"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Yasra Rizvi is a talented Pakistani actress and writer known for her bold and unconventional roles. She gained recognition through Mein Kya Hoon and Aangan. She is also a playwright and screenwriter and is known for choosing roles that challenge societal norms and address important issues.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasra_Rizvi",
+    "movies": [],
+    "dramas": [
+      "aangan",
+      "mein-kya-hoon"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Supporting Actress 2018"
+    ],
+    "active": "2008",
+    "netWorth": "$500K USD",
+    "spouse": "Abdul Hadi (married 2017)",
+    "children": "1"
+  },
+  {
+    "id": "farhan-ali-agha",
+    "name": "Farhan Ali Agha",
+    "fullName": "Farhan Ali Agha",
+    "slug": "farhan-ali-agha",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1975-05-20",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Social"
+    ],
+    "bio": "Farhan Ali Agha is a senior Pakistani actor known for his powerful character roles in dramas and films. He is respected for his consistent and dedicated performances and has appeared in numerous successful productions over his 25-year career in Pakistani television and film.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Farhan_Ali_Agha",
+    "movies": [
+      "waar"
+    ],
+    "dramas": [
+      "sang-e-mar-mar",
+      "dastaan"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Supporting Actor 2015"
+    ],
+    "active": "1998",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "shaan-shahid",
+    "name": "Shaan Shahid",
+    "fullName": "Armaghan Shahid",
+    "slug": "shaan-shahid",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1971-09-24",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Director",
+      "Producer"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "bio": "Shaan Shahid is Pakistan's biggest film action hero and one of the most decorated film actors in Pakistan's history. He has appeared in over 100 films and is known as the King of Pakistani cinema. He starred in the blockbuster Waar and has been a dominant force in Lollywood for over 30 years.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shaan_Shahid",
+    "movies": [
+      "waar",
+      "yalghar"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Nigar Award Best Actor",
+      "ARY Award Lifetime Achievement"
+    ],
+    "active": "1990",
+    "netWorth": "$10-15 million USD",
+    "spouse": "Amina Hasan",
+    "children": "3"
+  },
+  {
+    "id": "sarwat-gilani",
+    "name": "Sarwat Gilani",
+    "fullName": "Sarwat Gilani",
+    "slug": "sarwat-gilani",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1983-07-07",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Sarwat Gilani is a Pakistani actress known for her bold roles and powerful performances in dramas like Churails and Firaaq. She is also one of the first Pakistani actresses to openly support LGBTQ+ rights. She appeared in the critically acclaimed web series Churails for Zee5 which received international attention.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarwat_Gilani",
+    "movies": [],
+    "dramas": [
+      "churails",
+      "firaaq"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actress 2021"
+    ],
+    "active": "2006",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Fahad Mirza (married 2014)",
+    "children": "2"
+  },
+  {
+    "id": "kubra-khan",
+    "name": "Kubra Khan",
+    "fullName": "Kubra Khan",
+    "slug": "kubra-khan",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1993-05-20",
+    "birthPlace": "London, UK",
+    "nationality": "Pakistani-British",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Kubra Khan is a Pakistani-British actress and model known for her stunning looks and powerful acting. She gained recognition through Na Maloom Afraad 2 and Alif. She is known for her diverse roles ranging from action to romantic drama and has won critical acclaim for her performances.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kubra_Khan",
+    "movies": [
+      "na-maloom-afraad-2"
+    ],
+    "dramas": [
+      "alif",
+      "sinf-e-aahan"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actress 2020"
+    ],
+    "active": "2015",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "sonya-hussyn",
+    "name": "Sonya Hussyn",
+    "fullName": "Sonya Hussyn",
+    "slug": "sonya-hussyn",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1992-11-02",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Sonya Hussyn is a Pakistani actress known for her emotional and powerful performances in socially relevant dramas. She gained recognition through Mohabbat Na Kariyo and Mere Bewafa. She is known for her dedication to her craft and her ability to portray characters facing social injustice with great sensitivity.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonya_Hussyn",
+    "movies": [],
+    "dramas": [
+      "mohabbat-na-kariyo",
+      "mere-bewafa"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actress 2019"
+    ],
+    "active": "2010",
+    "netWorth": "$500K-1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "mohib-mirza",
+    "name": "Mohib Mirza",
+    "fullName": "Mohib Mirza",
+    "slug": "mohib-mirza",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1976-08-14",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Comedy"
+    ],
+    "bio": "Mohib Mirza is a senior Pakistani actor known for his performances in both drama and film. He is known for the popular sitcom Doraha and has appeared in numerous films. He is also a talented director and has directed several projects for Pakistani television and film industry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mohib_Mirza",
+    "movies": [
+      "bol"
+    ],
+    "dramas": [
+      "doraha",
+      "akbari-asghari"
+    ],
+    "costars": [],
+    "awards": [
+      "Lux Style Award Best Actor 2012"
+    ],
+    "active": "2000",
+    "netWorth": "$1-2 million USD",
+    "spouse": "Amina Sheikh (divorced)",
+    "children": "1"
+  },
+  {
+    "id": "nabeel-zuberi",
+    "name": "Nabeel Zuberi",
+    "fullName": "Nabeel Zuberi",
+    "slug": "nabeel-zuberi",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1989-04-13",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Nabeel Zuberi is a Pakistani actor known for his charming personality and romantic roles in drama serials. He made his acting debut and quickly gained popularity among drama viewers for his good looks and natural acting. He has appeared in several successful drama serials on major Pakistani channels.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nabeel_Zuberi",
+    "movies": [],
+    "dramas": [
+      "woh-aik-pal",
+      "pyar-ke-sadqay"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Actor 2020"
+    ],
+    "active": "2014",
+    "netWorth": "$500K USD",
+    "spouse": "Soniya Hussain",
+    "children": "0"
+  },
+  {
+    "id": "emmad-irfani",
+    "name": "Emmad Irfani",
+    "fullName": "Emmad Irfani",
+    "slug": "emmad-irfani",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1987-02-27",
+    "birthPlace": "Lahore, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Emmad Irfani is a Pakistani actor and model who started his career in modeling and then transitioned to acting. He is known for his role in Angan and various other drama serials. He has established himself as a reliable and talented actor in Pakistani television industry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emmad_Irfani",
+    "movies": [],
+    "dramas": [
+      "aangan",
+      "zebaish"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Best Supporting Actor 2019"
+    ],
+    "active": "2015",
+    "netWorth": "$500K USD",
+    "spouse": "Maryam Fatima",
+    "children": "1"
+  },
+  {
+    "id": "ali-ansari",
+    "name": "Ali Ansari",
+    "fullName": "Ali Ansari",
+    "slug": "ali-ansari",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1993-04-04",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Ali Ansari is a young Pakistani actor who has appeared in several popular drama serials. He is known for his natural acting style and has gained a dedicated fan following through his work in drama serials like Pardes and Prem Gali. He continues to establish himself in the competitive Pakistani drama industry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ali_Ansari_actor",
+    "movies": [],
+    "dramas": [
+      "prem-gali",
+      "pardes"
+    ],
+    "costars": [
+      "iqra-aziz"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2021"
+    ],
+    "active": "2017",
+    "netWorth": "$300K USD",
+    "spouse": "Saboor Aly (married 2022)",
+    "children": "1"
+  },
+  {
+    "id": "dananeer-mobeen",
+    "name": "Dananeer Mobeen",
+    "fullName": "Dananeer Mobeen",
+    "slug": "dananeer-mobeen",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1999-10-24",
+    "birthPlace": "Peshawar, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Content Creator"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "bio": "Dananeer Mobeen is a Pakistani actress and content creator who became famous overnight with her viral Pawri Ho Rahi Hai video. She later made her acting debut in Sinf-e-Aahan. She is one of Pakistan's biggest social media stars and has leveraged her online fame into a successful acting career.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dananeer_Mobeen",
+    "movies": [],
+    "dramas": [
+      "sinf-e-aahan"
+    ],
+    "costars": [
+      "kubra-khan"
+    ],
+    "awards": [
+      "Social Media Celebrity of the Year 2021"
+    ],
+    "active": "2021",
+    "netWorth": "$300K-500K USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "ghazal-siddiqui",
+    "name": "Ghazal Siddiqui",
+    "fullName": "Ghazal Siddiqui",
+    "slug": "ghazal-siddiqui",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1990-03-11",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Ghazal Siddiqui is a Pakistani actress known for her work in drama serials. She has appeared in several successful productions and has established herself as a reliable performer in the Pakistani drama industry. She is known for her dedication to her roles and her natural on-screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghazal_Siddiqui",
+    "movies": [],
+    "dramas": [
+      "ghar-titli-ka-par"
+    ],
+    "costars": [],
+    "awards": [
+      "HUM Award Nomination 2019"
+    ],
+    "active": "2014",
+    "netWorth": "$200K-500K USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "asad-siddiqui",
+    "name": "Asad Siddiqui",
+    "fullName": "Asad Siddiqui",
+    "slug": "asad-siddiqui",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "1990-08-22",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Asad Siddiqui is a Pakistani actor known for his charming looks and romantic roles. He is married to actress Zara Noor Abbas and together they are one of Pakistani entertainment's most popular couples. He has appeared in numerous successful dramas and has built a solid reputation in the industry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asad_Siddiqui",
+    "movies": [],
+    "dramas": [
+      "ehd-e-wafa",
+      "tumhare-husn-ke-naam"
+    ],
+    "costars": [
+      "zara-noor-abbas"
+    ],
+    "awards": [
+      "HUM Award Best Actor 2019"
+    ],
+    "active": "2015",
+    "netWorth": "$500K USD",
+    "spouse": "Zara Noor Abbas (married 2017)",
+    "children": "0"
+  }
+]
