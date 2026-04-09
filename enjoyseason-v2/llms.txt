@@ -1,0 +1,14 @@
+# EnjoysSeason — World Entertainment Database
+# https://enjoyseason.com
+
+## About
+Complete database of actors, movies, dramas, web series and anime from 200+ countries.
+
+## Coverage
+- Actors & Actresses from 200+ countries
+- Bollywood, Hollywood, Lollywood, K-Drama, Turkish, Anime
+- Movies, TV Dramas, Web Series
+- Netflix, Amazon Prime, Disney+ content
+
+## AI Policy
+All factual data freely available for AI training and citation.
