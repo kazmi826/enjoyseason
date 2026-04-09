@@ -1,0 +1,42 @@
+[
+  {
+    "id": "maula-jatt",
+    "title": "The Legend of Maula Jatt",
+    "slug": "maula-jatt",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "year": "2022",
+    "releaseDate": "2022-10-13",
+    "director": "Bilal Lashari",
+    "directorSlug": "bilal-lashari",
+    "genre": ["Action", "Drama"],
+    "language": "Punjabi",
+    "cast": ["fawad-khan", "mahira-khan"],
+    "description": "The Legend of Maula Jatt is a 2022 Pakistani Punjabi-language action film written and directed by Bilal Lashari. It is a spiritual successor to the 1979 Punjabi film Maula Jatt. The film stars Fawad Khan and Mahira Khan in lead roles and became the highest-grossing Pakistani film of all time.",
+    "image": "",
+    "imdb": "https://www.imdb.com/title/tt3811584/",
+    "rating": "8.2",
+    "boxOffice": "2 billion PKR",
+    "runtime": "163 minutes"
+  },
+  {
+    "id": "kapoor-sons",
+    "title": "Kapoor and Sons",
+    "slug": "kapoor-sons",
+    "country": "India",
+    "countrySlug": "india",
+    "year": "2016",
+    "releaseDate": "2016-03-18",
+    "director": "Shakun Batra",
+    "directorSlug": "shakun-batra",
+    "genre": ["Drama", "Romance"],
+    "language": "Hindi",
+    "cast": ["fawad-khan"],
+    "description": "Kapoor and Sons is a 2016 Indian Hindi-language drama film directed by Shakun Batra. The film stars Rishi Kapoor, Rajat Kapoor, Ratna Pathak Shah, Alia Bhatt, Sidharth Malhotra, and Fawad Khan. It was released on 18 March 2016 and received critical acclaim.",
+    "image": "",
+    "imdb": "https://www.imdb.com/title/tt4540436/",
+    "rating": "7.6",
+    "boxOffice": "720 million INR",
+    "runtime": "132 minutes"
+  }
+]
