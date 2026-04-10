@@ -1156,4 +1156,139 @@ generateRobots();
 console.log(`✅ robots.txt generated`);
 console.log('═'.repeat(45));
 console.log(`\n🎉 TOTAL: ${totalPages} pages\n`);
-console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');
+console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');/**
+ * ADD THIS TO THE END OF YOUR generate.js
+ * Function to generate Country Index Pages
+ */
+
+const generateCountryPages = () => {
+    // 1. Data load karein
+    const actorsRaw = fs.readFileSync('data/actors.json', 'utf8');
+    const actors = JSON.parse(actorsRaw);
+
+    // 2. Actors ko countries ke hisaab se group karein
+    const countriesMap = {};
+    actors.forEach(actor => {
+        if (!countriesMap[actor.countrySlug]) {
+            countriesMap[actor.countrySlug] = {
+                name: actor.country,
+                slug: actor.countrySlug,
+                actors: []
+            };
+        }
+        countriesMap[actor.countrySlug].actors.push(actor);
+    });
+
+    // 3. Har country ke liye page generate karein
+    Object.values(countriesMap).forEach(country => {
+        const countryDir = `country/${country.slug}`;
+        if (!fs.existsSync(countryDir)) {
+            fs.mkdirSync(countryDir, { recursive: true });
+        }
+
+        // Actor Cards HTML
+        const actorCards = country.actors.map(actor => `
+            <div class="actor-card">
+                <div class="photo-placeholder">
+                    <img src="${actor.image || '/assets/placeholder.jpg'}" alt="${actor.name}" loading="lazy">
+                </div>
+                <h3>${actor.name}</h3>
+                <p>${Array.isArray(actor.profession) ? actor.profession.join(', ') : actor.profession}</p>
+                <a href="/actors/${country.slug}/${actor.slug}.html" class="view-btn">View Profile</a>
+            </div>
+        `).join('');
+
+        const countryHTML = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${country.name} Actors - Complete List | EnjoysSeason</title>
+    <meta name="description" content="Explore the complete list of famous actors and celebrities from ${country.name}. Profiles, bios, and movies at EnjoysSeason.">
+    <style>
+        :root { --bg: #08091a; --card-bg: #121430; --gold: #f5a623; --text: #ffffff; }
+        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Breadcrumb */
+        .breadcrumb { padding: 20px 0; color: #888; font-size: 14px; }
+        .breadcrumb a { color: var(--gold); text-decoration: none; }
+        
+        h1 { color: var(--gold); text-align: center; margin-bottom: 40px; text-transform: capitalize; }
+        
+        /* Grid Layout */
+        .actor-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+            gap: 25px; 
+            padding-bottom: 50px;
+        }
+        
+        .actor-card { 
+            background: var(--card-bg); 
+            border-radius: 12px; 
+            overflow: hidden; 
+            text-align: center; 
+            padding: 15px;
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(245, 166, 35, 0.1);
+        }
+        .actor-card:hover { transform: translateY(-5px); border-color: var(--gold); }
+        
+        .photo-placeholder { 
+            width: 100%; 
+            height: 250px; 
+            background: #1c1f45; 
+            border-radius: 8px; 
+            margin-bottom: 15px;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .photo-placeholder img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
+        
+        .actor-card h3 { margin: 10px 0 5px; font-size: 1.2rem; color: var(--gold); }
+        .actor-card p { font-size: 0.9rem; color: #ccc; height: 40px; overflow: hidden; }
+        
+        .view-btn { 
+            display: inline-block; 
+            margin-top: 15px; 
+            padding: 8px 20px; 
+            background: var(--gold); 
+            color: #000; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        footer { text-align: center; padding: 40px; background: #050612; color: #666; font-size: 14px; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="/">Home</a> > <a href="/countries/">Countries</a> > ${country.name}
+        </div>
+
+        <h1>${country.name} Actors</h1>
+
+        <div class="actor-grid">
+            ${actorCards}
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 EnjoysSeason - World Entertainment Hub
+    </footer>
+
+</body>
+</html>`;
+
+        fs.writeFileSync(`${countryDir}/index.html`, countryHTML);
+        console.log(`Generated: /country/${country.slug}/index.html`);
+    });
+};
+
+// Run the function
+generateCountryPages();
