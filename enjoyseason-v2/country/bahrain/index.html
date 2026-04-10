@@ -984,5 +984,33 @@ document.getElementById('searchInput')?.addEventListener('keypress', function(e)
   }
 });
 </script>
+
+<script>
+(function() {
+    var TMDB_KEY = '8265bd1679663a7ea12ac168da84d2e8';
+    var imgs = document.querySelectorAll('img[alt]');
+    if (!imgs.length) return;
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (!entry.isIntersecting) return;
+            var img = entry.target;
+            if (img.dataset.loaded) return;
+            img.dataset.loaded = 'true';
+            observer.unobserve(img);
+            var name = img.getAttribute('alt');
+            if (!name || name.length < 2) return;
+            fetch('https://api.themoviedb.org/3/search/person?api_key=' + TMDB_KEY + '&query=' + encodeURIComponent(name))
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    if (data.results && data.results[0] && data.results[0].profile_path) {
+                        img.src = 'https://image.tmdb.org/t/p/w500' + data.results[0].profile_path;
+                    }
+                })
+                .catch(function() {});
+        });
+    }, { threshold: 0.1 });
+    imgs.forEach(function(img) { observer.observe(img); });
+})();
+</script>
 </body>
 </html>
