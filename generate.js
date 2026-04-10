@@ -1142,21 +1142,8 @@ const generateRobots = () => {
   fs.writeFileSync('./robots.txt', `User-agent: *\nAllow: /\n\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nUser-agent: anthropic-ai\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nSitemap: https://enjoyseason.com/sitemap.xml\n`);
 };
 
-// ============================================================
-// MAIN
-// ============================================================
-console.log('\n🚀 EnjoysSeason V2 Generator\n' + '═'.repeat(45));
-actors.forEach(generateActorPage);
-console.log(`✅ Actor pages: ${actors.length}`);
-generateSitemap();
-console.log(`✅ Sitemap: ${allUrls.length} URLs`);
-generateLLMS();
-console.log(`✅ llms.txt generated`);
-generateRobots();
-console.log(`✅ robots.txt generated`);
-console.log('═'.repeat(45));
-console.log(`\n🎉 TOTAL: ${totalPages} pages\n`);
-console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');const generateCountryPages = () => {
+
+const generateCountryPages = () => {
     const actorsRaw = fs.readFileSync('data/actors.json', 'utf8');
     const actors = JSON.parse(actorsRaw);
 
@@ -1178,7 +1165,6 @@ console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');const 
             fs.mkdirSync(countryDir, { recursive: true });
         }
 
-        // Actor Cards with TMDB logic and Initials Placeholder
         const actorCards = country.actors.map(actor => {
             const initials = actor.name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
             return `
@@ -1198,103 +1184,83 @@ console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');const 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${country.name} Actors - Complete List | EnjoysSeason</title>
+    <title>${country.name} Actors - EnjoysSeason</title>
     <style>
-        :root { --bg: #08091a; --card-bg: #121430; --gold: #f5a623; --text: #ffffff; --nav-bg: #050612; }
-        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
-        
-        /* Header & Nav */
-        header { background: var(--nav-bg); padding: 15px 0; border-bottom: 1px solid rgba(245, 166, 35, 0.2); position: sticky; top: 0; z-index: 1000; }
+        :root { --bg: #08091a; --card-bg: #121430; --gold: #f5a623; --white: #ffffff; }
+        body { background: var(--bg); color: var(--white); font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
+        header { background: #050612; padding: 20px 0; border-bottom: 2px solid var(--gold); display: block !important; }
         .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
-        .logo { font-size: 24px; font-weight: bold; color: var(--gold); text-decoration: none; }
-        .nav-links { display: flex; gap: 20px; align-items: center; }
-        .dropdown { position: relative; cursor: pointer; color: #ccc; }
-        .dropdown:hover { color: var(--gold); }
-        .search-bar { background: #1c1f45; border: 1px solid #333; padding: 8px 15px; border-radius: 20px; color: white; width: 200px; }
-
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .breadcrumb { padding: 20px 0; color: #888; font-size: 14px; }
+        .logo { font-size: 26px; font-weight: bold; color: var(--gold); text-decoration: none; }
+        .nav-links { display: flex; gap: 20px; }
+        .nav-links a { color: var(--white); text-decoration: none; font-size: 14px; }
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .breadcrumb { margin-bottom: 20px; font-size: 14px; color: #888; }
         .breadcrumb a { color: var(--gold); text-decoration: none; }
-        h1 { color: var(--gold); text-align: center; margin: 30px 0; font-size: 2.5rem; }
-
-        /* Grid */
-        .actor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 25px; }
-        .actor-card { background: var(--card-bg); border-radius: 12px; padding: 15px; text-align: center; border: 1px solid rgba(245, 166, 35, 0.1); transition: 0.3s; }
-        .actor-card:hover { transform: translateY(-5px); border-color: var(--gold); }
-        
-        .photo-placeholder { width: 100%; height: 280px; background: #1c1f45; border-radius: 8px; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; }
+        h1 { color: var(--gold); text-align: center; margin-bottom: 40px; }
+        .actor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 30px; }
+        .actor-card { background: var(--card-bg); border-radius: 15px; padding: 20px; text-align: center; border: 1px solid #1f224d; }
+        .photo-placeholder { width: 100%; height: 280px; background: #1c1f45; border-radius: 10px; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
         .photo-placeholder img { width: 100%; height: 100%; object-fit: cover; }
-        .initials { font-size: 3rem; font-weight: bold; color: rgba(245, 166, 35, 0.3); }
-
-        .actor-card h3 { margin: 10px 0 5px; font-size: 1.2rem; color: var(--gold); }
-        .actor-card p { font-size: 0.85rem; color: #aaa; height: 35px; overflow: hidden; }
-        .view-btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: var(--gold); color: #000; text-decoration: none; font-weight: bold; border-radius: 6px; }
-
-        footer { text-align: center; padding: 50px; background: var(--nav-bg); color: #666; margin-top: 60px; border-top: 1px solid #1c1f45; }
+        .initials { font-size: 40px; color: rgba(245, 166, 35, 0.2); font-weight: bold; }
+        .actor-card h3 { color: var(--gold); margin: 10px 0; font-size: 18px; }
+        .actor-card p { color: #aaa; font-size: 13px; }
+        .view-btn { display: block; background: var(--gold); color: #000; padding: 10px; margin-top: 15px; text-decoration: none; font-weight: bold; border-radius: 5px; }
     </style>
 </head>
 <body>
-
     <header>
         <div class="nav-container">
             <a href="/" class="logo">EnjoysSeason</a>
             <div class="nav-links">
-                <div class="dropdown">Countries ▾</div>
-                <div class="dropdown">Categories ▾</div>
-                <input type="text" class="search-bar" placeholder="Search actors...">
+                <a href="/">Home</a>
+                <a href="/countries/">Countries</a>
             </div>
         </div>
     </header>
-
     <div class="container">
-        <div class="breadcrumb">
-            <a href="/">Home</a> > <a href="/countries/">Countries</a> > ${country.name}
-        </div>
-
+        <div class="breadcrumb"><a href="/">Home</a> > Countries > ${country.name}</div>
         <h1>${country.name} Actors</h1>
-
-        <div class="actor-grid">
-            ${actorCards}
-        </div>
+        <div class="actor-grid">${actorCards}</div>
     </div>
-
-    <footer>
-        &copy; 2026 EnjoysSeason - World Entertainment Hub
-    </footer>
-
     <script>
-        const TMDB_API_KEY = '8265bd1679663a7ea12ac168da84d2e8';
-        
-        async function loadActorPhotos() {
+        const API_KEY = '8265bd1679663a7ea12ac168da84d2e8';
+        async function fetchImages() {
             const cards = document.querySelectorAll('.actor-card');
             for (const card of cards) {
                 const name = card.getAttribute('data-name');
-                const container = card.querySelector('.photo-placeholder');
-                const slug = container.id;
-
+                const imgContainer = card.querySelector('.photo-placeholder');
                 try {
-                    const response = await fetch(\`https://api.themoviedb.org/3/search/person?api_key=\${TMDB_API_KEY}&query=\${encodeURIComponent(name)}\`);
-                    const data = await response.json();
-                    
-                    if (data.results && data.results.length > 0 && data.results[0].profile_path) {
-                        const imgUrl = \`https://image.tmdb.org/t/p/w500\${data.results[0].profile_path}\`;
-                        container.innerHTML = \`<img src="\${imgUrl}" alt="\${name}" loading="lazy">\`;
+                    const res = await fetch(\`https://api.themoviedb.org/3/search/person?api_key=\${API_KEY}&query=\${encodeURIComponent(name)}\`);
+                    const data = await res.json();
+                    if (data.results && data.results[0] && data.results[0].profile_path) {
+                        const path = data.results[0].profile_path;
+                        imgContainer.innerHTML = \`<img src="https://image.tmdb.org/t/p/w500\${path}" alt="\${name}">\`;
                     }
-                } catch (error) {
-                    console.error("Error loading photo for " + name, error);
-                }
+                } catch (e) { console.log("Error for " + name); }
             }
         }
-
-        window.onload = loadActorPhotos;
+        window.onload = fetchImages;
     </script>
-
 </body>
-</html>`;
-
+</html>\`;
         fs.writeFileSync(\`\${countryDir}/index.html\`, countryHTML);
-        console.log(\`Generated: /country/\${country.slug}/index.html\`);
     });
 };
 
+// Start generation
 generateCountryPages();
+// ============================================================
+// MAIN
+// ============================================================
+console.log('\n🚀 EnjoysSeason V2 Generator\n' + '═'.repeat(45));
+actors.forEach(generateActorPage);
+console.log(`✅ Actor pages: ${actors.length}`);
+generateSitemap();
+console.log(`✅ Sitemap: ${allUrls.length} URLs`);
+generateLLMS();
+console.log(`✅ llms.txt generated`);
+generateRobots();
+console.log(`✅ robots.txt generated`);
+console.log('═'.repeat(45));
+console.log(`\n🎉 TOTAL: ${totalPages} pages\n`);
+console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');
