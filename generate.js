@@ -1156,4 +1156,145 @@ generateRobots();
 console.log(`✅ robots.txt generated`);
 console.log('═'.repeat(45));
 console.log(`\n🎉 TOTAL: ${totalPages} pages\n`);
-console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');
+console.log('📦 git add . && git commit -m "V2 upgrade" && git push\n');const generateCountryPages = () => {
+    const actorsRaw = fs.readFileSync('data/actors.json', 'utf8');
+    const actors = JSON.parse(actorsRaw);
+
+    const countriesMap = {};
+    actors.forEach(actor => {
+        if (!countriesMap[actor.countrySlug]) {
+            countriesMap[actor.countrySlug] = {
+                name: actor.country,
+                slug: actor.countrySlug,
+                actors: []
+            };
+        }
+        countriesMap[actor.countrySlug].actors.push(actor);
+    });
+
+    Object.values(countriesMap).forEach(country => {
+        const countryDir = `country/${country.slug}`;
+        if (!fs.existsSync(countryDir)) {
+            fs.mkdirSync(countryDir, { recursive: true });
+        }
+
+        // Actor Cards with TMDB logic and Initials Placeholder
+        const actorCards = country.actors.map(actor => {
+            const initials = actor.name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+            return `
+            <div class="actor-card" data-name="${actor.name}">
+                <div class="photo-placeholder" id="img-${actor.slug}">
+                    <span class="initials">${initials}</span>
+                </div>
+                <h3>${actor.name}</h3>
+                <p>${Array.isArray(actor.profession) ? actor.profession.join(', ') : actor.profession}</p>
+                <a href="/actors/${country.slug}/${actor.slug}.html" class="view-btn">View Profile</a>
+            </div>`;
+        }).join('');
+
+        const countryHTML = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${country.name} Actors - Complete List | EnjoysSeason</title>
+    <style>
+        :root { --bg: #08091a; --card-bg: #121430; --gold: #f5a623; --text: #ffffff; --nav-bg: #050612; }
+        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+        
+        /* Header & Nav */
+        header { background: var(--nav-bg); padding: 15px 0; border-bottom: 1px solid rgba(245, 166, 35, 0.2); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .logo { font-size: 24px; font-weight: bold; color: var(--gold); text-decoration: none; }
+        .nav-links { display: flex; gap: 20px; align-items: center; }
+        .dropdown { position: relative; cursor: pointer; color: #ccc; }
+        .dropdown:hover { color: var(--gold); }
+        .search-bar { background: #1c1f45; border: 1px solid #333; padding: 8px 15px; border-radius: 20px; color: white; width: 200px; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .breadcrumb { padding: 20px 0; color: #888; font-size: 14px; }
+        .breadcrumb a { color: var(--gold); text-decoration: none; }
+        h1 { color: var(--gold); text-align: center; margin: 30px 0; font-size: 2.5rem; }
+
+        /* Grid */
+        .actor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 25px; }
+        .actor-card { background: var(--card-bg); border-radius: 12px; padding: 15px; text-align: center; border: 1px solid rgba(245, 166, 35, 0.1); transition: 0.3s; }
+        .actor-card:hover { transform: translateY(-5px); border-color: var(--gold); }
+        
+        .photo-placeholder { width: 100%; height: 280px; background: #1c1f45; border-radius: 8px; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; }
+        .photo-placeholder img { width: 100%; height: 100%; object-fit: cover; }
+        .initials { font-size: 3rem; font-weight: bold; color: rgba(245, 166, 35, 0.3); }
+
+        .actor-card h3 { margin: 10px 0 5px; font-size: 1.2rem; color: var(--gold); }
+        .actor-card p { font-size: 0.85rem; color: #aaa; height: 35px; overflow: hidden; }
+        .view-btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: var(--gold); color: #000; text-decoration: none; font-weight: bold; border-radius: 6px; }
+
+        footer { text-align: center; padding: 50px; background: var(--nav-bg); color: #666; margin-top: 60px; border-top: 1px solid #1c1f45; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="/" class="logo">EnjoysSeason</a>
+            <div class="nav-links">
+                <div class="dropdown">Countries ▾</div>
+                <div class="dropdown">Categories ▾</div>
+                <input type="text" class="search-bar" placeholder="Search actors...">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="/">Home</a> > <a href="/countries/">Countries</a> > ${country.name}
+        </div>
+
+        <h1>${country.name} Actors</h1>
+
+        <div class="actor-grid">
+            ${actorCards}
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 EnjoysSeason - World Entertainment Hub
+    </footer>
+
+    <script>
+        const TMDB_API_KEY = '8265bd1679663a7ea12ac168da84d2e8';
+        
+        async function loadActorPhotos() {
+            const cards = document.querySelectorAll('.actor-card');
+            for (const card of cards) {
+                const name = card.getAttribute('data-name');
+                const container = card.querySelector('.photo-placeholder');
+                const slug = container.id;
+
+                try {
+                    const response = await fetch(\`https://api.themoviedb.org/3/search/person?api_key=\${TMDB_API_KEY}&query=\${encodeURIComponent(name)}\`);
+                    const data = await response.json();
+                    
+                    if (data.results && data.results.length > 0 && data.results[0].profile_path) {
+                        const imgUrl = \`https://image.tmdb.org/t/p/w500\${data.results[0].profile_path}\`;
+                        container.innerHTML = \`<img src="\${imgUrl}" alt="\${name}" loading="lazy">\`;
+                    }
+                } catch (error) {
+                    console.error("Error loading photo for " + name, error);
+                }
+            }
+        }
+
+        window.onload = loadActorPhotos;
+    </script>
+
+</body>
+</html>`;
+
+        fs.writeFileSync(\`\${countryDir}/index.html\`, countryHTML);
+        console.log(\`Generated: /country/\${country.slug}/index.html\`);
+    });
+};
+
+generateCountryPages();
