@@ -63,845 +63,8 @@
         
         footer { text-align: center; padding: 40px; background: #050612; color: #666; font-size: 14px; margin-top: 50px; }
     </style>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap');
-
-*{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --bg:#08091a;
-  --bg2:#0c1024;
-  --card:#131629;
-  --card2:#1a1f38;
-  --gold:#f5a623;
-  --gold2:#c98a1a;
-  --red:#ef4444;
-  --green:#22c55e;
-  --blue:#3b82f6;
-  --text:#f1f5f9;
-  --muted:#94a3b8;
-  --border:#1e3a5f;
-  --header:#08091a;
-}
-
-body{
-  background:var(--bg);
-  color:var(--text);
-  font-family:'Source Sans 3',sans-serif;
-  line-height:1.8;
-  font-size:16px;
-}
-
-a{color:var(--gold);text-decoration:none}
-a:hover{text-decoration:underline}
-
-/* ============================
-   HEADER
-============================ */
-.site-header{
-  background:var(--header);
-  border-bottom:2px solid var(--gold);
-  position:sticky;
-  top:0;
-  z-index:1000;
-  box-shadow:0 4px 20px rgba(0,0,0,.5);
-}
-
-.header-inner{
-  max-width:1400px;
-  margin:0 auto;
-  padding:.8rem 1.5rem;
-  display:flex;
-  align-items:center;
-  gap:1.5rem;
-}
-
-.logo{
-  display:flex;
-  align-items:center;
-  gap:.5rem;
-  text-decoration:none;
-  flex-shrink:0;
-}
-.logo-icon{font-size:1.6rem}
-.logo-text{
-  font-family:'Playfair Display',serif;
-  font-size:1.4rem;
-  color:var(--gold);
-  font-weight:900;
-  letter-spacing:-.5px;
-}
-
-.main-nav{
-  display:flex;
-  align-items:center;
-  gap:.3rem;
-  flex:1;
-}
-
-/* Dropdown */
-.nav-item{position:relative}
-.nav-btn{
-  background:transparent;
-  border:1px solid transparent;
-  color:var(--text);
-  padding:.45rem .9rem;
-  border-radius:8px;
-  cursor:pointer;
-  font-size:.88rem;
-  font-family:'Source Sans 3',sans-serif;
-  transition:all .2s;
-  white-space:nowrap;
-}
-.nav-btn:hover{
-  border-color:var(--gold);
-  color:var(--gold);
-  background:rgba(245,166,35,.08);
-}
-.arrow{font-size:.65rem;margin-left:.2rem}
-
-.dropdown-menu{
-  display:none;
-  position:absolute;
-  top:calc(100% + 8px);
-  left:0;
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:12px;
-  padding:1.2rem;
-  min-width:220px;
-  box-shadow:0 20px 60px rgba(0,0,0,.6);
-  z-index:999;
-  animation:fadeDown .2s ease;
-}
-
-.mega-menu{
-  display:none;
-  left:-100px;
-  min-width:700px;
-  flex-direction:row;
-  gap:1.5rem;
-}
-
-.nav-item:hover .dropdown-menu{display:flex;flex-direction:column}
-.nav-item:hover .mega-menu{display:flex;flex-direction:row}
-
-.mega-col,.drop-col{flex:1;min-width:140px}
-.dropdown-menu h4{
-  color:var(--gold);
-  font-size:.78rem;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  margin-bottom:.6rem;
-  padding-bottom:.4rem;
-  border-bottom:1px solid var(--border);
-}
-.dropdown-menu a{
-  display:block;
-  color:var(--muted);
-  padding:.25rem 0;
-  font-size:.85rem;
-  transition:color .15s;
-}
-.dropdown-menu a:hover{color:var(--gold);text-decoration:none}
-
-@keyframes fadeDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
-
-/* Search */
-.nav-search{display:flex;gap:.4rem;margin-left:auto}
-.search-input{
-  background:var(--card);
-  border:1px solid var(--border);
-  color:var(--text);
-  padding:.4rem .9rem;
-  border-radius:8px;
-  font-size:.85rem;
-  width:260px;
-  font-family:'Source Sans 3',sans-serif;
-  transition:border-color .2s;
-}
-.search-input:focus{outline:none;border-color:var(--gold)}
-.search-input::placeholder{color:var(--muted)}
-.search-btn{
-  background:var(--gold);
-  color:#000;
-  border:none;
-  padding:.4rem .9rem;
-  border-radius:8px;
-  cursor:pointer;
-  font-weight:600;
-  font-size:.85rem;
-  transition:background .2s;
-}
-.search-btn:hover{background:var(--gold2)}
-
-/* Mobile */
-.mobile-menu-btn{
-  display:none;
-  background:transparent;
-  border:1px solid var(--border);
-  color:var(--text);
-  padding:.4rem .7rem;
-  border-radius:6px;
-  cursor:pointer;
-  font-size:1.1rem;
-  margin-left:auto;
-}
-.mobile-nav{
-  display:none;
-  flex-direction:column;
-  padding:1rem 1.5rem;
-  border-top:1px solid var(--border);
-  gap:.3rem;
-}
-.mobile-nav a{
-  color:var(--muted);
-  padding:.4rem 0;
-  font-size:.9rem;
-  border-bottom:1px solid rgba(255,255,255,.05);
-}
-
-/* ============================
-   BREADCRUMB
-============================ */
-.breadcrumb{
-  background:var(--bg2);
-  padding:.65rem 1.5rem;
-  font-size:.82rem;
-  border-bottom:1px solid var(--border);
-  max-width:100%;
-}
-.breadcrumb-inner{max-width:1200px;margin:0 auto}
-.breadcrumb a{color:var(--gold)}
-.breadcrumb .sep{color:var(--muted);margin:0 .4rem}
-
-/* ============================
-   CONTAINER
-============================ */
-.container{max-width:1200px;margin:0 auto;padding:2rem 1.5rem}
-
-/* ============================
-   ACTOR HERO
-============================ */
-.actor-hero{
-  display:grid;
-  grid-template-columns:300px 1fr;
-  gap:2.5rem;
-  margin-bottom:3rem;
-  align-items:start;
-}
-
-.actor-image-wrap{position:relative}
-.actor-image{
-  width:100%;
-  border-radius:16px;
-  border:3px solid var(--gold);
-  aspect-ratio:3/4;
-  object-fit:cover;
-  background:var(--card);
-  display:block;
-}
-.image-badge{
-  position:absolute;
-  top:12px;
-  right:12px;
-  background:var(--gold);
-  color:#000;
-  padding:.2rem .6rem;
-  border-radius:20px;
-  font-size:.75rem;
-  font-weight:700;
-}
-
-.actor-name{
-  font-family:'Playfair Display',serif;
-  font-size:2.5rem;
-  color:var(--gold);
-  line-height:1.2;
-  margin-bottom:.3rem;
-}
-.actor-subtitle{color:var(--muted);font-size:1rem;margin-bottom:1rem}
-
-.badges{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
-.badge{
-  background:var(--card2);
-  border:1px solid var(--border);
-  padding:.3rem .8rem;
-  border-radius:20px;
-  font-size:.8rem;
-  color:var(--muted);
-}
-.badge strong{color:var(--text)}
-.badge-gold{border-color:var(--gold);color:var(--gold)}
-.badge-green{border-color:var(--green);color:var(--green)}
-.badge-rating{background:var(--gold);color:#000;font-weight:700}
-
-.bio-box{
-  background:var(--card2);
-  border-left:4px solid var(--gold);
-  border-radius:0 12px 12px 0;
-  padding:1.2rem 1.4rem;
-  margin:1.2rem 0;
-  font-size:.97rem;
-  line-height:1.95;
-}
-.bio-box strong{color:var(--gold);display:block;margin-bottom:.4rem}
-
-.ext-links{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1rem}
-.ext-link{
-  border:1px solid var(--gold);
-  color:var(--gold);
-  padding:.3rem .9rem;
-  border-radius:8px;
-  font-size:.82rem;
-  transition:all .2s;
-}
-.ext-link:hover{background:var(--gold);color:#000;text-decoration:none}
-
-/* ============================
-   SECTIONS
-============================ */
-.section{margin:3rem 0}
-.section-header{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  margin-bottom:1.3rem;
-  padding-bottom:.7rem;
-  border-bottom:2px solid var(--border);
-}
-.section-title{
-  font-family:'Playfair Display',serif;
-  font-size:1.4rem;
-  color:var(--gold);
-}
-.section-count{
-  background:var(--card);
-  border:1px solid var(--border);
-  color:var(--muted);
-  padding:.2rem .7rem;
-  border-radius:20px;
-  font-size:.8rem;
-}
-
-/* ============================
-   CARDS GRID
-============================ */
-.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:1rem}
-.card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:12px;
-  padding:1rem;
-  text-decoration:none;
-  color:var(--text);
-  transition:all .25s;
-  display:block;
-}
-.card:hover{
-  border-color:var(--gold);
-  transform:translateY(-4px);
-  box-shadow:0 8px 25px rgba(245,166,35,.18);
-  text-decoration:none;
-}
-.card-title{font-size:.9rem;color:var(--gold);margin-bottom:.3rem;line-height:1.4;font-weight:600}
-.card-meta{font-size:.77rem;color:var(--muted);line-height:1.5}
-
-/* ============================
-   TABLES
-============================ */
-.info-table{width:100%;border-collapse:collapse;font-size:.9rem}
-.info-table td{padding:.65rem .9rem;border:1px solid var(--border)}
-.info-table td:first-child{
-  color:var(--muted);
-  width:32%;
-  background:var(--card2);
-  font-weight:600;
-}
-.info-table td:last-child{background:var(--card);color:var(--text)}
-
-.content-table{width:100%;border-collapse:collapse;font-size:.87rem}
-.content-table th{
-  background:var(--gold);
-  color:#000;
-  padding:.65rem .9rem;
-  text-align:left;
-  font-weight:700;
-}
-.content-table td{padding:.65rem .9rem;border:1px solid var(--border)}
-.content-table tr:nth-child(even) td{background:var(--card2)}
-.content-table tr:nth-child(odd) td{background:var(--card)}
-.content-table a{color:var(--gold)}
-
-/* ============================
-   CAREER TIMELINE
-============================ */
-.timeline{position:relative;padding-left:2rem}
-.timeline::before{
-  content:'';
-  position:absolute;
-  left:.5rem;
-  top:0;
-  bottom:0;
-  width:2px;
-  background:var(--border);
-}
-.timeline-item{
-  position:relative;
-  margin-bottom:1.5rem;
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:10px;
-  padding:1rem;
-}
-.timeline-item::before{
-  content:'';
-  position:absolute;
-  left:-1.7rem;
-  top:1.2rem;
-  width:12px;
-  height:12px;
-  border-radius:50%;
-  background:var(--gold);
-  border:2px solid var(--bg);
-}
-.timeline-year{color:var(--gold);font-weight:700;font-size:.85rem;margin-bottom:.3rem}
-.timeline-title{font-weight:600;margin-bottom:.2rem}
-.timeline-desc{color:var(--muted);font-size:.87rem}
-
-/* ============================
-   FAQ
-============================ */
-.faq-list{display:flex;flex-direction:column;gap:.8rem}
-.faq-item{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:10px;
-  overflow:hidden;
-}
-.faq-q{
-  padding:.9rem 1.2rem;
-  color:var(--gold);
-  font-weight:600;
-  font-size:.93rem;
-  cursor:pointer;
-  display:flex;
-  justify-content:space-between;
-}
-.faq-q::after{content:'▼';font-size:.65rem;color:var(--muted);margin-top:.2rem}
-.faq-a{
-  padding:.8rem 1.2rem 1rem;
-  color:var(--text);
-  font-size:.9rem;
-  line-height:1.85;
-  border-top:1px solid var(--border);
-}
-
-/* ============================
-   AWARDS
-============================ */
-.awards-grid{display:flex;flex-wrap:wrap;gap:.7rem}
-.award-badge{
-  background:var(--card);
-  border:1px solid var(--gold);
-  border-radius:8px;
-  padding:.45rem 1rem;
-  font-size:.83rem;
-  color:var(--gold);
-}
-
-/* ============================
-   STATS BAR
-============================ */
-.stats-bar{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:1rem;
-  margin:2rem 0;
-  padding:1.5rem;
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:14px;
-}
-.stat-item{text-align:center}
-.stat-num{
-  font-family:'Playfair Display',serif;
-  font-size:1.8rem;
-  color:var(--gold);
-  font-weight:700;
-}
-.stat-label{color:var(--muted);font-size:.8rem;margin-top:.2rem}
-
-/* ============================
-   FOOTER
-============================ */
-.site-footer{
-  background:var(--header);
-  border-top:2px solid var(--border);
-  margin-top:5rem;
-  padding:3rem 1.5rem 1.5rem;
-}
-.footer-inner{max-width:1200px;margin:0 auto}
-.footer-grid{
-  display:grid;
-  grid-template-columns:2fr 1fr 1fr 1fr;
-  gap:2rem;
-  margin-bottom:2rem;
-}
-.footer-col h3{
-  font-family:'Playfair Display',serif;
-  color:var(--gold);
-  font-size:1.2rem;
-  margin-bottom:.8rem;
-}
-.footer-col h4{
-  color:var(--gold);
-  font-size:.85rem;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  margin-bottom:.8rem;
-}
-.footer-col p{color:var(--muted);font-size:.88rem;line-height:1.7}
-.footer-col a{
-  display:block;
-  color:var(--muted);
-  font-size:.87rem;
-  padding:.2rem 0;
-  transition:color .15s;
-}
-.footer-col a:hover{color:var(--gold);text-decoration:none}
-.footer-bottom{
-  border-top:1px solid var(--border);
-  padding-top:1.2rem;
-  text-align:center;
-  color:var(--muted);
-  font-size:.83rem;
-}
-
-/* ============================
-   RESPONSIVE
-============================ */
-@media(max-width:900px){
-  .main-nav .nav-item:not(.nav-search){display:none}
-  .mobile-menu-btn{display:block}
-  .actor-hero{grid-template-columns:1fr}
-  .actor-image{max-width:220px;margin:0 auto}
-  .stats-bar{grid-template-columns:repeat(2,1fr)}
-  .footer-grid{grid-template-columns:1fr 1fr}
-  .cards-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
-  .mega-menu{min-width:320px!important;flex-wrap:wrap}
-  .nav-search{display:none}
-}
-@media(max-width:600px){
-  .actor-name{font-size:1.8rem}
-  .stats-bar{grid-template-columns:1fr 1fr}
-  .footer-grid{grid-template-columns:1fr}
-  .container{padding:1rem}
-}
-
-/* ========== Home hero (landing) ========== */
-.home-hero{
-  background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 50%,var(--bg) 100%);
-  border-bottom:2px solid var(--border);
-  padding:3rem 1.5rem 3.5rem;
-}
-.home-hero-inner{max-width:1200px;margin:0 auto;text-align:center}
-.home-hero-title{
-  font-family:'Playfair Display',serif;
-  font-size:clamp(1.85rem,4vw,2.75rem);
-  color:var(--gold);
-  font-weight:900;
-  line-height:1.15;
-  margin-bottom:1rem;
-}
-.home-hero-sub{
-  color:var(--muted);
-  font-size:1.05rem;
-  max-width:640px;
-  margin:0 auto 1.5rem;
-  line-height:1.7;
-}
-.home-hero-cta{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center}
-
-/* Featured grids */
-.home-feature-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
-  gap:1.1rem;
-}
-.home-media-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
-  gap:1.25rem;
-}
-.home-actor-card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:14px;
-  overflow:hidden;
-  text-decoration:none;
-  color:var(--text);
-  transition:all .25s;
-  display:block;
-}
-.home-actor-card:hover{
-  border-color:var(--gold);
-  transform:translateY(-4px);
-  box-shadow:0 10px 28px rgba(245,166,35,.15);
-  text-decoration:none;
-}
-.home-actor-card .home-card-img-wrap{
-  aspect-ratio:3/4;
-  background:var(--card2);
-  overflow:hidden;
-}
-.home-actor-card .home-card-img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-}
-.home-actor-card .home-card-body{padding:.85rem 1rem 1rem}
-.home-actor-card .home-card-title{
-  font-family:'Playfair Display',serif;
-  font-size:1rem;
-  color:var(--gold);
-  font-weight:700;
-  margin-bottom:.25rem;
-  line-height:1.3;
-}
-.home-actor-card .home-card-meta{font-size:.8rem;color:var(--muted);line-height:1.4}
-
-.home-media-card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:14px;
-  overflow:hidden;
-  text-decoration:none;
-  color:var(--text);
-  transition:all .25s;
-  display:block;
-}
-.home-media-card:hover{
-  border-color:var(--gold);
-  transform:translateY(-4px);
-  box-shadow:0 10px 28px rgba(245,166,35,.15);
-  text-decoration:none;
-}
-.home-media-card .home-poster-wrap{
-  aspect-ratio:2/3;
-  background:var(--card2);
-  overflow:hidden;
-}
-.home-media-card .home-poster{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-}
-.home-media-card .home-media-body{padding:1rem}
-.home-media-card .home-media-title{
-  font-family:'Playfair Display',serif;
-  font-size:1.05rem;
-  color:var(--gold);
-  font-weight:700;
-  margin-bottom:.4rem;
-  line-height:1.3;
-}
-.home-media-card .home-media-row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:.5rem .9rem;
-  font-size:.82rem;
-  color:var(--muted);
-}
-.home-media-card .home-rating{
-  color:var(--gold);
-  font-weight:600;
-}
-
-.btn-view-all{
-  display:inline-flex;
-  align-items:center;
-  gap:.35rem;
-  border:1px solid var(--gold);
-  color:var(--gold);
-  padding:.4rem 1rem;
-  border-radius:8px;
-  font-size:.85rem;
-  font-weight:600;
-  transition:all .2s;
-  text-decoration:none;
-}
-.btn-view-all:hover{background:var(--gold);color:#000;text-decoration:none}
-
-.countries-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(140px,1fr));
-  gap:.85rem;
-}
-.country-card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:12px;
-  padding:1rem 1.1rem;
-  text-align:center;
-  font-weight:600;
-  font-size:.9rem;
-  color:var(--text);
-  transition:all .2s;
-  text-decoration:none;
-}
-.country-card:hover{
-  border-color:var(--gold);
-  color:var(--gold);
-  text-decoration:none;
-}
-
-.home-loading{color:var(--muted);font-size:.9rem;padding:1rem 0}
-
-@media(max-width:900px){
-  .home-feature-grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
-  .home-media-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
-}
-@media(max-width:600px){
-  .home-hero{padding:2rem 1rem 2.5rem}
-  .section{margin:2rem 0}
-}
-</style>
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner">
-
-    <a href="/" class="logo">
-      <span class="logo-icon">🎬</span>
-      <span class="logo-text">EnjoysSeason</span>
-    </a>
-
-    <nav class="main-nav">
-
-      <!-- Countries Dropdown -->
-      <div class="nav-item dropdown">
-        <button class="nav-btn">🌍 Countries <span class="arrow">▾</span></button>
-        <div class="dropdown-menu mega-menu">
-          <div class="mega-col">
-            <h4>🌏 Asia</h4>
-            <a href="/country/pakistan">🇵🇰 Pakistan</a>
-            <a href="/country/india">🇮🇳 India</a>
-            <a href="/country/turkey">🇹🇷 Turkey</a>
-            <a href="/country/south-korea">🇰🇷 South Korea</a>
-            <a href="/country/japan">🇯🇵 Japan</a>
-            <a href="/country/china">🇨🇳 China</a>
-            <a href="/country/bangladesh">🇧🇩 Bangladesh</a>
-            <a href="/country/iran">🇮🇷 Iran</a>
-          </div>
-          <div class="mega-col">
-            <h4>🌎 West</h4>
-            <a href="/country/usa">🇺🇸 USA</a>
-            <a href="/country/uk">🇬🇧 UK</a>
-            <a href="/country/canada">🇨🇦 Canada</a>
-            <a href="/country/australia">🇦🇺 Australia</a>
-            <a href="/country/france">🇫🇷 France</a>
-            <a href="/country/germany">🇩🇪 Germany</a>
-            <a href="/country/spain">🇪🇸 Spain</a>
-            <a href="/country/italy">🇮🇹 Italy</a>
-          </div>
-          <div class="mega-col">
-            <h4>🌍 Middle East & Africa</h4>
-            <a href="/country/saudi-arabia">🇸🇦 Saudi Arabia</a>
-            <a href="/country/egypt">🇪🇬 Egypt</a>
-            <a href="/country/uae">🇦🇪 UAE</a>
-            <a href="/country/nigeria">🇳🇬 Nigeria</a>
-            <a href="/country/south-africa">🇿🇦 South Africa</a>
-          </div>
-          <div class="mega-col">
-            <h4>🌎 Latin America</h4>
-            <a href="/country/brazil">🇧🇷 Brazil</a>
-            <a href="/country/mexico">🇲🇽 Mexico</a>
-            <a href="/country/argentina">🇦🇷 Argentina</a>
-            <a href="/country/colombia">🇨🇴 Colombia</a>
-            <a href="/country/all">🌐 All 200 Countries →</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Categories Dropdown -->
-      <div class="nav-item dropdown">
-        <button class="nav-btn">🎭 Categories <span class="arrow">▾</span></button>
-        <div class="dropdown-menu">
-          <div class="drop-col">
-            <h4>👤 People</h4>
-            <a href="/category/actors">🎭 Actors</a>
-            <a href="/category/actresses">👩 Actresses</a>
-            <a href="/category/directors">🎬 Directors</a>
-            <a href="/category/singers">🎵 Singers</a>
-          </div>
-          <div class="drop-col">
-            <h4>🎬 Content</h4>
-            <a href="/category/movies">🎬 Movies</a>
-            <a href="/category/dramas">📺 Dramas</a>
-            <a href="/category/web-series">💻 Web Series</a>
-            <a href="/category/anime">🎌 Anime</a>
-            <a href="/category/documentaries">📽️ Documentaries</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- By Industry Dropdown -->
-      <div class="nav-item dropdown">
-        <button class="nav-btn">🏭 Industry <span class="arrow">▾</span></button>
-        <div class="dropdown-menu">
-          <div class="drop-col">
-            <h4>🎬 Film Industry</h4>
-            <a href="/industry/bollywood">🇮🇳 Bollywood</a>
-            <a href="/industry/hollywood">🇺🇸 Hollywood</a>
-            <a href="/industry/lollywood">🇵🇰 Lollywood</a>
-            <a href="/industry/tollywood">🎬 Tollywood</a>
-            <a href="/industry/korean">🇰🇷 K-Drama</a>
-            <a href="/industry/turkish">🇹🇷 Turkish</a>
-            <a href="/industry/anime">🎌 Anime</a>
-          </div>
-          <div class="drop-col">
-            <h4>📺 Platforms</h4>
-            <a href="/platform/netflix">🔴 Netflix</a>
-            <a href="/platform/amazon-prime">📦 Amazon Prime</a>
-            <a href="/platform/disney-plus">✨ Disney+</a>
-            <a href="/platform/hum-tv">📺 Hum TV</a>
-            <a href="/platform/ary-digital">📺 ARY Digital</a>
-            <a href="/platform/geo-tv">📺 Geo TV</a>
-            <a href="/platform/youtube">▶️ YouTube</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Search -->
-      <div class="nav-search">
-        <input type="text" placeholder="🔍 Search actors, movies, dramas..." class="search-input" id="searchInput">
-        <button class="search-btn">Search</button>
-      </div>
-
-    </nav>
-
-    <!-- Mobile Menu Button -->
-    <button class="mobile-menu-btn" onclick="toggleMobile()">☰</button>
-
-  </div>
-
-  <!-- Mobile Nav -->
-  <div class="mobile-nav" id="mobileNav">
-    <a href="/country/pakistan">🇵🇰 Pakistan</a>
-    <a href="/country/india">🇮🇳 India</a>
-    <a href="/country/usa">🇺🇸 USA</a>
-    <a href="/category/actors">🎭 Actors</a>
-    <a href="/category/movies">🎬 Movies</a>
-    <a href="/category/dramas">📺 Dramas</a>
-    <a href="/category/web-series">💻 Web Series</a>
-    <a href="/category/anime">🎌 Anime</a>
-    <a href="/industry/bollywood">🇮🇳 Bollywood</a>
-    <a href="/industry/hollywood">🇺🇸 Hollywood</a>
-  </div>
-</header>
-
 
     <div class="container">
         <div class="breadcrumb">
@@ -914,7 +77,7 @@ a:hover{text-decoration:underline}
             
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Amitabh Bachchan" data-tmdb="Amitabh Bachchan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Amitabh Bachchan" loading="lazy">
                 </div>
                 <h3>Amitabh Bachchan</h3>
                 <p>Actor, Producer, Host</p>
@@ -923,7 +86,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Shah Rukh Khan" data-tmdb="Shah Rukh Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Shah Rukh Khan" loading="lazy">
                 </div>
                 <h3>Shah Rukh Khan</h3>
                 <p>Actor, Producer</p>
@@ -932,7 +95,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Salman Khan" data-tmdb="Salman Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Salman Khan" loading="lazy">
                 </div>
                 <h3>Salman Khan</h3>
                 <p>Actor, Producer, Host</p>
@@ -941,7 +104,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Aamir Khan" data-tmdb="Aamir Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Aamir Khan" loading="lazy">
                 </div>
                 <h3>Aamir Khan</h3>
                 <p>Actor, Director, Producer</p>
@@ -950,7 +113,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Deepika Padukone" data-tmdb="Deepika Padukone" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Deepika Padukone" loading="lazy">
                 </div>
                 <h3>Deepika Padukone</h3>
                 <p>Actress, Producer</p>
@@ -959,7 +122,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Priyanka Chopra" data-tmdb="Priyanka Chopra" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Priyanka Chopra" loading="lazy">
                 </div>
                 <h3>Priyanka Chopra</h3>
                 <p>Actress, Singer, Producer</p>
@@ -968,7 +131,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ranveer Singh" data-tmdb="Ranveer Singh" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ranveer Singh" loading="lazy">
                 </div>
                 <h3>Ranveer Singh</h3>
                 <p>Actor</p>
@@ -977,7 +140,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ranbir Kapoor" data-tmdb="Ranbir Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ranbir Kapoor" loading="lazy">
                 </div>
                 <h3>Ranbir Kapoor</h3>
                 <p>Actor</p>
@@ -986,7 +149,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Alia Bhatt" data-tmdb="Alia Bhatt" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Alia Bhatt" loading="lazy">
                 </div>
                 <h3>Alia Bhatt</h3>
                 <p>Actress, Singer, Producer</p>
@@ -995,7 +158,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Katrina Kaif" data-tmdb="Katrina Kaif" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Katrina Kaif" loading="lazy">
                 </div>
                 <h3>Katrina Kaif</h3>
                 <p>Actress, Model</p>
@@ -1004,7 +167,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Hrithik Roshan" data-tmdb="Hrithik Roshan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Hrithik Roshan" loading="lazy">
                 </div>
                 <h3>Hrithik Roshan</h3>
                 <p>Actor, Dancer</p>
@@ -1013,7 +176,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Akshay Kumar" data-tmdb="Akshay Kumar" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Akshay Kumar" loading="lazy">
                 </div>
                 <h3>Akshay Kumar</h3>
                 <p>Actor, Producer, Martial Artist</p>
@@ -1022,7 +185,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kareena Kapoor" data-tmdb="Kareena Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kareena Kapoor" loading="lazy">
                 </div>
                 <h3>Kareena Kapoor</h3>
                 <p>Actress</p>
@@ -1031,7 +194,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kangana Ranaut" data-tmdb="Kangana Ranaut" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kangana Ranaut" loading="lazy">
                 </div>
                 <h3>Kangana Ranaut</h3>
                 <p>Actress, Director, Producer</p>
@@ -1040,7 +203,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Vidya Balan" data-tmdb="Vidya Balan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Vidya Balan" loading="lazy">
                 </div>
                 <h3>Vidya Balan</h3>
                 <p>Actress</p>
@@ -1049,7 +212,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Taapsee Pannu" data-tmdb="Taapsee Pannu" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Taapsee Pannu" loading="lazy">
                 </div>
                 <h3>Taapsee Pannu</h3>
                 <p>Actress</p>
@@ -1058,7 +221,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ayushmann Khurrana" data-tmdb="Ayushmann Khurrana" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ayushmann Khurrana" loading="lazy">
                 </div>
                 <h3>Ayushmann Khurrana</h3>
                 <p>Actor, Singer</p>
@@ -1067,7 +230,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rajkummar Rao" data-tmdb="Rajkummar Rao" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rajkummar Rao" loading="lazy">
                 </div>
                 <h3>Rajkummar Rao</h3>
                 <p>Actor</p>
@@ -1076,7 +239,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Irrfan Khan" data-tmdb="Irrfan Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Irrfan Khan" loading="lazy">
                 </div>
                 <h3>Irrfan Khan</h3>
                 <p>Actor</p>
@@ -1085,7 +248,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nawazuddin Siddiqui" data-tmdb="Nawazuddin Siddiqui" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Nawazuddin Siddiqui" loading="lazy">
                 </div>
                 <h3>Nawazuddin Siddiqui</h3>
                 <p>Actor</p>
@@ -1094,7 +257,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Pankaj Tripathi" data-tmdb="Pankaj Tripathi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Pankaj Tripathi" loading="lazy">
                 </div>
                 <h3>Pankaj Tripathi</h3>
                 <p>Actor</p>
@@ -1103,7 +266,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Manoj Bajpayee" data-tmdb="Manoj Bajpayee" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Manoj Bajpayee" loading="lazy">
                 </div>
                 <h3>Manoj Bajpayee</h3>
                 <p>Actor</p>
@@ -1112,7 +275,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Vicky Kaushal" data-tmdb="Vicky Kaushal" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Vicky Kaushal" loading="lazy">
                 </div>
                 <h3>Vicky Kaushal</h3>
                 <p>Actor</p>
@@ -1121,7 +284,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ajay Devgn" data-tmdb="Ajay Devgn" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ajay Devgn" loading="lazy">
                 </div>
                 <h3>Ajay Devgn</h3>
                 <p>Actor, Director, Producer</p>
@@ -1130,7 +293,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kajol" data-tmdb="Kajol" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kajol" loading="lazy">
                 </div>
                 <h3>Kajol</h3>
                 <p>Actress</p>
@@ -1139,7 +302,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Madhuri Dixit" data-tmdb="Madhuri Dixit" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Madhuri Dixit" loading="lazy">
                 </div>
                 <h3>Madhuri Dixit</h3>
                 <p>Actress, Dancer</p>
@@ -1148,7 +311,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Aishwarya Rai" data-tmdb="Aishwarya Rai" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Aishwarya Rai" loading="lazy">
                 </div>
                 <h3>Aishwarya Rai</h3>
                 <p>Actress, Model</p>
@@ -1157,7 +320,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Shahid Kapoor" data-tmdb="Shahid Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Shahid Kapoor" loading="lazy">
                 </div>
                 <h3>Shahid Kapoor</h3>
                 <p>Actor, Dancer</p>
@@ -1166,7 +329,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Tiger Shroff" data-tmdb="Tiger Shroff" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Tiger Shroff" loading="lazy">
                 </div>
                 <h3>Tiger Shroff</h3>
                 <p>Actor, Martial Artist, Dancer</p>
@@ -1175,7 +338,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Varun Dhawan" data-tmdb="Varun Dhawan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Varun Dhawan" loading="lazy">
                 </div>
                 <h3>Varun Dhawan</h3>
                 <p>Actor, Dancer</p>
@@ -1184,7 +347,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Shraddha Kapoor" data-tmdb="Shraddha Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Shraddha Kapoor" loading="lazy">
                 </div>
                 <h3>Shraddha Kapoor</h3>
                 <p>Actress, Singer</p>
@@ -1193,7 +356,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kartik Aaryan" data-tmdb="Kartik Aaryan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kartik Aaryan" loading="lazy">
                 </div>
                 <h3>Kartik Aaryan</h3>
                 <p>Actor</p>
@@ -1202,7 +365,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Anushka Sharma" data-tmdb="Anushka Sharma" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Anushka Sharma" loading="lazy">
                 </div>
                 <h3>Anushka Sharma</h3>
                 <p>Actress, Producer</p>
@@ -1211,7 +374,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Randeep Hooda" data-tmdb="Randeep Hooda" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Randeep Hooda" loading="lazy">
                 </div>
                 <h3>Randeep Hooda</h3>
                 <p>Actor, Director</p>
@@ -1220,7 +383,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sanjay Dutt" data-tmdb="Sanjay Dutt" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sanjay Dutt" loading="lazy">
                 </div>
                 <h3>Sanjay Dutt</h3>
                 <p>Actor, Producer</p>
@@ -1229,7 +392,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sunny Deol" data-tmdb="Sunny Deol" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sunny Deol" loading="lazy">
                 </div>
                 <h3>Sunny Deol</h3>
                 <p>Actor, Director, Producer</p>
@@ -1238,7 +401,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Anil Kapoor" data-tmdb="Anil Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Anil Kapoor" loading="lazy">
                 </div>
                 <h3>Anil Kapoor</h3>
                 <p>Actor, Producer</p>
@@ -1247,7 +410,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Saif Ali Khan" data-tmdb="Saif Ali Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Saif Ali Khan" loading="lazy">
                 </div>
                 <h3>Saif Ali Khan</h3>
                 <p>Actor, Producer</p>
@@ -1256,7 +419,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kriti Sanon" data-tmdb="Kriti Sanon" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kriti Sanon" loading="lazy">
                 </div>
                 <h3>Kriti Sanon</h3>
                 <p>Actress, Model</p>
@@ -1265,7 +428,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sidharth Malhotra" data-tmdb="Sidharth Malhotra" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sidharth Malhotra" loading="lazy">
                 </div>
                 <h3>Sidharth Malhotra</h3>
                 <p>Actor, Model</p>
@@ -1274,7 +437,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kiara Advani" data-tmdb="Kiara Advani" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kiara Advani" loading="lazy">
                 </div>
                 <h3>Kiara Advani</h3>
                 <p>Actress</p>
@@ -1283,7 +446,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Bobby Deol" data-tmdb="Bobby Deol" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Bobby Deol" loading="lazy">
                 </div>
                 <h3>Bobby Deol</h3>
                 <p>Actor</p>
@@ -1292,7 +455,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Parineeti Chopra" data-tmdb="Parineeti Chopra" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Parineeti Chopra" loading="lazy">
                 </div>
                 <h3>Parineeti Chopra</h3>
                 <p>Actress, Singer</p>
@@ -1301,7 +464,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nawazuddin Siddiqui" data-tmdb="Nawazuddin Siddiqui" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Nawazuddin Siddiqui" loading="lazy">
                 </div>
                 <h3>Nawazuddin Siddiqui</h3>
                 <p>Actor</p>
@@ -1310,7 +473,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sara Ali Khan" data-tmdb="Sara Ali Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sara Ali Khan" loading="lazy">
                 </div>
                 <h3>Sara Ali Khan</h3>
                 <p>Actress</p>
@@ -1319,7 +482,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Janhvi Kapoor" data-tmdb="Janhvi Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Janhvi Kapoor" loading="lazy">
                 </div>
                 <h3>Janhvi Kapoor</h3>
                 <p>Actress, Model</p>
@@ -1328,7 +491,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Jackie Shroff" data-tmdb="Jackie Shroff" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Jackie Shroff" loading="lazy">
                 </div>
                 <h3>Jackie Shroff</h3>
                 <p>Actor</p>
@@ -1337,7 +500,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Suniel Shetty" data-tmdb="Suniel Shetty" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Suniel Shetty" loading="lazy">
                 </div>
                 <h3>Suniel Shetty</h3>
                 <p>Actor, Producer</p>
@@ -1346,7 +509,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dharmendra" data-tmdb="Dharmendra" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Dharmendra" loading="lazy">
                 </div>
                 <h3>Dharmendra</h3>
                 <p>Actor, Politician, Producer</p>
@@ -1355,7 +518,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Hema Malini" data-tmdb="Hema Malini" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Hema Malini" loading="lazy">
                 </div>
                 <h3>Hema Malini</h3>
                 <p>Actress, Dancer, Director, Politician</p>
@@ -1364,7 +527,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Abhishek Bachchan" data-tmdb="Abhishek Bachchan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Abhishek Bachchan" loading="lazy">
                 </div>
                 <h3>Abhishek Bachchan</h3>
                 <p>Actor, Producer</p>
@@ -1373,7 +536,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Juhi Chawla" data-tmdb="Juhi Chawla" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Juhi Chawla" loading="lazy">
                 </div>
                 <h3>Juhi Chawla</h3>
                 <p>Actress, Producer</p>
@@ -1382,7 +545,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rekha" data-tmdb="Rekha" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rekha" loading="lazy">
                 </div>
                 <h3>Rekha</h3>
                 <p>Actress</p>
@@ -1391,7 +554,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sridevi" data-tmdb="Sridevi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sridevi" loading="lazy">
                 </div>
                 <h3>Sridevi</h3>
                 <p>Actress, Dancer</p>
@@ -1400,7 +563,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Amrita Singh" data-tmdb="Amrita Singh" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Amrita Singh" loading="lazy">
                 </div>
                 <h3>Amrita Singh</h3>
                 <p>Actress</p>
@@ -1409,7 +572,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Govinda" data-tmdb="Govinda" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Govinda" loading="lazy">
                 </div>
                 <h3>Govinda</h3>
                 <p>Actor, Dancer, Politician</p>
@@ -1418,7 +581,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Karisma Kapoor" data-tmdb="Karisma Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Karisma Kapoor" loading="lazy">
                 </div>
                 <h3>Karisma Kapoor</h3>
                 <p>Actress</p>
@@ -1427,7 +590,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sonakshi Sinha" data-tmdb="Sonakshi Sinha" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sonakshi Sinha" loading="lazy">
                 </div>
                 <h3>Sonakshi Sinha</h3>
                 <p>Actress, Singer</p>
@@ -1436,7 +599,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Riteish Deshmukh" data-tmdb="Riteish Deshmukh" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Riteish Deshmukh" loading="lazy">
                 </div>
                 <h3>Riteish Deshmukh</h3>
                 <p>Actor, Producer, Architect</p>
@@ -1445,7 +608,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Genelia D Souza" data-tmdb="Genelia D Souza" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Genelia D Souza" loading="lazy">
                 </div>
                 <h3>Genelia D Souza</h3>
                 <p>Actress</p>
@@ -1454,7 +617,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Arjun Kapoor" data-tmdb="Arjun Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Arjun Kapoor" loading="lazy">
                 </div>
                 <h3>Arjun Kapoor</h3>
                 <p>Actor</p>
@@ -1463,7 +626,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="John Abraham" data-tmdb="John Abraham" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="John Abraham" loading="lazy">
                 </div>
                 <h3>John Abraham</h3>
                 <p>Actor, Producer, Model</p>
@@ -1472,7 +635,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Emraan Hashmi" data-tmdb="Emraan Hashmi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Emraan Hashmi" loading="lazy">
                 </div>
                 <h3>Emraan Hashmi</h3>
                 <p>Actor, Singer</p>
@@ -1481,7 +644,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Akshay Khanna" data-tmdb="Akshay Khanna" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Akshay Khanna" loading="lazy">
                 </div>
                 <h3>Akshay Khanna</h3>
                 <p>Actor</p>
@@ -1490,7 +653,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Bipasha Basu" data-tmdb="Bipasha Basu" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Bipasha Basu" loading="lazy">
                 </div>
                 <h3>Bipasha Basu</h3>
                 <p>Actress, Model</p>
@@ -1499,7 +662,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sushmita Sen" data-tmdb="Sushmita Sen" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sushmita Sen" loading="lazy">
                 </div>
                 <h3>Sushmita Sen</h3>
                 <p>Actress, Model</p>
@@ -1508,7 +671,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Preity Zinta" data-tmdb="Preity Zinta" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Preity Zinta" loading="lazy">
                 </div>
                 <h3>Preity Zinta</h3>
                 <p>Actress, Producer</p>
@@ -1517,7 +680,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rani Mukerji" data-tmdb="Rani Mukerji" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rani Mukerji" loading="lazy">
                 </div>
                 <h3>Rani Mukerji</h3>
                 <p>Actress</p>
@@ -1526,7 +689,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dia Mirza" data-tmdb="Dia Mirza" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Dia Mirza" loading="lazy">
                 </div>
                 <h3>Dia Mirza</h3>
                 <p>Actress, Producer, UN Ambassador</p>
@@ -1535,7 +698,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ameesha Patel" data-tmdb="Ameesha Patel" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ameesha Patel" loading="lazy">
                 </div>
                 <h3>Ameesha Patel</h3>
                 <p>Actress, Model</p>
@@ -1544,7 +707,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Vivek Oberoi" data-tmdb="Vivek Oberoi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Vivek Oberoi" loading="lazy">
                 </div>
                 <h3>Vivek Oberoi</h3>
                 <p>Actor, Producer</p>
@@ -1553,7 +716,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Fardeen Khan" data-tmdb="Fardeen Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Fardeen Khan" loading="lazy">
                 </div>
                 <h3>Fardeen Khan</h3>
                 <p>Actor</p>
@@ -1562,7 +725,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Tusshar Kapoor" data-tmdb="Tusshar Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Tusshar Kapoor" loading="lazy">
                 </div>
                 <h3>Tusshar Kapoor</h3>
                 <p>Actor, Producer</p>
@@ -1571,7 +734,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rohit Roy" data-tmdb="Rohit Roy" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rohit Roy" loading="lazy">
                 </div>
                 <h3>Rohit Roy</h3>
                 <p>Actor, Host</p>
@@ -1580,7 +743,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nana Patekar" data-tmdb="Nana Patekar" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Nana Patekar" loading="lazy">
                 </div>
                 <h3>Nana Patekar</h3>
                 <p>Actor, Director, Writer</p>
@@ -1589,7 +752,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Naseeruddin Shah" data-tmdb="Naseeruddin Shah" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Naseeruddin Shah" loading="lazy">
                 </div>
                 <h3>Naseeruddin Shah</h3>
                 <p>Actor, Director</p>
@@ -1598,7 +761,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Om Puri" data-tmdb="Om Puri" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Om Puri" loading="lazy">
                 </div>
                 <h3>Om Puri</h3>
                 <p>Actor</p>
@@ -1607,7 +770,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Amol Palekar" data-tmdb="Amol Palekar" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Amol Palekar" loading="lazy">
                 </div>
                 <h3>Amol Palekar</h3>
                 <p>Actor, Director</p>
@@ -1616,7 +779,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Mithun Chakraborty" data-tmdb="Mithun Chakraborty" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Mithun Chakraborty" loading="lazy">
                 </div>
                 <h3>Mithun Chakraborty</h3>
                 <p>Actor, Producer, Politician</p>
@@ -1625,7 +788,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sunny Leone" data-tmdb="Sunny Leone" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sunny Leone" loading="lazy">
                 </div>
                 <h3>Sunny Leone</h3>
                 <p>Actress, Model, Entrepreneur</p>
@@ -1634,7 +797,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Radhika Apte" data-tmdb="Radhika Apte" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Radhika Apte" loading="lazy">
                 </div>
                 <h3>Radhika Apte</h3>
                 <p>Actress</p>
@@ -1643,7 +806,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Konkona Sen Sharma" data-tmdb="Konkona Sen Sharma" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Konkona Sen Sharma" loading="lazy">
                 </div>
                 <h3>Konkona Sen Sharma</h3>
                 <p>Actress, Director</p>
@@ -1652,7 +815,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Swara Bhasker" data-tmdb="Swara Bhasker" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Swara Bhasker" loading="lazy">
                 </div>
                 <h3>Swara Bhasker</h3>
                 <p>Actress</p>
@@ -1661,7 +824,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kalki Koechlin" data-tmdb="Kalki Koechlin" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kalki Koechlin" loading="lazy">
                 </div>
                 <h3>Kalki Koechlin</h3>
                 <p>Actress, Writer, Stage Artist</p>
@@ -1670,7 +833,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Richa Chadha" data-tmdb="Richa Chadha" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Richa Chadha" loading="lazy">
                 </div>
                 <h3>Richa Chadha</h3>
                 <p>Actress, Producer</p>
@@ -1679,7 +842,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ali Fazal" data-tmdb="Ali Fazal" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ali Fazal" loading="lazy">
                 </div>
                 <h3>Ali Fazal</h3>
                 <p>Actor</p>
@@ -1688,7 +851,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Divyanka Tripathi" data-tmdb="Divyanka Tripathi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Divyanka Tripathi" loading="lazy">
                 </div>
                 <h3>Divyanka Tripathi</h3>
                 <p>Actress, Host</p>
@@ -1697,7 +860,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Jennifer Winget" data-tmdb="Jennifer Winget" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Jennifer Winget" loading="lazy">
                 </div>
                 <h3>Jennifer Winget</h3>
                 <p>Actress</p>
@@ -1706,7 +869,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Hina Khan" data-tmdb="Hina Khan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Hina Khan" loading="lazy">
                 </div>
                 <h3>Hina Khan</h3>
                 <p>Actress, Model</p>
@@ -1715,7 +878,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Mohit Raina" data-tmdb="Mohit Raina" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Mohit Raina" loading="lazy">
                 </div>
                 <h3>Mohit Raina</h3>
                 <p>Actor</p>
@@ -1724,7 +887,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Pratik Gandhi" data-tmdb="Pratik Gandhi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Pratik Gandhi" loading="lazy">
                 </div>
                 <h3>Pratik Gandhi</h3>
                 <p>Actor</p>
@@ -1733,7 +896,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Jim Sarbh" data-tmdb="Jim Sarbh" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Jim Sarbh" loading="lazy">
                 </div>
                 <h3>Jim Sarbh</h3>
                 <p>Actor</p>
@@ -1742,7 +905,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Vikrant Massey" data-tmdb="Vikrant Massey" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Vikrant Massey" loading="lazy">
                 </div>
                 <h3>Vikrant Massey</h3>
                 <p>Actor</p>
@@ -1751,7 +914,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Siddhant Chaturvedi" data-tmdb="Siddhant Chaturvedi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Siddhant Chaturvedi" loading="lazy">
                 </div>
                 <h3>Siddhant Chaturvedi</h3>
                 <p>Actor, Rapper</p>
@@ -1760,7 +923,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ishaan Khatter" data-tmdb="Ishaan Khatter" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ishaan Khatter" loading="lazy">
                 </div>
                 <h3>Ishaan Khatter</h3>
                 <p>Actor, Dancer</p>
@@ -1769,7 +932,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ananya Panday" data-tmdb="Ananya Panday" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ananya Panday" loading="lazy">
                 </div>
                 <h3>Ananya Panday</h3>
                 <p>Actress</p>
@@ -1778,7 +941,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Alaya F" data-tmdb="Alaya F" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Alaya F" loading="lazy">
                 </div>
                 <h3>Alaya F</h3>
                 <p>Actress, Dancer</p>
@@ -1787,7 +950,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rashmika Mandanna" data-tmdb="Rashmika Mandanna" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rashmika Mandanna" loading="lazy">
                 </div>
                 <h3>Rashmika Mandanna</h3>
                 <p>Actress</p>
@@ -1796,7 +959,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Samantha Ruth Prabhu" data-tmdb="Samantha Ruth Prabhu" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Samantha Ruth Prabhu" loading="lazy">
                 </div>
                 <h3>Samantha Ruth Prabhu</h3>
                 <p>Actress</p>
@@ -1805,7 +968,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Esha Deol" data-tmdb="Esha Deol" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Esha Deol" loading="lazy">
                 </div>
                 <h3>Esha Deol</h3>
                 <p>Actress, Dancer</p>
@@ -1814,7 +977,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sonam Kapoor" data-tmdb="Sonam Kapoor" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sonam Kapoor" loading="lazy">
                 </div>
                 <h3>Sonam Kapoor</h3>
                 <p>Actress, Fashion Icon</p>
@@ -1823,7 +986,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Tabu" data-tmdb="Tabu" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Tabu" loading="lazy">
                 </div>
                 <h3>Tabu</h3>
                 <p>Actress</p>
@@ -1832,7 +995,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Manisha Koirala" data-tmdb="Manisha Koirala" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Manisha Koirala" loading="lazy">
                 </div>
                 <h3>Manisha Koirala</h3>
                 <p>Actress</p>
@@ -1841,7 +1004,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Raveena Tandon" data-tmdb="Raveena Tandon" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Raveena Tandon" loading="lazy">
                 </div>
                 <h3>Raveena Tandon</h3>
                 <p>Actress, Producer</p>
@@ -1850,7 +1013,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Urmila Matondkar" data-tmdb="Urmila Matondkar" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Urmila Matondkar" loading="lazy">
                 </div>
                 <h3>Urmila Matondkar</h3>
                 <p>Actress, Politician</p>
@@ -1859,7 +1022,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Revathi" data-tmdb="Revathi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Revathi" loading="lazy">
                 </div>
                 <h3>Revathi</h3>
                 <p>Actress, Director, Singer</p>
@@ -1868,7 +1031,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nayanthara" data-tmdb="Nayanthara" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Nayanthara" loading="lazy">
                 </div>
                 <h3>Nayanthara</h3>
                 <p>Actress, Producer</p>
@@ -1877,7 +1040,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Trisha Krishnan" data-tmdb="Trisha Krishnan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Trisha Krishnan" loading="lazy">
                 </div>
                 <h3>Trisha Krishnan</h3>
                 <p>Actress, Model</p>
@@ -1886,7 +1049,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Prabhas" data-tmdb="Prabhas" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Prabhas" loading="lazy">
                 </div>
                 <h3>Prabhas</h3>
                 <p>Actor</p>
@@ -1895,7 +1058,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Mahesh Babu" data-tmdb="Mahesh Babu" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Mahesh Babu" loading="lazy">
                 </div>
                 <h3>Mahesh Babu</h3>
                 <p>Actor, Producer</p>
@@ -1904,7 +1067,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Allu Arjun" data-tmdb="Allu Arjun" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Allu Arjun" loading="lazy">
                 </div>
                 <h3>Allu Arjun</h3>
                 <p>Actor, Dancer</p>
@@ -1913,7 +1076,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ram Charan" data-tmdb="Ram Charan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ram Charan" loading="lazy">
                 </div>
                 <h3>Ram Charan</h3>
                 <p>Actor, Producer, Entrepreneur</p>
@@ -1922,7 +1085,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Jr NTR" data-tmdb="Jr NTR" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Jr NTR" loading="lazy">
                 </div>
                 <h3>Jr NTR</h3>
                 <p>Actor, Dancer, Singer</p>
@@ -1931,7 +1094,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Vijay" data-tmdb="Vijay" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Vijay" loading="lazy">
                 </div>
                 <h3>Vijay</h3>
                 <p>Actor, Politician</p>
@@ -1940,7 +1103,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Ajith Kumar" data-tmdb="Ajith Kumar" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Ajith Kumar" loading="lazy">
                 </div>
                 <h3>Ajith Kumar</h3>
                 <p>Actor, Racing Driver</p>
@@ -1949,7 +1112,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Kamal Haasan" data-tmdb="Kamal Haasan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Kamal Haasan" loading="lazy">
                 </div>
                 <h3>Kamal Haasan</h3>
                 <p>Actor, Director, Writer, Politician</p>
@@ -1958,7 +1121,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rajinikanth" data-tmdb="Rajinikanth" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rajinikanth" loading="lazy">
                 </div>
                 <h3>Rajinikanth</h3>
                 <p>Actor, Producer, Screenwriter</p>
@@ -1967,7 +1130,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Mohanlal" data-tmdb="Mohanlal" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Mohanlal" loading="lazy">
                 </div>
                 <h3>Mohanlal</h3>
                 <p>Actor, Producer, Singer</p>
@@ -1976,7 +1139,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Mammootty" data-tmdb="Mammootty" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Mammootty" loading="lazy">
                 </div>
                 <h3>Mammootty</h3>
                 <p>Actor, Producer</p>
@@ -1985,7 +1148,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dulquer Salmaan" data-tmdb="Dulquer Salmaan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Dulquer Salmaan" loading="lazy">
                 </div>
                 <h3>Dulquer Salmaan</h3>
                 <p>Actor, Producer</p>
@@ -1994,7 +1157,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Fahadh Faasil" data-tmdb="Fahadh Faasil" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Fahadh Faasil" loading="lazy">
                 </div>
                 <h3>Fahadh Faasil</h3>
                 <p>Actor, Producer</p>
@@ -2003,7 +1166,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Tovino Thomas" data-tmdb="Tovino Thomas" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Tovino Thomas" loading="lazy">
                 </div>
                 <h3>Tovino Thomas</h3>
                 <p>Actor</p>
@@ -2012,7 +1175,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nivin Pauly" data-tmdb="Nivin Pauly" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Nivin Pauly" loading="lazy">
                 </div>
                 <h3>Nivin Pauly</h3>
                 <p>Actor, Producer</p>
@@ -2021,7 +1184,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dhanush" data-tmdb="Dhanush" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Dhanush" loading="lazy">
                 </div>
                 <h3>Dhanush</h3>
                 <p>Actor, Director, Producer, Singer</p>
@@ -2030,7 +1193,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sivakarthikeyan" data-tmdb="Sivakarthikeyan" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sivakarthikeyan" loading="lazy">
                 </div>
                 <h3>Sivakarthikeyan</h3>
                 <p>Actor, Comedian, Singer, Producer</p>
@@ -2039,7 +1202,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Suriya" data-tmdb="Suriya" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Suriya" loading="lazy">
                 </div>
                 <h3>Suriya</h3>
                 <p>Actor, Producer</p>
@@ -2048,7 +1211,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Vikram" data-tmdb="Vikram" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Vikram" loading="lazy">
                 </div>
                 <h3>Vikram</h3>
                 <p>Actor, Singer</p>
@@ -2057,7 +1220,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Chiranjeevi" data-tmdb="Chiranjeevi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Chiranjeevi" loading="lazy">
                 </div>
                 <h3>Chiranjeevi</h3>
                 <p>Actor, Politician, Producer</p>
@@ -2066,7 +1229,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Venkatesh Daggubati" data-tmdb="Venkatesh Daggubati" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Venkatesh Daggubati" loading="lazy">
                 </div>
                 <h3>Venkatesh Daggubati</h3>
                 <p>Actor, Producer</p>
@@ -2075,7 +1238,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rana Daggubati" data-tmdb="Rana Daggubati" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rana Daggubati" loading="lazy">
                 </div>
                 <h3>Rana Daggubati</h3>
                 <p>Actor, Producer, Entrepreneur</p>
@@ -2084,7 +1247,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Karthi" data-tmdb="Karthi" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Karthi" loading="lazy">
                 </div>
                 <h3>Karthi</h3>
                 <p>Actor, Producer</p>
@@ -2093,7 +1256,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Jyothika" data-tmdb="Jyothika" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Jyothika" loading="lazy">
                 </div>
                 <h3>Jyothika</h3>
                 <p>Actress</p>
@@ -2102,7 +1265,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Anushka Shetty" data-tmdb="Anushka Shetty" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Anushka Shetty" loading="lazy">
                 </div>
                 <h3>Anushka Shetty</h3>
                 <p>Actress</p>
@@ -2111,7 +1274,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Pooja Hegde" data-tmdb="Pooja Hegde" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Pooja Hegde" loading="lazy">
                 </div>
                 <h3>Pooja Hegde</h3>
                 <p>Actress, Model</p>
@@ -2120,7 +1283,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Tamannaah Bhatia" data-tmdb="Tamannaah Bhatia" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Tamannaah Bhatia" loading="lazy">
                 </div>
                 <h3>Tamannaah Bhatia</h3>
                 <p>Actress, Dancer</p>
@@ -2129,7 +1292,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Rakul Preet Singh" data-tmdb="Rakul Preet Singh" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Rakul Preet Singh" loading="lazy">
                 </div>
                 <h3>Rakul Preet Singh</h3>
                 <p>Actress, Model</p>
@@ -2138,7 +1301,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nithya Menen" data-tmdb="Nithya Menen" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Nithya Menen" loading="lazy">
                 </div>
                 <h3>Nithya Menen</h3>
                 <p>Actress, Singer</p>
@@ -2147,7 +1310,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Keerthy Suresh" data-tmdb="Keerthy Suresh" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Keerthy Suresh" loading="lazy">
                 </div>
                 <h3>Keerthy Suresh</h3>
                 <p>Actress, Dancer</p>
@@ -2156,7 +1319,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Manoj Bajpayee" data-tmdb="Manoj Bajpayee" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Manoj Bajpayee" loading="lazy">
                 </div>
                 <h3>Manoj Bajpayee</h3>
                 <p>Actor</p>
@@ -2165,7 +1328,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Siddharth" data-tmdb="Siddharth" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Siddharth" loading="lazy">
                 </div>
                 <h3>Siddharth</h3>
                 <p>Actor, Singer, Producer</p>
@@ -2174,7 +1337,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Aditi Rao Hydari" data-tmdb="Aditi Rao Hydari" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Aditi Rao Hydari" loading="lazy">
                 </div>
                 <h3>Aditi Rao Hydari</h3>
                 <p>Actress, Dancer, Singer</p>
@@ -2183,7 +1346,7 @@ a:hover{text-decoration:underline}
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Sobhita Dhulipala" data-tmdb="Sobhita Dhulipala" loading="lazy">
+                    <img src="/assets/placeholder.jpg" alt="Sobhita Dhulipala" loading="lazy">
                 </div>
                 <h3>Sobhita Dhulipala</h3>
                 <p>Actress, Model</p>
@@ -2193,68 +1356,9 @@ a:hover{text-decoration:underline}
         </div>
     </div>
 
-    
+    <footer>
+        &copy; 2026 EnjoysSeason - World Entertainment Hub
+    </footer>
 
-<script>(function(){var TMDB_KEY="8265bd1679663a7ea12ac168da84d2e8";var imgs=document.querySelectorAll("img[data-tmdb]");if(!imgs.length)return;var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(!entry.isIntersecting)return;var img=entry.target;var name=img.getAttribute("data-tmdb");observer.unobserve(img);fetch("https://api.themoviedb.org/3/search/person?api_key=8265bd1679663a7ea12ac168da84d2e8&query="+encodeURIComponent(name)).then(function(r){return r.json();}).then(function(data){if(data.results&&data.results[0]&&data.results[0].profile_path){img.src="https://image.tmdb.org/t/p/w500"+data.results[0].profile_path;}else{img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=No+Image";}}).catch(function(){img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Error";});});},{threshold:0.1});imgs.forEach(function(img){observer.observe(img);});})()</script>
-
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-grid">
-
-      <div class="footer-col">
-        <h3>🎬 EnjoysSeason</h3>
-        <p>World's complete entertainment database. Actors, movies, dramas, web series and anime from 200+ countries.</p>
-      </div>
-
-      <div class="footer-col">
-        <h4>🌍 Popular Countries</h4>
-        <a href="/country/pakistan">Pakistan</a>
-        <a href="/country/india">India</a>
-        <a href="/country/usa">USA</a>
-        <a href="/country/turkey">Turkey</a>
-        <a href="/country/south-korea">South Korea</a>
-        <a href="/country/japan">Japan</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>🎭 Categories</h4>
-        <a href="/category/actors">Actors</a>
-        <a href="/category/movies">Movies</a>
-        <a href="/category/dramas">Dramas</a>
-        <a href="/category/web-series">Web Series</a>
-        <a href="/category/anime">Anime</a>
-        <a href="/industry/bollywood">Bollywood</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>📋 Pages</h4>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact</a>
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/disclaimer">Disclaimer</a>
-        <a href="/sitemap.xml">Sitemap</a>
-      </div>
-
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 EnjoysSeason — World Actors, Movies, Dramas & Web Series Database</p>
-    </div>
-  </div>
-</footer>
-<script>
-function toggleMobile(){
-  const nav = document.getElementById('mobileNav');
-  nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
-}
-
-// Search
-document.getElementById('searchInput')?.addEventListener('keypress', function(e){
-  if(e.key === 'Enter'){
-    const q = this.value.trim();
-    if(q) window.location.href = '/search?q=' + encodeURIComponent(q);
-  }
-});
-</script>
 </body>
 </html>
