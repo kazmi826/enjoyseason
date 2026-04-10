@@ -29844,5 +29844,708 @@
     "netWorth": "$55 Million",
     "spouse": "Ryan Shawhughes",
     "children": "4"
+  },
+  {
+    "id": 561,
+    "name": "Gwendoline Christie",
+    "fullName": "Gwendoline Tracey Philippa Christie",
+    "slug": "gwendoline-christie",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "October 28, 1978",
+    "birthPlace": "Worthing, England",
+    "nationality": "British",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "bio": "Famous for her role as the noble warrior Brienne of Tarth and Captain Phasma in Star Wars.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gwendoline_Christie",
+    "movies": [
+      "Star Wars: The Force Awakens",
+      "The Hunger Games"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Wednesday",
+      "The Sandman"
+    ],
+    "costars": [
+      "Nikolaj Coster-Waldau"
+    ],
+    "awards": [],
+    "active": "2006-present",
+    "netWorth": "$4 Million",
+    "spouse": "Giles Deacon (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 562,
+    "name": "Richard Madden",
+    "fullName": "Richard Madden",
+    "slug": "richard-madden",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "June 18, 1986",
+    "birthPlace": "Elderslie, Scotland",
+    "nationality": "Scottish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "bio": "Played Robb Stark, the King in the North, and later starred in the hit series Bodyguard.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Madden",
+    "movies": [
+      "Cinderella",
+      "1917",
+      "Eternals"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Bodyguard",
+      "Citadel"
+    ],
+    "costars": [
+      "Kit Harington"
+    ],
+    "awards": [
+      "1 Golden Globe"
+    ],
+    "active": "1999-present",
+    "netWorth": "$8 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 563,
+    "name": "Natalie Dormer",
+    "fullName": "Natalie Dormer",
+    "slug": "natalie-dormer",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "February 11, 1982",
+    "birthPlace": "Reading, England",
+    "nationality": "British",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Historical"
+    ],
+    "bio": "Portrayed the clever Margaery Tyrell and Anne Boleyn in The Tudors.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Natalie_Dormer",
+    "movies": [
+      "The Hunger Games",
+      "The Forest"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "The Tudors"
+    ],
+    "costars": [
+      "Jack Gleeson"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$6 Million",
+    "spouse": "David Oakes",
+    "children": "1"
+  },
+  {
+    "id": 564,
+    "name": "Jack Gleeson",
+    "fullName": "Jack Gleeson",
+    "slug": "jack-gleeson",
+    "country": "Ireland",
+    "countrySlug": "ireland",
+    "born": "May 20, 1992",
+    "birthPlace": "Cork, Ireland",
+    "nationality": "Irish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Universally hated for his brilliant performance as the villainous King Joffrey Baratheon.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jack_Gleeson",
+    "movies": [
+      "Batman Begins"
+    ],
+    "dramas": [
+      "Game of Thrones"
+    ],
+    "costars": [
+      "Natalie Dormer"
+    ],
+    "awards": [],
+    "active": "2002-present",
+    "netWorth": "$8 Million",
+    "spouse": "Róisín O'Mahony",
+    "children": "None"
+  },
+  {
+    "id": 565,
+    "name": "Alfie Allen",
+    "fullName": "Alfie Evan Allen",
+    "slug": "alfie-allen",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "September 12, 1986",
+    "birthPlace": "London, England",
+    "nationality": "British",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Crime"
+    ],
+    "bio": "Played the complex role of Theon Greyjoy, delivering one of the show's most emotional arcs.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alfie_Allen",
+    "movies": [
+      "John Wick",
+      "Jojo Rabbit"
+    ],
+    "dramas": [
+      "Game of Thrones"
+    ],
+    "costars": [
+      "Sophie Turner"
+    ],
+    "awards": [],
+    "active": "1998-present",
+    "netWorth": "$6 Million",
+    "spouse": "None",
+    "children": "1"
+  },
+  {
+    "id": 566,
+    "name": "Iain Glen",
+    "fullName": "Iain Glen",
+    "slug": "iain-glen",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "June 24, 1961",
+    "birthPlace": "Edinburgh, Scotland",
+    "nationality": "Scottish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Thriller"
+    ],
+    "bio": "Known for his role as Ser Jorah Mormont, the loyal protector of Daenerys Targaryen.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iain_Glen",
+    "movies": [
+      "Resident Evil",
+      "Lara Croft: Tomb Raider"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Titans"
+    ],
+    "costars": [
+      "Emilia Clarke"
+    ],
+    "awards": [],
+    "active": "1986-present",
+    "netWorth": "$3 Million",
+    "spouse": "Charlotte Emmerson",
+    "children": "3"
+  },
+  {
+    "id": 567,
+    "name": "Rory McCann",
+    "fullName": "Rory McCann",
+    "slug": "rory-mccann",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "April 24, 1969",
+    "birthPlace": "Glasgow, Scotland",
+    "nationality": "Scottish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Action"
+    ],
+    "bio": "Played Sandor 'The Hound' Clegane, a fan-favorite character known for his rough exterior.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rory_McCann",
+    "movies": [
+      "Hot Fuzz",
+      "Jumanji: The Next Level"
+    ],
+    "dramas": [
+      "Game of Thrones"
+    ],
+    "costars": [
+      "Maisie Williams"
+    ],
+    "awards": [],
+    "active": "1998-present",
+    "netWorth": "$6 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 568,
+    "name": "Carice van Houten",
+    "fullName": "Carice Anouk van Houten",
+    "slug": "carice-van-houten",
+    "country": "Netherlands",
+    "countrySlug": "netherlands",
+    "born": "September 5, 1976",
+    "birthPlace": "Leiderdorp, Netherlands",
+    "nationality": "Dutch",
+    "profession": [
+      "Actress",
+      "Singer"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "bio": "The Dutch actress who played the mysterious Red Priestess, Melisandre.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carice_van_Houten",
+    "movies": [
+      "Black Book",
+      "Valkyrie"
+    ],
+    "dramas": [
+      "Game of Thrones"
+    ],
+    "costars": [
+      "Liam Cunningham"
+    ],
+    "awards": [],
+    "active": "1997-present",
+    "netWorth": "$5 Million",
+    "spouse": "Guy Pearce (Partner)",
+    "children": "1"
+  },
+  {
+    "id": 569,
+    "name": "Liam Cunningham",
+    "fullName": "Liam Cunningham",
+    "slug": "liam-cunningham",
+    "country": "Ireland",
+    "countrySlug": "ireland",
+    "born": "June 2, 1961",
+    "birthPlace": "Dublin, Ireland",
+    "nationality": "Irish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Known for his role as Davos Seaworth, the Onion Knight and loyal advisor.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Liam_Cunningham",
+    "movies": [
+      "The Wind That Shakes the Barley",
+      "Clash of the Titans"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "3 Body Problem"
+    ],
+    "costars": [
+      "Stephen Dillane"
+    ],
+    "awards": [],
+    "active": "1992-present",
+    "netWorth": "$4 Million",
+    "spouse": "Colette Cunningham",
+    "children": "3"
+  },
+  {
+    "id": 570,
+    "name": "Aidan Gillen",
+    "fullName": "Aidan Murphy",
+    "slug": "aidan-gillen",
+    "country": "Ireland",
+    "countrySlug": "ireland",
+    "born": "April 24, 1968",
+    "birthPlace": "Dublin, Ireland",
+    "nationality": "Irish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Famous for his portrayal of the manipulative Petyr 'Littlefinger' Baelish.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aidan_Gillen",
+    "movies": [
+      "The Dark Knight Rises",
+      "Bohemian Rhapsody"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "The Wire",
+      "Peaky Blinders"
+    ],
+    "costars": [
+      "Conleth Hill"
+    ],
+    "awards": [],
+    "active": "1985-present",
+    "netWorth": "$8 Million",
+    "spouse": "Olivia O'Flanagan (Ex)",
+    "children": "2"
+  },
+  {
+    "id": 571,
+    "name": "Conleth Hill",
+    "fullName": "Conleth Seamus Eiston Hill",
+    "slug": "conleth-hill",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "November 24, 1964",
+    "birthPlace": "Ballycastle, Northern Ireland",
+    "nationality": "British-Irish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "bio": "The versatile actor behind Lord Varys, the Master of Whisperers.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Conleth_Hill",
+    "movies": [
+      "To Olivia"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Dublin Murders"
+    ],
+    "costars": [
+      "Aidan Gillen"
+    ],
+    "awards": [],
+    "active": "1988-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 572,
+    "name": "Kristofer Hivju",
+    "fullName": "Kristofer Hivju",
+    "slug": "kristofer-hivju",
+    "country": "Norway",
+    "countrySlug": "norway",
+    "born": "December 7, 1978",
+    "birthPlace": "Oslo, Norway",
+    "nationality": "Norwegian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Action",
+      "Fantasy"
+    ],
+    "bio": "Known for his energetic performance as Tormund Giantsbane and his magnificent beard.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kristofer_Hivju",
+    "movies": [
+      "The Fate of the Furious",
+      "Cocaine Bear"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "The Witcher"
+    ],
+    "costars": [
+      "Kit Harington"
+    ],
+    "awards": [],
+    "active": "2001-present",
+    "netWorth": "$3 Million",
+    "spouse": "Gry Molvær Hivju",
+    "children": "2"
+  },
+  {
+    "id": 573,
+    "name": "Jerome Flynn",
+    "fullName": "Jerome Patrick Flynn",
+    "slug": "jerome-flynn",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "March 16, 1963",
+    "birthPlace": "Bromley, England",
+    "nationality": "British",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "bio": "Played the sarcastic sellsword Bronn, a survivor of the Seven Kingdoms.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jerome_Flynn",
+    "movies": [
+      "Loving Vincent"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Ripper Street",
+      "1923"
+    ],
+    "costars": [
+      "Peter Dinklage"
+    ],
+    "awards": [],
+    "active": "1985-present",
+    "netWorth": "$3 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 574,
+    "name": "Jacob Anderson",
+    "fullName": "Jacob Basil Anderson",
+    "slug": "jacob-anderson",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "June 18, 1990",
+    "birthPlace": "London, England",
+    "nationality": "British",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Fantasy",
+      "Horror"
+    ],
+    "bio": "Played the stoic Grey Worm, commander of the Unsullied.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Anderson",
+    "movies": [
+      "Overlord"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Interview with the Vampire"
+    ],
+    "costars": [
+      "Emilia Clarke"
+    ],
+    "awards": [],
+    "active": "2007-present",
+    "netWorth": "$3 Million",
+    "spouse": "Aisling Loftus",
+    "children": "1"
+  },
+  {
+    "id": 575,
+    "name": "Rose Leslie",
+    "fullName": "Rose Eleanor Arbuthnot-Leslie",
+    "slug": "rose-leslie",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "February 9, 1987",
+    "birthPlace": "Aberdeen, Scotland",
+    "nationality": "Scottish",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Known for playing Ygritte ('You know nothing, Jon Snow') and starring in Downton Abbey.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rose_Leslie",
+    "movies": [
+      "Death on the Nile"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "Downton Abbey",
+      "The Good Fight"
+    ],
+    "costars": [
+      "Kit Harington"
+    ],
+    "awards": [],
+    "active": "2008-present",
+    "netWorth": "$4 Million",
+    "spouse": "Kit Harington",
+    "children": "2"
+  },
+  {
+    "id": 576,
+    "name": "Hafþór Júlíus Björnsson",
+    "fullName": "Hafþór Júlíus Björnsson",
+    "slug": "hafthor-julius-bjornsson",
+    "country": "Iceland",
+    "countrySlug": "iceland",
+    "born": "November 26, 1988",
+    "birthPlace": "Reykjavík, Iceland",
+    "nationality": "Icelandic",
+    "profession": [
+      "Actor",
+      "Strongman"
+    ],
+    "genre": [
+      "Action",
+      "Fantasy"
+    ],
+    "bio": "The world-famous strongman who played the terrifying Gregor 'The Mountain' Clegane.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Haf%C3%BE%C3%B3r_J%C3%BAl%C3%ADus_Bj%C3%B6rnsson",
+    "movies": [
+      "The Northman"
+    ],
+    "dramas": [
+      "Game of Thrones"
+    ],
+    "costars": [
+      "Lena Headey"
+    ],
+    "awards": [],
+    "active": "2010-present",
+    "netWorth": "$2 Million",
+    "spouse": "Kelsey Henson",
+    "children": "2"
+  },
+  {
+    "id": 577,
+    "name": "John Bradley",
+    "fullName": "John Bradley-West",
+    "slug": "john-bradley",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "September 15, 1988",
+    "birthPlace": "Manchester, England",
+    "nationality": "British",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "bio": "Played Samwell Tarly, the loyal best friend of Jon Snow and scholar of the Night's Watch.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Bradley_(English_actor)",
+    "movies": [
+      "Moonfall",
+      "Marry Me"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "3 Body Problem"
+    ],
+    "costars": [
+      "Kit Harington"
+    ],
+    "awards": [],
+    "active": "2011-present",
+    "netWorth": "$4 Million",
+    "spouse": "Rebecca May (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 578,
+    "name": "Isaac Hempstead Wright",
+    "fullName": "Isaac Hempstead Wright",
+    "slug": "isaac-hempstead-wright",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "April 9, 1999",
+    "birthPlace": "Surrey, England",
+    "nationality": "British",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "bio": "Started at age 12 as Bran Stark, eventually becoming the Three-Eyed Raven.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Hempstead_Wright",
+    "movies": [
+      "The Awakening",
+      "Voyagers"
+    ],
+    "dramas": [
+      "Game of Thrones"
+    ],
+    "costars": [
+      "Kristian Nairn"
+    ],
+    "awards": [],
+    "active": "2011-present",
+    "netWorth": "$4 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 579,
+    "name": "Bella Ramsey",
+    "fullName": "Isabella May Ramsey",
+    "slug": "bella-ramsey",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "September 30, 2003",
+    "birthPlace": "Nottingham, England",
+    "nationality": "British",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Had a breakout role as the fierce Lyanna Mormont before starring in The Last of Us.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bella_Ramsey",
+    "movies": [
+      "Catherine Called Birdy"
+    ],
+    "dramas": [
+      "Game of Thrones",
+      "The Last of Us",
+      "Hilda"
+    ],
+    "costars": [
+      "Pedro Pascal"
+    ],
+    "awards": [],
+    "active": "2016-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
   }
 ]
