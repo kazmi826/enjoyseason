@@ -64,7 +64,138 @@
         footer { text-align: center; padding: 40px; background: #050612; color: #666; font-size: 14px; margin-top: 50px; }
     </style>
 </head>
-<body><header style="background:#0d0e2b;padding:0 40px;height:70px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #f5a623;position:sticky;top:0;z-index:1000;"><a href="/" style="font-size:24px;font-weight:800;color:#f5a623;text-decoration:none;">EnjoysSeason</a><nav><a href="/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Home</a><a href="/countries/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Countries</a><a href="/actors/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Actors</a><a href="/movies/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Movies</a></nav></header>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+
+    <a href="/" class="logo">
+      <span class="logo-icon">🎬</span>
+      <span class="logo-text">EnjoysSeason</span>
+    </a>
+
+    <nav class="main-nav">
+
+      <!-- Countries Dropdown -->
+      <div class="nav-item dropdown">
+        <button class="nav-btn">🌍 Countries <span class="arrow">▾</span></button>
+        <div class="dropdown-menu mega-menu">
+          <div class="mega-col">
+            <h4>🌏 Asia</h4>
+            <a href="/country/pakistan">🇵🇰 Pakistan</a>
+            <a href="/country/india">🇮🇳 India</a>
+            <a href="/country/turkey">🇹🇷 Turkey</a>
+            <a href="/country/south-korea">🇰🇷 South Korea</a>
+            <a href="/country/japan">🇯🇵 Japan</a>
+            <a href="/country/china">🇨🇳 China</a>
+            <a href="/country/bangladesh">🇧🇩 Bangladesh</a>
+            <a href="/country/iran">🇮🇷 Iran</a>
+          </div>
+          <div class="mega-col">
+            <h4>🌎 West</h4>
+            <a href="/country/usa">🇺🇸 USA</a>
+            <a href="/country/uk">🇬🇧 UK</a>
+            <a href="/country/canada">🇨🇦 Canada</a>
+            <a href="/country/australia">🇦🇺 Australia</a>
+            <a href="/country/france">🇫🇷 France</a>
+            <a href="/country/germany">🇩🇪 Germany</a>
+            <a href="/country/spain">🇪🇸 Spain</a>
+            <a href="/country/italy">🇮🇹 Italy</a>
+          </div>
+          <div class="mega-col">
+            <h4>🌍 Middle East & Africa</h4>
+            <a href="/country/saudi-arabia">🇸🇦 Saudi Arabia</a>
+            <a href="/country/egypt">🇪🇬 Egypt</a>
+            <a href="/country/uae">🇦🇪 UAE</a>
+            <a href="/country/nigeria">🇳🇬 Nigeria</a>
+            <a href="/country/south-africa">🇿🇦 South Africa</a>
+          </div>
+          <div class="mega-col">
+            <h4>🌎 Latin America</h4>
+            <a href="/country/brazil">🇧🇷 Brazil</a>
+            <a href="/country/mexico">🇲🇽 Mexico</a>
+            <a href="/country/argentina">🇦🇷 Argentina</a>
+            <a href="/country/colombia">🇨🇴 Colombia</a>
+            <a href="/country/all">🌐 All 200 Countries →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories Dropdown -->
+      <div class="nav-item dropdown">
+        <button class="nav-btn">🎭 Categories <span class="arrow">▾</span></button>
+        <div class="dropdown-menu">
+          <div class="drop-col">
+            <h4>👤 People</h4>
+            <a href="/category/actors">🎭 Actors</a>
+            <a href="/category/actresses">👩 Actresses</a>
+            <a href="/category/directors">🎬 Directors</a>
+            <a href="/category/singers">🎵 Singers</a>
+          </div>
+          <div class="drop-col">
+            <h4>🎬 Content</h4>
+            <a href="/category/movies">🎬 Movies</a>
+            <a href="/category/dramas">📺 Dramas</a>
+            <a href="/category/web-series">💻 Web Series</a>
+            <a href="/category/anime">🎌 Anime</a>
+            <a href="/category/documentaries">📽️ Documentaries</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- By Industry Dropdown -->
+      <div class="nav-item dropdown">
+        <button class="nav-btn">🏭 Industry <span class="arrow">▾</span></button>
+        <div class="dropdown-menu">
+          <div class="drop-col">
+            <h4>🎬 Film Industry</h4>
+            <a href="/industry/bollywood">🇮🇳 Bollywood</a>
+            <a href="/industry/hollywood">🇺🇸 Hollywood</a>
+            <a href="/industry/lollywood">🇵🇰 Lollywood</a>
+            <a href="/industry/tollywood">🎬 Tollywood</a>
+            <a href="/industry/korean">🇰🇷 K-Drama</a>
+            <a href="/industry/turkish">🇹🇷 Turkish</a>
+            <a href="/industry/anime">🎌 Anime</a>
+          </div>
+          <div class="drop-col">
+            <h4>📺 Platforms</h4>
+            <a href="/platform/netflix">🔴 Netflix</a>
+            <a href="/platform/amazon-prime">📦 Amazon Prime</a>
+            <a href="/platform/disney-plus">✨ Disney+</a>
+            <a href="/platform/hum-tv">📺 Hum TV</a>
+            <a href="/platform/ary-digital">📺 ARY Digital</a>
+            <a href="/platform/geo-tv">📺 Geo TV</a>
+            <a href="/platform/youtube">▶️ YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search -->
+      <div class="nav-search">
+        <input type="text" placeholder="🔍 Search actors, movies, dramas..." class="search-input" id="searchInput">
+        <button class="search-btn">Search</button>
+      </div>
+
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" onclick="toggleMobile()">☰</button>
+
+  </div>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="/country/pakistan">🇵🇰 Pakistan</a>
+    <a href="/country/india">🇮🇳 India</a>
+    <a href="/country/usa">🇺🇸 USA</a>
+    <a href="/category/actors">🎭 Actors</a>
+    <a href="/category/movies">🎬 Movies</a>
+    <a href="/category/dramas">📺 Dramas</a>
+    <a href="/category/web-series">💻 Web Series</a>
+    <a href="/category/anime">🎌 Anime</a>
+    <a href="/industry/bollywood">🇮🇳 Bollywood</a>
+    <a href="/industry/hollywood">🇺🇸 Hollywood</a>
+  </div>
+</header>
 
     <div class="container">
         <div class="breadcrumb">
@@ -924,10 +1055,52 @@
         </div>
     </div>
 
-    <footer>
-        &copy; 2026 EnjoysSeason - World Entertainment Hub
-    </footer>
+    
 
 <script>(function(){var TMDB_KEY="8265bd1679663a7ea12ac168da84d2e8";var imgs=document.querySelectorAll("img[data-tmdb]");if(!imgs.length)return;var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(!entry.isIntersecting)return;var img=entry.target;var name=img.getAttribute("data-tmdb");observer.unobserve(img);fetch("https://api.themoviedb.org/3/search/person?api_key=8265bd1679663a7ea12ac168da84d2e8&query="+encodeURIComponent(name)).then(function(r){return r.json();}).then(function(data){if(data.results&&data.results[0]&&data.results[0].profile_path){img.src="https://image.tmdb.org/t/p/w500"+data.results[0].profile_path;}else{img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=No+Image";}}).catch(function(){img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Error";});});},{threshold:0.1});imgs.forEach(function(img){observer.observe(img);});})()</script>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <h3>🎬 EnjoysSeason</h3>
+        <p>World's complete entertainment database. Actors, movies, dramas, web series and anime from 200+ countries.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>🌍 Popular Countries</h4>
+        <a href="/country/pakistan">Pakistan</a>
+        <a href="/country/india">India</a>
+        <a href="/country/usa">USA</a>
+        <a href="/country/turkey">Turkey</a>
+        <a href="/country/south-korea">South Korea</a>
+        <a href="/country/japan">Japan</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>🎭 Categories</h4>
+        <a href="/category/actors">Actors</a>
+        <a href="/category/movies">Movies</a>
+        <a href="/category/dramas">Dramas</a>
+        <a href="/category/web-series">Web Series</a>
+        <a href="/category/anime">Anime</a>
+        <a href="/industry/bollywood">Bollywood</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>📋 Pages</h4>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 EnjoysSeason — World Actors, Movies, Dramas & Web Series Database</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
