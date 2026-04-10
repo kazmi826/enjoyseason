@@ -64,7 +64,7 @@
         footer { text-align: center; padding: 40px; background: #050612; color: #666; font-size: 14px; margin-top: 50px; }
     </style>
 </head>
-<body>
+<body><header style="background:#0d0e2b;padding:0 40px;height:70px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #f5a623;position:sticky;top:0;z-index:1000;"><a href="/" style="font-size:24px;font-weight:800;color:#f5a623;text-decoration:none;">EnjoysSeason</a><nav><a href="/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Home</a><a href="/countries/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Countries</a><a href="/actors/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Actors</a><a href="/movies/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Movies</a></nav></header>
 
     <div class="container">
         <div class="breadcrumb">
@@ -77,7 +77,7 @@
             
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Hend Sabry" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Hend Sabry" data-tmdb="Hend Sabry" loading="lazy">
                 </div>
                 <h3>Hend Sabry</h3>
                 <p>Actress, Lawyer</p>
@@ -86,7 +86,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Dhafer L'Abidine" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dhafer L'Abidine" data-tmdb="Dhafer L'Abidine" loading="lazy">
                 </div>
                 <h3>Dhafer L'Abidine</h3>
                 <p>Actor</p>
@@ -95,7 +95,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Dhafer L'Abidine" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dhafer L'Abidine" data-tmdb="Dhafer L'Abidine" loading="lazy">
                 </div>
                 <h3>Dhafer L'Abidine</h3>
                 <p>Actor</p>
@@ -104,7 +104,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Dorra Zarrouk" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Dorra Zarrouk" data-tmdb="Dorra Zarrouk" loading="lazy">
                 </div>
                 <h3>Dorra Zarrouk</h3>
                 <p>Actress</p>
@@ -113,7 +113,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Nidal Al-Saadi" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nidal Al-Saadi" data-tmdb="Nidal Al-Saadi" loading="lazy">
                 </div>
                 <h3>Nidal Al-Saadi</h3>
                 <p>Actor, TV Host</p>
@@ -122,7 +122,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Nidal Al-Saadi" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nidal Al-Saadi" data-tmdb="Nidal Al-Saadi" loading="lazy">
                 </div>
                 <h3>Nidal Al-Saadi</h3>
                 <p>Actor</p>
@@ -131,7 +131,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Nidal Al-Saidi" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Nidal Al-Saidi" data-tmdb="Nidal Al-Saidi" loading="lazy">
                 </div>
                 <h3>Nidal Al-Saidi</h3>
                 <p>Actor</p>
@@ -145,5 +145,6 @@
         &copy; 2026 EnjoysSeason - World Entertainment Hub
     </footer>
 
+<script>(function(){var TMDB_KEY="8265bd1679663a7ea12ac168da84d2e8";var imgs=document.querySelectorAll("img[data-tmdb]");if(!imgs.length)return;var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(!entry.isIntersecting)return;var img=entry.target;var name=img.getAttribute("data-tmdb");observer.unobserve(img);fetch("https://api.themoviedb.org/3/search/person?api_key=8265bd1679663a7ea12ac168da84d2e8&query="+encodeURIComponent(name)).then(function(r){return r.json();}).then(function(data){if(data.results&&data.results[0]&&data.results[0].profile_path){img.src="https://image.tmdb.org/t/p/w500"+data.results[0].profile_path;}else{img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=No+Image";}}).catch(function(){img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Error";});});},{threshold:0.1});imgs.forEach(function(img){observer.observe(img);});})()</script>
 </body>
 </html>

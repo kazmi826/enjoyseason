@@ -64,7 +64,7 @@
         footer { text-align: center; padding: 40px; background: #050612; color: #666; font-size: 14px; margin-top: 50px; }
     </style>
 </head>
-<body>
+<body><header style="background:#0d0e2b;padding:0 40px;height:70px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #f5a623;position:sticky;top:0;z-index:1000;"><a href="/" style="font-size:24px;font-weight:800;color:#f5a623;text-decoration:none;">EnjoysSeason</a><nav><a href="/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Home</a><a href="/countries/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Countries</a><a href="/actors/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Actors</a><a href="/movies/" style="color:#fff;text-decoration:none;margin-left:24px;font-size:15px;">Movies</a></nav></header>
 
     <div class="container">
         <div class="breadcrumb">
@@ -77,7 +77,7 @@
             
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Cillian Murphy" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Cillian Murphy" data-tmdb="Cillian Murphy" loading="lazy">
                 </div>
                 <h3>Cillian Murphy</h3>
                 <p>Actor</p>
@@ -86,7 +86,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Michael Fassbender" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Michael Fassbender" data-tmdb="Michael Fassbender" loading="lazy">
                 </div>
                 <h3>Michael Fassbender</h3>
                 <p>Actor, Racing Driver</p>
@@ -95,7 +95,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Andrew Scott" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Andrew Scott" data-tmdb="Andrew Scott" loading="lazy">
                 </div>
                 <h3>Andrew Scott</h3>
                 <p>Actor</p>
@@ -104,7 +104,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Colin Farrell" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Colin Farrell" data-tmdb="Colin Farrell" loading="lazy">
                 </div>
                 <h3>Colin Farrell</h3>
                 <p>Actor</p>
@@ -113,7 +113,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Brendan Gleeson" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Brendan Gleeson" data-tmdb="Brendan Gleeson" loading="lazy">
                 </div>
                 <h3>Brendan Gleeson</h3>
                 <p>Actor, Director</p>
@@ -122,7 +122,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Jack Gleeson" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Jack Gleeson" data-tmdb="Jack Gleeson" loading="lazy">
                 </div>
                 <h3>Jack Gleeson</h3>
                 <p>Actor</p>
@@ -131,7 +131,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Liam Cunningham" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Liam Cunningham" data-tmdb="Liam Cunningham" loading="lazy">
                 </div>
                 <h3>Liam Cunningham</h3>
                 <p>Actor</p>
@@ -140,7 +140,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Aidan Gillen" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Aidan Gillen" data-tmdb="Aidan Gillen" loading="lazy">
                 </div>
                 <h3>Aidan Gillen</h3>
                 <p>Actor</p>
@@ -149,7 +149,7 @@
         
             <div class="actor-card">
                 <div class="photo-placeholder">
-                    <img src="/assets/placeholder.jpg" alt="Colin O'Donoghue" loading="lazy">
+                    <img src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Loading" alt="Colin O'Donoghue" data-tmdb="Colin O'Donoghue" loading="lazy">
                 </div>
                 <h3>Colin O'Donoghue</h3>
                 <p>Actor, Musician</p>
@@ -163,5 +163,6 @@
         &copy; 2026 EnjoysSeason - World Entertainment Hub
     </footer>
 
+<script>(function(){var TMDB_KEY="8265bd1679663a7ea12ac168da84d2e8";var imgs=document.querySelectorAll("img[data-tmdb]");if(!imgs.length)return;var observer=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(!entry.isIntersecting)return;var img=entry.target;var name=img.getAttribute("data-tmdb");observer.unobserve(img);fetch("https://api.themoviedb.org/3/search/person?api_key=8265bd1679663a7ea12ac168da84d2e8&query="+encodeURIComponent(name)).then(function(r){return r.json();}).then(function(data){if(data.results&&data.results[0]&&data.results[0].profile_path){img.src="https://image.tmdb.org/t/p/w500"+data.results[0].profile_path;}else{img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=No+Image";}}).catch(function(){img.src="https://via.placeholder.com/300x400/1c1f45/f5a623?text=Error";});});},{threshold:0.1});imgs.forEach(function(img){observer.observe(img);});})()</script>
 </body>
 </html>
