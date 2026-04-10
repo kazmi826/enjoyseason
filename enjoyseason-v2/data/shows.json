@@ -1,0 +1,400 @@
+[
+  {
+    "id": 1,
+    "title": "Schitt's Creek",
+    "slug": "schitts-creek",
+    "genre": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "creator": "Dan Levy, Eugene Levy",
+    "network": "CBC",
+    "years": "2015–2020",
+    "seasons": 6,
+    "rating": "8.5/10",
+    "description": "A wealthy family loses everything and is forced to live in a small town they once bought as a joke.",
+    "stars": [
+      "Eugene Levy",
+      "Catherine O'Hara",
+      "Dan Levy",
+      "Annie Murphy"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Murdoch Mysteries",
+    "slug": "murdoch-mysteries",
+    "genre": [
+      "Crime",
+      "Mystery",
+      "Drama"
+    ],
+    "creator": "Maureen Jennings",
+    "network": "CBC",
+    "years": "2008–present",
+    "seasons": 17,
+    "rating": "8.2/10",
+    "description": "A Victorian-era detective uses then-radical forensic techniques to solve crimes in Toronto.",
+    "stars": [
+      "Yannick Bisson",
+      "Helene Joy",
+      "Thomas Craig"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Anne with an E",
+    "slug": "anne-with-an-e",
+    "genre": [
+      "Drama",
+      "Period Piece"
+    ],
+    "creator": "Moira Walley-Beckett",
+    "network": "CBC / Netflix",
+    "years": "2017–2019",
+    "seasons": 3,
+    "rating": "8.6/10",
+    "description": "A reimagining of 'Anne of Green Gables', following an adventurous orphan in the late 19th century.",
+    "stars": [
+      "Amybeth McNulty",
+      "Geraldine James",
+      "R.H. Thomson"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Orphan Black",
+    "slug": "orphan-black",
+    "genre": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "creator": "Graeme Manson, John Fawcett",
+    "network": "Space / BBC America",
+    "years": "2013–2017",
+    "seasons": 5,
+    "rating": "8.3/10",
+    "description": "A woman discovers she is one of many clones and gets pulled into a deadly conspiracy.",
+    "stars": [
+      "Tatiana Maslany",
+      "Jordan Gavaris",
+      "Maria Doyle Kennedy"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Kim's Convenience",
+    "slug": "kims-convenience",
+    "genre": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "creator": "Ins Choi, Kevin White",
+    "network": "CBC",
+    "years": "2016–2021",
+    "seasons": 5,
+    "rating": "8.2/10",
+    "description": "A Korean-Canadian family runs a convenience store in Toronto's Moss Park neighborhood.",
+    "stars": [
+      "Paul Sun-Hyung Lee",
+      "Jean Yoon",
+      "Simu Liu",
+      "Andrea Bang"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Heartland",
+    "slug": "heartland",
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "creator": "Lauren Brooke",
+    "network": "CBC",
+    "years": "2007–present",
+    "seasons": 17,
+    "rating": "8.4/10",
+    "description": "The longest-running Canadian drama, centered on a family living on a horse ranch in Alberta.",
+    "stars": [
+      "Amber Marshall",
+      "Shaun Johnston",
+      "Michelle Morgan"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Trailer Park Boys",
+    "slug": "trailer-park-boys",
+    "genre": [
+      "Mockumentary",
+      "Comedy"
+    ],
+    "creator": "Mike Clattenburg",
+    "network": "Showcase / Netflix",
+    "years": "2001–2018",
+    "seasons": 12,
+    "rating": "8.6/10",
+    "description": "Misadventures of three residents of a Sunnyvale Trailer Park in Nova Scotia.",
+    "stars": [
+      "Robb Wells",
+      "John Paul Tremblay",
+      "Mike Smith"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Workin' Moms",
+    "slug": "workin-moms",
+    "genre": [
+      "Comedy"
+    ],
+    "creator": "Catherine Reitman",
+    "network": "CBC / Netflix",
+    "years": "2017–2023",
+    "seasons": 7,
+    "rating": "7.8/10",
+    "description": "Four friends deal with the struggles of motherhood, careers, and identity in modern-day Toronto.",
+    "stars": [
+      "Catherine Reitman",
+      "Dani Kind",
+      "Juno Rinaldi"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Letterkenny",
+    "slug": "letterkenny",
+    "genre": [
+      "Sitcom",
+      "Comedy"
+    ],
+    "creator": "Jared Keeso",
+    "network": "Crave",
+    "years": "2016–2023",
+    "seasons": 12,
+    "rating": "8.7/10",
+    "description": "Quick-witted residents of a small rural community in Ontario get into various scraps.",
+    "stars": [
+      "Jared Keeso",
+      "Nathan Dales",
+      "Michelle Mylett"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Degrassi: The Next Generation",
+    "slug": "degrassi-tng",
+    "genre": [
+      "Teen Drama"
+    ],
+    "creator": "Linda Schuyler, Kit Hood",
+    "network": "CTV / Much",
+    "years": "2001–2015",
+    "seasons": 14,
+    "rating": "7.6/10",
+    "description": "The lives of a group of teenagers at Degrassi Community School as they face various challenges.",
+    "stars": [
+      "Drake (Aubrey Graham)",
+      "Cassie Steele",
+      "Miriam McDonald"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Corner Gas",
+    "slug": "corner-gas",
+    "genre": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "creator": "Brent Butt",
+    "network": "CTV",
+    "years": "2004–2009",
+    "seasons": 6,
+    "rating": "8.1/10",
+    "description": "Life at a gas station in the fictional small town of Dog River, Saskatchewan.",
+    "stars": [
+      "Brent Butt",
+      "Gabrielle Miller",
+      "Fred Ewanuick"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Vikings",
+    "slug": "vikings",
+    "genre": [
+      "Historical Drama",
+      "Action"
+    ],
+    "creator": "Michael Hirst",
+    "network": "History Canada",
+    "years": "2013–2020",
+    "seasons": 6,
+    "rating": "8.5/10",
+    "description": "The legendary adventures of Ragnar Lothbrok and his family in the Viking Age (Canadian-Irish co-production).",
+    "stars": [
+      "Katheryn Winnick",
+      "Travis Fimmel",
+      "Alexander Ludwig"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Rookie Blue",
+    "slug": "rookie-blue",
+    "genre": [
+      "Police Procedural",
+      "Drama"
+    ],
+    "creator": "Morwyn Brebner",
+    "network": "Global",
+    "years": "2010–2015",
+    "seasons": 6,
+    "rating": "7.7/10",
+    "description": "Follows five ambitious young cops who have just graduated from the academy.",
+    "stars": [
+      "Missy Peregrym",
+      "Gregory Smith",
+      "Enuka Okuma"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Flashpoint",
+    "slug": "flashpoint",
+    "genre": [
+      "Crime",
+      "Action"
+    ],
+    "creator": "Mark Ellis, Stephanie Morgenstern",
+    "network": "CTV",
+    "years": "2008–2012",
+    "seasons": 5,
+    "rating": "7.7/10",
+    "description": "A high-stakes police drama following the Strategic Response Unit (SRU) in Toronto.",
+    "stars": [
+      "Hugh Dillon",
+      "Amy Jo Johnson",
+      "David Paetkau"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Cardinal",
+    "slug": "cardinal",
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "creator": "Giles Blunt",
+    "network": "CTV",
+    "years": "2017–2020",
+    "seasons": 4,
+    "rating": "7.7/10",
+    "description": "Detectives John Cardinal and Lise Delorme investigate crimes in the fictional city of Algonquin Bay.",
+    "stars": [
+      "Billy Campbell",
+      "Karine Vanasse"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "The Next Step",
+    "slug": "the-next-step",
+    "genre": [
+      "Teen Drama",
+      "Mockumentary"
+    ],
+    "creator": "Frank van Keeken",
+    "network": "Family Channel",
+    "years": "2013–present",
+    "seasons": 9,
+    "rating": "6.8/10",
+    "description": "Follows a group of elite dancers at 'The Next Step Dance Studio' as they train for competitions.",
+    "stars": [
+      "Alexandra Beaton",
+      "Victoria Baldesarra"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Continuum",
+    "slug": "continuum",
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "creator": "Simon Barry",
+    "network": "Showcase",
+    "years": "2012–2015",
+    "seasons": 4,
+    "rating": "7.6/10",
+    "description": "A detective from the year 2077 is accidentally sent back in time to present-day Vancouver.",
+    "stars": [
+      "Rachel Nichols",
+      "Victor Webster",
+      "Erik Knudsen"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Mary Kills People",
+    "slug": "mary-kills-people",
+    "genre": [
+      "Drama",
+      "Black Comedy"
+    ],
+    "creator": "Tara Armstrong",
+    "network": "Global",
+    "years": "2017–2019",
+    "seasons": 3,
+    "rating": "7.5/10",
+    "description": "A doctor moonlights as an underground angel of death, helping terminally ill patients end their lives.",
+    "stars": [
+      "Caroline Dhavernas",
+      "Jay Ryan",
+      "Richard Short"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Hudson & Rex",
+    "slug": "hudson-and-rex",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "creator": "Ken Cuperus",
+    "network": "Citytv",
+    "years": "2019–present",
+    "seasons": 6,
+    "rating": "7.2/10",
+    "description": "Detective Charlie Hudson and his German Shepherd partner, Rex, solve crimes in St. John's.",
+    "stars": [
+      "John Reardon",
+      "Mayko Nguyen"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Little Mosque on the Prairie",
+    "slug": "little-mosque",
+    "genre": [
+      "Comedy",
+      "Sitcom"
+    ],
+    "creator": "Zarqa Nawaz",
+    "network": "CBC",
+    "years": "2007–2012",
+    "seasons": 6,
+    "rating": "6.8/10",
+    "description": "A small Muslim community in a fictional Saskatchewan town tries to get along with their neighbors.",
+    "stars": [
+      "Zaib Shaikh",
+      "Carlo Rota",
+      "Sheila McCarthy"
+    ]
+  }
+]

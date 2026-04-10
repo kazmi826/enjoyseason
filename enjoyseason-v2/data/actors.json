@@ -30547,5 +30547,5591 @@
     "netWorth": "$2 Million",
     "spouse": "None",
     "children": "None"
+  },
+  {
+    "id": 585,
+    "name": "Seth Rogen",
+    "fullName": "Seth Aaron Rogen",
+    "slug": "seth-rogen",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 15, 1982",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Comedian",
+      "Filmmaker"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "A staple of modern comedy known for his distinct laugh and frequent collaborations with Evan Goldberg.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seth_Rogen",
+    "movies": [
+      "Superbad",
+      "Pineapple Express",
+      "Knocked Up",
+      "The Interview"
+    ],
+    "dramas": [
+      "Freaks and Geeks"
+    ],
+    "costars": [
+      "James Franco"
+    ],
+    "awards": [],
+    "active": "1999-present",
+    "netWorth": "$80 Million",
+    "spouse": "Lauren Miller",
+    "children": "None"
+  },
+  {
+    "id": 586,
+    "name": "Elliot Page",
+    "fullName": "Elliot Page",
+    "slug": "elliot-page",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 21, 1987",
+    "birthPlace": "Halifax, Nova Scotia, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Producer"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Gained international fame with Juno and Inception, and now stars in The Umbrella Academy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elliot_Page",
+    "movies": [
+      "Juno",
+      "Inception",
+      "X-Men: Days of Future Past"
+    ],
+    "dramas": [
+      "The Umbrella Academy",
+      "Tales of the City"
+    ],
+    "costars": [
+      "Leonardo DiCaprio"
+    ],
+    "awards": [],
+    "active": "1997-present",
+    "netWorth": "$8 Million",
+    "spouse": "Emma Portner (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 587,
+    "name": "Sandra Oh",
+    "fullName": "Sandra Miju Oh",
+    "slug": "sandra-oh",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 20, 1971",
+    "birthPlace": "Nepean, Ontario, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "bio": "Best known for her roles in Grey's Anatomy and the critically acclaimed Killing Eve.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sandra_Oh",
+    "movies": [
+      "Sideways",
+      "Under the Tuscan Sun"
+    ],
+    "dramas": [
+      "Grey's Anatomy",
+      "Killing Eve",
+      "The Chair"
+    ],
+    "costars": [
+      "Jodie Comer"
+    ],
+    "awards": [
+      "2 Golden Globes"
+    ],
+    "active": "1989-present",
+    "netWorth": "$25 Million",
+    "spouse": "Alexander Payne (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 589,
+    "name": "Michael Cera",
+    "fullName": "Michael Austin Cera",
+    "slug": "michael-cera",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 7, 1988",
+    "birthPlace": "Brampton, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Musician"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Known for his awkward and charming persona in Juno, Superbad, and Scott Pilgrim.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Cera",
+    "movies": [
+      "Superbad",
+      "Scott Pilgrim vs. the World",
+      "Juno",
+      "Barbie"
+    ],
+    "dramas": [
+      "Arrested Development"
+    ],
+    "costars": [
+      "Jonah Hill"
+    ],
+    "awards": [],
+    "active": "1998-present",
+    "netWorth": "$20 Million",
+    "spouse": "Nadine Cera",
+    "children": "1"
+  },
+  {
+    "id": 590,
+    "name": "Donald Sutherland",
+    "fullName": "Donald McNichol Sutherland",
+    "slug": "donald-sutherland",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 17, 1935",
+    "birthPlace": "Saint John, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "War"
+    ],
+    "bio": "A veteran actor with a career spanning over 50 years, famous for M*A*S*H and Hunger Games.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Sutherland",
+    "movies": [
+      "M*A*S*H",
+      "The Hunger Games",
+      "Invasion of the Body Snatchers"
+    ],
+    "dramas": [
+      "The Undoing"
+    ],
+    "costars": [
+      "Jennifer Lawrence"
+    ],
+    "awards": [
+      "1 Emmy",
+      "2 Golden Globes"
+    ],
+    "active": "1962-2024",
+    "netWorth": "$60 Million",
+    "spouse": "Francine Racette",
+    "children": "5"
+  },
+  {
+    "id": 591,
+    "name": "Catherine O'Hara",
+    "fullName": "Catherine Anne O'Hara",
+    "slug": "catherine-ohara",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 4, 1954",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actress",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Comedy legend known for Beetlejuice, Home Alone, and her iconic role in Schitt's Creek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catherine_O'Hara",
+    "movies": [
+      "Home Alone",
+      "Beetlejuice",
+      "Best in Show"
+    ],
+    "dramas": [
+      "Schitt's Creek",
+      "SCTV"
+    ],
+    "costars": [
+      "Eugene Levy"
+    ],
+    "awards": [
+      "2 Emmys",
+      "1 Golden Globe"
+    ],
+    "active": "1973-present",
+    "netWorth": "$10 Million",
+    "spouse": "Bo Welch",
+    "children": "2"
+  },
+  {
+    "id": 592,
+    "name": "Eugene Levy",
+    "fullName": "Eugene Levy",
+    "slug": "eugene-levy",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 17, 1946",
+    "birthPlace": "Hamilton, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Known for his bushy eyebrows and roles in American Pie and Schitt's Creek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eugene_Levy",
+    "movies": [
+      "American Pie",
+      "Best in Show",
+      "Finding Dory"
+    ],
+    "dramas": [
+      "Schitt's Creek",
+      "SCTV"
+    ],
+    "costars": [
+      "Catherine O'Hara"
+    ],
+    "awards": [
+      "4 Emmys",
+      "1 Grammy"
+    ],
+    "active": "1970-present",
+    "netWorth": "$30 Million",
+    "spouse": "Deborah Divine",
+    "children": "2"
+  },
+  {
+    "id": 593,
+    "name": "Dan Levy",
+    "fullName": "Daniel Joseph Levy",
+    "slug": "dan-levy",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 9, 1983",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Writer",
+      "Producer"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Son of Eugene Levy, he made history by winning 4 major Emmys in a single year for Schitt's Creek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Levy_(Canadian_actor)",
+    "movies": [
+      "Happiest Season",
+      "Good Grief"
+    ],
+    "dramas": [
+      "Schitt's Creek",
+      "Sex Education"
+    ],
+    "costars": [
+      "Annie Murphy"
+    ],
+    "awards": [
+      "4 Emmys"
+    ],
+    "active": "2006-present",
+    "netWorth": "$14 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 594,
+    "name": "Will Arnett",
+    "fullName": "William Emerson Arnett",
+    "slug": "will-arnett",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 4, 1970",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Known for his distinctive deep voice and roles in Arrested Development and BoJack Horseman.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Will_Arnett",
+    "movies": [
+      "The Lego Movie",
+      "Blades of Glory"
+    ],
+    "dramas": [
+      "Arrested Development",
+      "BoJack Horseman"
+    ],
+    "costars": [
+      "Jason Bateman"
+    ],
+    "awards": [],
+    "active": "1996-present",
+    "netWorth": "$35 Million",
+    "spouse": "Amy Poehler (Ex)",
+    "children": "3"
+  },
+  {
+    "id": 595,
+    "name": "Matthew Perry",
+    "fullName": "Matthew Langford Perry",
+    "slug": "matthew-perry",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 19, 1969",
+    "birthPlace": "Williamstown, USA",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "The legendary Chandler Bing from Friends, who grew up in Ottawa, Canada.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Matthew_Perry",
+    "movies": [
+      "17 Again",
+      "The Whole Nine Yards"
+    ],
+    "dramas": [
+      "Friends",
+      "The Odd Couple"
+    ],
+    "costars": [
+      "Jennifer Aniston",
+      "Courtney Cox"
+    ],
+    "awards": [],
+    "active": "1979-2023",
+    "netWorth": "$120 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 597,
+    "name": "Christopher Plummer",
+    "fullName": "Arthur Christopher Orme Plummer",
+    "slug": "christopher-plummer",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 13, 1929",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Musical"
+    ],
+    "bio": "A legendary actor known for The Sound of Music and becoming the oldest Oscar winner for Beginners.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christopher_Plummer",
+    "movies": [
+      "The Sound of Music",
+      "Knives Out",
+      "Beginners",
+      "All the Money in the World"
+    ],
+    "dramas": [],
+    "costars": [
+      "Julie Andrews"
+    ],
+    "awards": [
+      "1 Academy Award (Oscar)",
+      "2 Emmys",
+      "2 Tonys"
+    ],
+    "active": "1948-2021",
+    "netWorth": "$20 Million",
+    "spouse": "Elaine Taylor",
+    "children": "1"
+  },
+  {
+    "id": 598,
+    "name": "Neve Campbell",
+    "fullName": "Neve Adrianne Campbell",
+    "slug": "neve-campbell",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 3, 1973",
+    "birthPlace": "Guelph, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Horror",
+      "Drama"
+    ],
+    "bio": "The ultimate 'Scream Queen' known for her role as Sidney Prescott in the Scream franchise.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neve_Campbell",
+    "movies": [
+      "Scream",
+      "Wild Things",
+      "The Craft"
+    ],
+    "dramas": [
+      "Party of Five",
+      "The Lincoln Lawyer"
+    ],
+    "costars": [
+      "Courteney Cox"
+    ],
+    "awards": [],
+    "active": "1991-present",
+    "netWorth": "$10 Million",
+    "spouse": "JJ Feild",
+    "children": "2"
+  },
+  {
+    "id": 599,
+    "name": "Victor Garber",
+    "fullName": "Victor Joseph Garber",
+    "slug": "victor-garber",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 16, 1949",
+    "birthPlace": "London, Ontario, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Known for Titanic, Alias, and playing Martin Stein (Firestorm) in the Arrowverse.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Victor_Garber",
+    "movies": [
+      "Titanic",
+      "Argo",
+      "Legally Blonde"
+    ],
+    "dramas": [
+      "Alias",
+      "Legends of Tomorrow"
+    ],
+    "costars": [
+      "Jennifer Garner"
+    ],
+    "awards": [],
+    "active": "1958-present",
+    "netWorth": "$5 Million",
+    "spouse": "Rainer Andreesen",
+    "children": "None"
+  },
+  {
+    "id": 600,
+    "name": "Finn Wolfhard",
+    "fullName": "Finn Wolfhard",
+    "slug": "finn-wolfhard",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 23, 2002",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Musician"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "bio": "Young star who gained global fame as Mike Wheeler in Stranger Things and Richie in IT.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Finn_Wolfhard",
+    "movies": [
+      "IT",
+      "Ghostbusters: Afterlife",
+      "Pinocchio"
+    ],
+    "dramas": [
+      "Stranger Things"
+    ],
+    "costars": [
+      "Millie Bobby Brown"
+    ],
+    "awards": [
+      "1 SAG Award"
+    ],
+    "active": "2013-present",
+    "netWorth": "$4 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 601,
+    "name": "Jacob Tremblay",
+    "fullName": "Jacob Tremblay",
+    "slug": "jacob-tremblay",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 5, 2006",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Animation"
+    ],
+    "bio": "Child prodigy known for his incredible performance in Room and Wonder.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Tremblay",
+    "movies": [
+      "Room",
+      "Wonder",
+      "The Little Mermaid",
+      "Luca"
+    ],
+    "dramas": [],
+    "costars": [
+      "Brie Larson"
+    ],
+    "awards": [
+      "1 Critics' Choice Award"
+    ],
+    "active": "2013-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 602,
+    "name": "William Shatner",
+    "fullName": "William Shatner",
+    "slug": "william-shatner",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 22, 1931",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Author"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Cultural icon famous for playing Captain James T. Kirk in the Star Trek franchise.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Shatner",
+    "movies": [
+      "Star Trek Movies",
+      "Miss Congeniality"
+    ],
+    "dramas": [
+      "Star Trek",
+      "Boston Legal"
+    ],
+    "costars": [
+      "Leonard Nimoy"
+    ],
+    "awards": [
+      "2 Emmys",
+      "1 Golden Globe"
+    ],
+    "active": "1951-present",
+    "netWorth": "$100 Million",
+    "spouse": "Elizabeth Shatner (Ex)",
+    "children": "3"
+  },
+  {
+    "id": 603,
+    "name": "Cobie Smulders",
+    "fullName": "Jacoba Francisca Maria Smulders",
+    "slug": "cobie-smulders",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 3, 1982",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Action"
+    ],
+    "bio": "Known for her role as Robin Scherbatsky in HIMYM and Maria Hill in the MCU.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cobie_Smulders",
+    "movies": [
+      "The Avengers",
+      "Captain America: The Winter Soldier"
+    ],
+    "dramas": [
+      "How I Met Your Mother",
+      "Secret Invasion"
+    ],
+    "costars": [
+      "Neil Patrick Harris"
+    ],
+    "awards": [],
+    "active": "2002-present",
+    "netWorth": "$25 Million",
+    "spouse": "Taran Killam",
+    "children": "2"
+  },
+  {
+    "id": 604,
+    "name": "Alexander Ludwig",
+    "fullName": "Alexander Ludwig",
+    "slug": "alexander-ludwig",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 7, 1992",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Historical",
+      "Action"
+    ],
+    "bio": "Gained fame playing Bjorn Ironside in Vikings and Cato in The Hunger Games.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Ludwig",
+    "movies": [
+      "The Hunger Games",
+      "Bad Boys for Life"
+    ],
+    "dramas": [
+      "Vikings",
+      "Heels"
+    ],
+    "costars": [
+      "Travis Fimmel"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$3 Million",
+    "spouse": "Lauren Ludwig",
+    "children": "1"
+  },
+  {
+    "id": 605,
+    "name": "Shay Mitchell",
+    "fullName": "Shannon Ashley Mitchell",
+    "slug": "shay-mitchell",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 10, 1987",
+    "birthPlace": "Mississauga, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Mystery"
+    ],
+    "bio": "Rose to fame playing Emily Fields in the hit series Pretty Little Liars.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shay_Mitchell",
+    "movies": [
+      "Mother's Day",
+      "The Possession of Hannah Grace"
+    ],
+    "dramas": [
+      "Pretty Little Liars",
+      "You"
+    ],
+    "costars": [
+      "Ashley Benson"
+    ],
+    "awards": [],
+    "active": "2009-present",
+    "netWorth": "$6 Million",
+    "spouse": "Matte Babel (Partner)",
+    "children": "2"
+  },
+  {
+    "id": 606,
+    "name": "Stephen Amell",
+    "fullName": "Stephen Adam Amell",
+    "slug": "stephen-amell",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 8, 1981",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "bio": "Famous for playing Oliver Queen (Green Arrow) in the long-running series Arrow.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stephen_Amell",
+    "movies": [
+      "Teenage Mutant Ninja Turtles: Out of the Shadows"
+    ],
+    "dramas": [
+      "Arrow",
+      "Heels",
+      "The Flash"
+    ],
+    "costars": [
+      "Grant Gustin"
+    ],
+    "awards": [],
+    "active": "2004-present",
+    "netWorth": "$7 Million",
+    "spouse": "Cassandra Jean",
+    "children": "2"
+  },
+  {
+    "id": 607,
+    "name": "Robbie Amell",
+    "fullName": "Robert Patrick Amell IV",
+    "slug": "robbie-amell",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 21, 1988",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "bio": "Known for his roles in Upload, The Flash, and The DUFF.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robbie_Amell",
+    "movies": [
+      "The DUFF",
+      "Code 8",
+      "Resident Evil: Welcome to Raccoon City"
+    ],
+    "dramas": [
+      "Upload",
+      "The Flash"
+    ],
+    "costars": [
+      "Stephen Amell"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$2 Million",
+    "spouse": "Italia Ricci",
+    "children": "1"
+  },
+  {
+    "id": 608,
+    "name": "Nathan Fillion",
+    "fullName": "Nathan Christopher Fillion",
+    "slug": "nathan-fillion",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 27, 1971",
+    "birthPlace": "Edmonton, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Crime",
+      "Sci-Fi"
+    ],
+    "bio": "Cult favorite actor known for Firefly, Castle, and The Rookie.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nathan_Fillion",
+    "movies": [
+      "Serenity",
+      "The Suicide Squad"
+    ],
+    "dramas": [
+      "Firefly",
+      "Castle",
+      "The Rookie"
+    ],
+    "costars": [
+      "Stana Katic"
+    ],
+    "awards": [],
+    "active": "1993-present",
+    "netWorth": "$20 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 609,
+    "name": "Tatiana Maslany",
+    "fullName": "Tatiana Gabrielle Maslany",
+    "slug": "tatiana-maslany",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 22, 1985",
+    "birthPlace": "Regina, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Critically acclaimed for playing multiple clones in Orphan Black and the lead in She-Hulk.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tatiana_Maslany",
+    "movies": [
+      "Stronger",
+      "Woman in Gold"
+    ],
+    "dramas": [
+      "Orphan Black",
+      "She-Hulk: Attorney at Law"
+    ],
+    "costars": [
+      "Mark Ruffalo"
+    ],
+    "awards": [
+      "1 Emmy"
+    ],
+    "active": "1997-present",
+    "netWorth": "$3 Million",
+    "spouse": "Brendan Hines",
+    "children": "None"
+  },
+  {
+    "id": 610,
+    "name": "Nina Dobrev",
+    "fullName": "Nikolina Kamenova Dobreva",
+    "slug": "nina-dobrev",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "January 9, 1989",
+    "birthPlace": "Sofia, Bulgaria",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "bio": "Grew up in Toronto and became a household name playing Elena Gilbert in The Vampire Diaries.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nina_Dobrev",
+    "movies": [
+      "XXX: Return of Xander Cage",
+      "The Perks of Being a Wallflower"
+    ],
+    "dramas": [
+      "The Vampire Diaries",
+      "Degrassi: The Next Generation"
+    ],
+    "costars": [
+      "Ian Somerhalder",
+      "Paul Wesley"
+    ],
+    "awards": [],
+    "active": "2006-present",
+    "netWorth": "$11 Million",
+    "spouse": "Shaun White (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 611,
+    "name": "Joshua Jackson",
+    "fullName": "Joshua Carter Jackson",
+    "slug": "joshua-jackson",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 11, 1978",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Teen icon from Dawson's Creek who later starred in the sci-fi hit Fringe.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joshua_Jackson",
+    "movies": [
+      "The Mighty Ducks",
+      "Cruel Intentions"
+    ],
+    "dramas": [
+      "Dawson's Creek",
+      "Fringe",
+      "Dr. Death"
+    ],
+    "costars": [
+      "Katie Holmes"
+    ],
+    "awards": [],
+    "active": "1990-present",
+    "netWorth": "$12 Million",
+    "spouse": "Jodie Turner-Smith (Ex)",
+    "children": "1"
+  },
+  {
+    "id": 612,
+    "name": "Elisha Cuthbert",
+    "fullName": "Elisha Ann Cuthbert",
+    "slug": "elisha-cuthbert",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 30, 1982",
+    "birthPlace": "Calgary, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "bio": "Famous for playing Kim Bauer in 24 and starring in The Girl Next Door.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elisha_Cuthbert",
+    "movies": [
+      "The Girl Next Door",
+      "House of Wax",
+      "Old School"
+    ],
+    "dramas": [
+      "24",
+      "Happy Endings"
+    ],
+    "costars": [
+      "Kiefer Sutherland"
+    ],
+    "awards": [],
+    "active": "1996-present",
+    "netWorth": "$20 Million",
+    "spouse": "Dion Phaneuf",
+    "children": "2"
+  },
+  {
+    "id": 613,
+    "name": "Kiefer Sutherland",
+    "fullName": "Kiefer William Frederick Dempsey George Rufus Sutherland",
+    "slug": "kiefer-sutherland",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 21, 1966",
+    "birthPlace": "London, UK",
+    "nationality": "Canadian-British",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "bio": "Son of Donald Sutherland, he became a legend as Jack Bauer in the real-time thriller 24.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kiefer_Sutherland",
+    "movies": [
+      "The Lost Boys",
+      "A Few Good Men",
+      "Phone Booth"
+    ],
+    "dramas": [
+      "24",
+      "Designated Survivor"
+    ],
+    "costars": [
+      "Elisha Cuthbert"
+    ],
+    "awards": [
+      "1 Emmy",
+      "1 Golden Globe"
+    ],
+    "active": "1983-present",
+    "netWorth": "$100 Million",
+    "spouse": "Elizabeth Winn (Ex)",
+    "children": "1"
+  },
+  {
+    "id": 614,
+    "name": "Evangeline Lilly",
+    "fullName": "Nicole Evangeline Lilly",
+    "slug": "evangeline-lilly",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 3, 1979",
+    "birthPlace": "Fort Saskatchewan, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "bio": "Found fame as Kate Austin in Lost before becoming The Wasp in the MCU.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Evangeline_Lilly",
+    "movies": [
+      "Ant-Man",
+      "The Hobbit: The Desolation of Smaug"
+    ],
+    "dramas": [
+      "Lost"
+    ],
+    "costars": [
+      "Paul Rudd"
+    ],
+    "awards": [],
+    "active": "2001-2024",
+    "netWorth": "$15 Million",
+    "spouse": "Norman Kali (Partner)",
+    "children": "2"
+  },
+  {
+    "id": 615,
+    "name": "Taylor Kitsch",
+    "fullName": "Taylor Kitsch",
+    "slug": "taylor-kitsch",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 8, 1981",
+    "birthPlace": "Kelowna, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "bio": "Known for his breakout role in Friday Night Lights and starring in X-Men Origins: Wolverine.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Kitsch",
+    "movies": [
+      "John Carter",
+      "Lone Survivor",
+      "Battleship"
+    ],
+    "dramas": [
+      "Friday Night Lights",
+      "True Detective"
+    ],
+    "costars": [
+      "Kyle Chandler"
+    ],
+    "awards": [],
+    "active": "2002-present",
+    "netWorth": "$10 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 616,
+    "name": "Emily VanCamp",
+    "fullName": "Emily Irene VanCamp",
+    "slug": "emily-vancamp",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 12, 1986",
+    "birthPlace": "Port Perry, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "bio": "Known for lead roles in Revenge, Everwood, and playing Sharon Carter in the MCU.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emily_VanCamp",
+    "movies": [
+      "Captain America: Civil War"
+    ],
+    "dramas": [
+      "Everwood",
+      "Revenge",
+      "The Resident"
+    ],
+    "costars": [
+      "Josh Bowman"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$10 Million",
+    "spouse": "Josh Bowman",
+    "children": "2"
+  },
+  {
+    "id": 617,
+    "name": "Graham Greene",
+    "fullName": "Graham Greene",
+    "slug": "graham-greene-actor",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 22, 1952",
+    "birthPlace": "Six Nations Reserve, Canada",
+    "nationality": "First Nations Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Western"
+    ],
+    "bio": "One of the most prominent Indigenous Canadian actors, Oscar-nominated for Dances with Wolves.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Graham_Greene_(actor)",
+    "movies": [
+      "Dances with Wolves",
+      "The Green Mile",
+      "Twilight: New Moon"
+    ],
+    "dramas": [
+      "Longmire",
+      "Echo"
+    ],
+    "costars": [
+      "Kevin Costner"
+    ],
+    "awards": [],
+    "active": "1974-present",
+    "netWorth": "$5 Million",
+    "spouse": "Hilary Blackmore",
+    "children": "1"
+  },
+  {
+    "id": 618,
+    "name": "Sarah Chalke",
+    "fullName": "Sarah Louise Christine Chalke",
+    "slug": "sarah-chalke",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 16, 1976",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Best known as Dr. Elliot Reid in Scrubs and for voicing Beth Smith in Rick and Morty.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Chalke",
+    "movies": [
+      "Mother's Day"
+    ],
+    "dramas": [
+      "Scrubs",
+      "Roseanne",
+      "Firefly Lane"
+    ],
+    "costars": [
+      "Zach Braff"
+    ],
+    "awards": [],
+    "active": "1992-present",
+    "netWorth": "$14 Million",
+    "spouse": "Jamie Afifi (Ex-Partner)",
+    "children": "2"
+  },
+  {
+    "id": 619,
+    "name": "Norm Macdonald",
+    "fullName": "Norman Gene Macdonald",
+    "slug": "norm-macdonald",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 17, 1959",
+    "birthPlace": "Quebec City, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Comedian",
+      "Actor"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "One of the most legendary stand-up comedians and SNL Weekend Update hosts of all time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norm_Macdonald",
+    "movies": [
+      "Dirty Work",
+      "Billy Madison"
+    ],
+    "dramas": [
+      "Saturday Night Live",
+      "The Middle"
+    ],
+    "costars": [
+      "Adam Sandler"
+    ],
+    "awards": [],
+    "active": "1985-2021",
+    "netWorth": "$2.5 Million",
+    "spouse": "Connie Macdonald (Ex)",
+    "children": "1"
+  },
+  {
+    "id": 620,
+    "name": "Michael J. Fox",
+    "fullName": "Michael Andrew Fox",
+    "slug": "michael-j-fox",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 9, 1961",
+    "birthPlace": "Edmonton, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Author"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "bio": "Global icon famous for playing Marty McFly in the Back to the Future trilogy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_J._Fox",
+    "movies": [
+      "Back to the Future",
+      "Teen Wolf",
+      "Stuart Little"
+    ],
+    "dramas": [
+      "Family Ties",
+      "Spin City",
+      "The Good Wife"
+    ],
+    "costars": [
+      "Christopher Lloyd"
+    ],
+    "awards": [
+      "5 Emmys",
+      "4 Golden Globes"
+    ],
+    "active": "1978-2020",
+    "netWorth": "$65 Million",
+    "spouse": "Tracy Pollan",
+    "children": "4"
+  },
+  {
+    "id": 621,
+    "name": "Simu Liu",
+    "fullName": "Simu Liu",
+    "slug": "simu-liu",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 19, 1989",
+    "birthPlace": "Harbin, China",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Stuntman"
+    ],
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "bio": "Became the first Asian lead in the MCU as Shang-Chi and starred in Kim's Convenience.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Simu_Liu",
+    "movies": [
+      "Shang-Chi and the Legend of the Ten Rings",
+      "Barbie"
+    ],
+    "dramas": [
+      "Kim's Convenience"
+    ],
+    "costars": [
+      "Awkwafina",
+      "Margot Robbie"
+    ],
+    "awards": [],
+    "active": "2012-present",
+    "netWorth": "$10 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 622,
+    "name": "Drake",
+    "fullName": "Aubrey Drake Graham",
+    "slug": "drake",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 24, 1986",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Rapper",
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Music"
+    ],
+    "bio": "Before becoming a rap superstar, he was famous for playing Jimmy Brooks in Degrassi.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Drake_(musician)",
+    "movies": [
+      "Ice Age: Continental Drift"
+    ],
+    "dramas": [
+      "Degrassi: The Next Generation"
+    ],
+    "costars": [
+      "Nina Dobrev"
+    ],
+    "awards": [
+      "5 Grammys"
+    ],
+    "active": "2001-present",
+    "netWorth": "$250 Million",
+    "spouse": "None",
+    "children": "1"
+  },
+  {
+    "id": 623,
+    "name": "Martin Short",
+    "fullName": "Martin Hayter Short",
+    "slug": "martin-short",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 26, 1950",
+    "birthPlace": "Hamilton, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Comedy legend known for SNL and his current hit Only Murders in the Building.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Short",
+    "movies": [
+      "Three Amigos",
+      "Father of the Bride"
+    ],
+    "dramas": [
+      "SCTV",
+      "Saturday Night Live",
+      "Only Murders in the Building"
+    ],
+    "costars": [
+      "Steve Martin",
+      "Selena Gomez"
+    ],
+    "awards": [
+      "2 Emmys",
+      "1 Tony"
+    ],
+    "active": "1972-present",
+    "netWorth": "$50 Million",
+    "spouse": "Nancy Dolman (Late)",
+    "children": "3"
+  },
+  {
+    "id": 624,
+    "name": "Kristin Kreuk",
+    "fullName": "Kristin Laura Kreuk",
+    "slug": "kristin-kreuk",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 30, 1982",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Superhero",
+      "Drama"
+    ],
+    "bio": "Best known for playing Lana Lang in Smallville and Catherine Chandler in Beauty & the Beast.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kristin_Kreuk",
+    "movies": [
+      "EuroTrip",
+      "Street Fighter: The Legend of Chun-Li"
+    ],
+    "dramas": [
+      "Smallville",
+      "Beauty & the Beast",
+      "Burden of Truth"
+    ],
+    "costars": [
+      "Tom Welling"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$6 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 625,
+    "name": "Jay Baruchel",
+    "fullName": "Jonathan Adam Saunders Baruchel",
+    "slug": "jay-baruchel",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 9, 1982",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Comedy",
+      "Animation"
+    ],
+    "bio": "The voice of Hiccup in How to Train Your Dragon and star of This Is the End.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jay_Baruchel",
+    "movies": [
+      "How to Train Your Dragon",
+      "This Is the End",
+      "Tropic Thunder"
+    ],
+    "dramas": [
+      "Man Seeking Woman"
+    ],
+    "costars": [
+      "Seth Rogen"
+    ],
+    "awards": [],
+    "active": "1995-present",
+    "netWorth": "$6 Million",
+    "spouse": "Rebecca-Jo Dunham",
+    "children": "None"
+  },
+  {
+    "id": 626,
+    "name": "Pamela Anderson",
+    "fullName": "Pamela Denise Anderson",
+    "slug": "pamela-anderson",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 1, 1967",
+    "birthPlace": "Ladysmith, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "bio": "International sex symbol famous for her role as C.J. Parker in Baywatch.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pamela_Anderson",
+    "movies": [
+      "Barb Wire",
+      "Borat"
+    ],
+    "dramas": [
+      "Baywatch",
+      "V.I.P."
+    ],
+    "costars": [
+      "David Hasselhoff"
+    ],
+    "awards": [],
+    "active": "1989-present",
+    "netWorth": "$20 Million",
+    "spouse": "Tommy Lee (Ex)",
+    "children": "2"
+  },
+  {
+    "id": 627,
+    "name": "Devon Bostick",
+    "fullName": "Devon Bostick",
+    "slug": "devon-bostick",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 13, 1991",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "bio": "Famous for playing Rodrick Heffley in Diary of a Wimpy Kid and Jasper in The 100.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Devon_Bostick",
+    "movies": [
+      "Diary of a Wimpy Kid",
+      "Oppenheimer",
+      "Okja"
+    ],
+    "dramas": [
+      "The 100"
+    ],
+    "costars": [
+      "Zachary Gordon"
+    ],
+    "awards": [],
+    "active": "2003-present",
+    "netWorth": "$3 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 628,
+    "name": "Anna Paquin",
+    "fullName": "Anna Hélène Paquin",
+    "slug": "anna-paquin",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 24, 1982",
+    "birthPlace": "Winnipeg, Canada",
+    "nationality": "Canadian-New Zealand",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Won an Oscar at age 11 for The Piano; later became Rogue in X-Men and Sookie in True Blood.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Paquin",
+    "movies": [
+      "The Piano",
+      "X-Men",
+      "The Irishman"
+    ],
+    "dramas": [
+      "True Blood"
+    ],
+    "costars": [
+      "Stephen Moyer"
+    ],
+    "awards": [
+      "1 Academy Award (Oscar)",
+      "1 Golden Globe"
+    ],
+    "active": "1991-present",
+    "netWorth": "$14 Million",
+    "spouse": "Stephen Moyer",
+    "children": "2"
+  },
+  {
+    "id": 629,
+    "name": "Mike Myers",
+    "fullName": "Michael John Myers",
+    "slug": "mike-myers",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 25, 1963",
+    "birthPlace": "Scarborough, Canada",
+    "nationality": "Canadian-British-American",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Comedy giant behind Wayne's World, Austin Powers, and the voice of Shrek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mike_Myers",
+    "movies": [
+      "Austin Powers",
+      "Shrek",
+      "Wayne's World"
+    ],
+    "dramas": [
+      "Saturday Night Live"
+    ],
+    "costars": [
+      "Dana Carvey",
+      "Eddie Murphy"
+    ],
+    "awards": [
+      "1 Emmy",
+      "1 SAG Award"
+    ],
+    "active": "1973-present",
+    "netWorth": "$200 Million",
+    "spouse": "Kelly Tisdale",
+    "children": "3"
+  },
+  {
+    "id": 630,
+    "name": "Sarah Polley",
+    "fullName": "Sarah Polley",
+    "slug": "sarah-polley",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "January 8, 1979",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Director",
+      "Writer"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "bio": "Started as a child star in Road to Avonlea; now an Oscar-winning screenwriter and director.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Polley",
+    "movies": [
+      "Dawn of the Dead",
+      "Go",
+      "Women Talking (Writer/Dir)"
+    ],
+    "dramas": [
+      "Road to Avonlea"
+    ],
+    "costars": [
+      "Ving Rhames"
+    ],
+    "awards": [
+      "1 Academy Award (Screenwriting)"
+    ],
+    "active": "1985-present",
+    "netWorth": "$5 Million",
+    "spouse": "David Sandomierski",
+    "children": "3"
+  },
+  {
+    "id": 631,
+    "name": "Paul Sun-Hyung Lee",
+    "fullName": "Paul Sun-Hyung Lee",
+    "slug": "paul-sun-hyung-lee",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 16, 1972",
+    "birthPlace": "Daejeon, South Korea",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "bio": "Best known as 'Appa' in Kim's Convenience and Carson Teva in The Mandalorian.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Sun-Hyung_Lee",
+    "movies": [],
+    "dramas": [
+      "Kim's Convenience",
+      "The Mandalorian",
+      "Avatar: The Last Airbender"
+    ],
+    "costars": [
+      "Simu Liu"
+    ],
+    "awards": [
+      "4 Canadian Screen Awards"
+    ],
+    "active": "1995-present",
+    "netWorth": "$2 Million",
+    "spouse": "Anna Lee",
+    "children": "2"
+  },
+  {
+    "id": 632,
+    "name": "Erika Slezak",
+    "fullName": "Erika Slezak",
+    "slug": "erika-slezak",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 5, 1946",
+    "birthPlace": "Hollywood, USA",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Soap Opera"
+    ],
+    "bio": "A legend of daytime TV, known for her role as Victoria Lord on One Life to Live.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Erika_Slezak",
+    "movies": [],
+    "dramas": [
+      "One Life to Live"
+    ],
+    "costars": [],
+    "awards": [
+      "6 Daytime Emmys"
+    ],
+    "active": "1971-2013",
+    "netWorth": "$8 Million",
+    "spouse": "Brian Davies",
+    "children": "2"
+  },
+  {
+    "id": 633,
+    "name": "Adam Beach",
+    "fullName": "Adam Beach",
+    "slug": "adam-beach",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 11, 1972",
+    "birthPlace": "Ashern, Canada",
+    "nationality": "First Nations Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Action",
+      "War"
+    ],
+    "bio": "Prominent Indigenous actor known for Windtalkers, Flags of Our Fathers, and Suicide Squad.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adam_Beach",
+    "movies": [
+      "Windtalkers",
+      "Suicide Squad",
+      "Flags of Our Fathers"
+    ],
+    "dramas": [
+      "Law & Order: SVU"
+    ],
+    "costars": [
+      "Nicolas Cage"
+    ],
+    "awards": [],
+    "active": "1990-present",
+    "netWorth": "$4 Million",
+    "spouse": "Summer Tiger",
+    "children": "3"
+  },
+  {
+    "id": 634,
+    "name": "Lorne Michaels",
+    "fullName": "Lorne David Lipowitz",
+    "slug": "lorne-michaels",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 17, 1944",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Producer",
+      "Writer",
+      "Actor"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "The mastermind and creator of Saturday Night Live (SNL).",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lorne_Michaels",
+    "movies": [
+      "Three Amigos",
+      "Wayne's World"
+    ],
+    "dramas": [
+      "Saturday Night Live",
+      "30 Rock"
+    ],
+    "costars": [
+      "Tina Fey"
+    ],
+    "awards": [
+      "21 Emmys"
+    ],
+    "active": "1968-present",
+    "netWorth": "$500 Million",
+    "spouse": "Alice Barry",
+    "children": "3"
+  },
+  {
+    "id": 635,
+    "name": "Carly Pope",
+    "fullName": "Carly Pope",
+    "slug": "carly-pope",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 28, 1980",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Known for her roles in Popular, Suits, and the Arrowverse.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carly_Pope",
+    "movies": [
+      "Elysium"
+    ],
+    "dramas": [
+      "Popular",
+      "Suits",
+      "Arrow"
+    ],
+    "costars": [
+      "Stephen Amell"
+    ],
+    "awards": [],
+    "active": "1996-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 636,
+    "name": "Devery Jacobs",
+    "fullName": "Kawennáhere Devery Jacobs",
+    "slug": "devery-jacobs",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 8, 1993",
+    "birthPlace": "Kahnawake, Canada",
+    "nationality": "Mohawk Canadian",
+    "profession": [
+      "Actress",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Acclaimed Indigenous actress known for her lead role in Reservation Dogs and Marvel's Echo.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Devery_Jacobs",
+    "movies": [
+      "Rhymes for Young Ghouls"
+    ],
+    "dramas": [
+      "Reservation Dogs",
+      "Echo",
+      "American Gods"
+    ],
+    "costars": [
+      "Alaqua Cox"
+    ],
+    "awards": [],
+    "active": "2007-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 637,
+    "name": "Fay Wray",
+    "fullName": "Vina Fay Wray",
+    "slug": "fay-wray",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 15, 1907",
+    "birthPlace": "Cardston, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Horror",
+      "Adventure"
+    ],
+    "bio": "The original 'Scream Queen' and the leading lady of the 1933 classic King Kong.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fay_Wray",
+    "movies": [
+      "King Kong",
+      "The Most Dangerous Game"
+    ],
+    "dramas": [],
+    "costars": [
+      "Robert Armstrong"
+    ],
+    "awards": [],
+    "active": "1923-1980",
+    "netWorth": "$1 Million",
+    "spouse": "Robert Riskin (Late)",
+    "children": "3"
+  },
+  {
+    "id": 638,
+    "name": "Jessica Lucas",
+    "fullName": "Jessica Lucas",
+    "slug": "jessica-lucas",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 24, 1985",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Crime",
+      "Horror"
+    ],
+    "bio": "Known for her roles in Cloverfield, Gotham, and Melrose Place.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jessica_Lucas",
+    "movies": [
+      "Cloverfield",
+      "Evil Dead (2013)"
+    ],
+    "dramas": [
+      "Gotham",
+      "The Resident"
+    ],
+    "costars": [
+      "Ben McKenzie"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$4 Million",
+    "spouse": "Alex Jermasek",
+    "children": "None"
+  },
+  {
+    "id": 639,
+    "name": "David Hayter",
+    "fullName": "David Hayter",
+    "slug": "david-hayter",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 6, 1969",
+    "birthPlace": "Santa Monica, USA",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Screenwriter"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "bio": "The iconic voice of Solid Snake in Metal Gear Solid and writer of X-Men and Watchmen.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Hayter",
+    "movies": [
+      "X-Men (Writer)",
+      "Watchmen (Writer)"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "1 Saturn Award"
+    ],
+    "active": "1992-present",
+    "netWorth": "$5 Million",
+    "spouse": "Paula Tiso",
+    "children": "1"
+  },
+  {
+    "id": 640,
+    "name": "Annie Murphy",
+    "fullName": "Anne Frances Murphy",
+    "slug": "annie-murphy",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 19, 1986",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Gained worldwide fame for her iconic role as Alexis Rose in Schitt's Creek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annie_Murphy",
+    "movies": [],
+    "dramas": [
+      "Schitt's Creek",
+      "Kevin Can F**k Himself",
+      "Russian Doll"
+    ],
+    "costars": [
+      "Dan Levy",
+      "Eugene Levy"
+    ],
+    "awards": [
+      "1 Emmy"
+    ],
+    "active": "2007-present",
+    "netWorth": "$4 Million",
+    "spouse": "Menno Versteeg",
+    "children": "None"
+  },
+  {
+    "id": 641,
+    "name": "Giacomo Gianniotti",
+    "fullName": "Giacomo Keaton Gianniotti",
+    "slug": "giacomo-gianniotti",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 19, 1989",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Canadian-Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Famous for playing Dr. Andrew DeLuca on the long-running medical drama Grey's Anatomy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Giacomo_Gianniotti",
+    "movies": [
+      "Race",
+      "Luca (Voice)"
+    ],
+    "dramas": [
+      "Grey's Anatomy",
+      "Reign",
+      "Murdoch Mysteries"
+    ],
+    "costars": [
+      "Ellen Pompeo"
+    ],
+    "awards": [],
+    "active": "2010-present",
+    "netWorth": "$4 Million",
+    "spouse": "Nichole Gustafson",
+    "children": "None"
+  },
+  {
+    "id": 642,
+    "name": "Colm Feore",
+    "fullName": "Colm Feore",
+    "slug": "colm-feore",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 22, 1958",
+    "birthPlace": "Boston, USA",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "A veteran of stage and screen, known for Thor, Chicago, and The Umbrella Academy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Colm_Feore",
+    "movies": [
+      "Thor",
+      "Chicago",
+      "The Chronicles of Riddick"
+    ],
+    "dramas": [
+      "The Umbrella Academy",
+      "The Borgias"
+    ],
+    "costars": [
+      "Elliot Page"
+    ],
+    "awards": [],
+    "active": "1981-present",
+    "netWorth": "$3 Million",
+    "spouse": "Donna Feore",
+    "children": "3"
+  },
+  {
+    "id": 643,
+    "name": "Jessalyn Gilsig",
+    "fullName": "Jessalyn Gilsig",
+    "slug": "jessalyn-gilsig",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 30, 1971",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Musical",
+      "Historical"
+    ],
+    "bio": "Known for her roles in Glee, Vikings, and Nip/Tuck.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jessalyn_Gilsig",
+    "movies": [],
+    "dramas": [
+      "Glee",
+      "Vikings",
+      "Big Shot"
+    ],
+    "costars": [
+      "Travis Fimmel",
+      "Matthew Morrison"
+    ],
+    "awards": [],
+    "active": "1984-present",
+    "netWorth": "$3 Million",
+    "spouse": "Bobby Salomon (Ex)",
+    "children": "1"
+  },
+  {
+    "id": 644,
+    "name": "Emily Hampshire",
+    "fullName": "Emily Hampshire",
+    "slug": "emily-hampshire",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 29, 1981",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "bio": "Popular for playing Stevie Budd in Schitt's Creek and Jennifer Goines in 12 Monkeys.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emily_Hampshire",
+    "movies": [
+      "My Awkward Sexual Adventure"
+    ],
+    "dramas": [
+      "Schitt's Creek",
+      "12 Monkeys",
+      "The Rig"
+    ],
+    "costars": [
+      "Dan Levy"
+    ],
+    "awards": [],
+    "active": "1994-present",
+    "netWorth": "$3 Million",
+    "spouse": "Matthew Smith (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 645,
+    "name": "Nathan Mitchell",
+    "fullName": "Nathan Mitchell",
+    "slug": "nathan-mitchell",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 6, 1988",
+    "birthPlace": "Mississauga, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Superhero",
+      "Action"
+    ],
+    "bio": "Known for his role as Black Noir in the hit Amazon series The Boys.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nathan_Mitchell",
+    "movies": [],
+    "dramas": [
+      "The Boys",
+      "Ginny & Georgia",
+      "Supernatural"
+    ],
+    "costars": [
+      "Antony Starr",
+      "Karl Urban"
+    ],
+    "awards": [],
+    "active": "2010-present",
+    "netWorth": "$1.5 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 646,
+    "name": "Karen Fukuhara",
+    "fullName": "Karen Fukuhara",
+    "slug": "karen-fukuhara",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "February 10, 1992",
+    "birthPlace": "Los Angeles, USA",
+    "nationality": "Japanese-American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Action",
+      "Anime"
+    ],
+    "bio": "Known for Katana in Suicide Squad and Kimiko in The Boys.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karen_Fukuhara",
+    "movies": [
+      "Suicide Squad",
+      "Bullet Train"
+    ],
+    "dramas": [
+      "The Boys"
+    ],
+    "costars": [
+      "Tomer Capone"
+    ],
+    "awards": [],
+    "active": "2016-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 647,
+    "name": "Tomer Capone",
+    "fullName": "Tomer Kapon",
+    "slug": "tomer-capone",
+    "country": "Israel",
+    "countrySlug": "israel",
+    "born": "July 15, 1985",
+    "birthPlace": "Holon, Israel",
+    "nationality": "Israeli",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "bio": "Gained international fame playing Frenchie in The Boys and starring in Fauda.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomer_Kapon",
+    "movies": [],
+    "dramas": [
+      "The Boys",
+      "Fauda",
+      "When Heroes Fly"
+    ],
+    "costars": [
+      "Karen Fukuhara"
+    ],
+    "awards": [],
+    "active": "2012-present",
+    "netWorth": "$2 Million",
+    "spouse": "Ortal Ben-Shoshan",
+    "children": "None"
+  },
+  {
+    "id": 648,
+    "name": "Bruce McCulloch",
+    "fullName": "Bruce Ian McCulloch",
+    "slug": "bruce-mcculloch",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 12, 1961",
+    "birthPlace": "Edmonton, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian",
+      "Director"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Member of the legendary comedy troupe The Kids in the Hall.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bruce_McCulloch",
+    "movies": [
+      "Brain Candy"
+    ],
+    "dramas": [
+      "The Kids in the Hall",
+      "Arrested Development"
+    ],
+    "costars": [
+      "Dave Foley"
+    ],
+    "awards": [],
+    "active": "1987-present",
+    "netWorth": "$2 Million",
+    "spouse": "Tracy Ryan",
+    "children": "2"
+  },
+  {
+    "id": 649,
+    "name": "Dave Foley",
+    "fullName": "David Scott Foley",
+    "slug": "dave-foley",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "January 4, 1963",
+    "birthPlace": "Etobicoke, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Co-founder of The Kids in the Hall and star of the sitcom NewsRadio.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dave_Foley",
+    "movies": [
+      "A Bug's Life (Voice)",
+      "Sky High"
+    ],
+    "dramas": [
+      "NewsRadio",
+      "The Kids in the Hall",
+      "Fargo"
+    ],
+    "costars": [
+      "Maura Tierney"
+    ],
+    "awards": [],
+    "active": "1982-present",
+    "netWorth": "$1 Million",
+    "spouse": "Crissy Guerrero",
+    "children": "3"
+  },
+  {
+    "id": 650,
+    "name": "Kevin McDonald",
+    "fullName": "Kevin Hamilton McDonald",
+    "slug": "kevin-mcdonald",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 16, 1961",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Animation"
+    ],
+    "bio": "Known for The Kids in the Hall and voicing Pleakley in Lilo & Stitch.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kevin_McDonald",
+    "movies": [
+      "Lilo & Stitch (Voice)",
+      "Sky High"
+    ],
+    "dramas": [
+      "The Kids in the Hall",
+      "That '70s Show"
+    ],
+    "costars": [
+      "Scott Thompson"
+    ],
+    "awards": [],
+    "active": "1987-present",
+    "netWorth": "$1 Million",
+    "spouse": "Tiffany McDonald (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 651,
+    "name": "Scott Thompson",
+    "fullName": "Scott Thompson",
+    "slug": "scott-thompson-actor",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 12, 1959",
+    "birthPlace": "North Bay, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "bio": "Famous for The Kids in the Hall and his role as Jimmy Price in Hannibal.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scott_Thompson_(comedian)",
+    "movies": [],
+    "dramas": [
+      "The Kids in the Hall",
+      "Hannibal",
+      "The Larry Sanders Show"
+    ],
+    "costars": [
+      "Mads Mikkelsen"
+    ],
+    "awards": [],
+    "active": "1984-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 652,
+    "name": "Mark McKinney",
+    "fullName": "Mark Douglas McKinney",
+    "slug": "mark-mckinney",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 26, 1959",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Kids in the Hall star and lead in the sitcom Superstore.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mark_McKinney",
+    "movies": [
+      "A Night at the Roxbury"
+    ],
+    "dramas": [
+      "The Kids in the Hall",
+      "Superstore",
+      "Saturday Night Live"
+    ],
+    "costars": [
+      "America Ferrera"
+    ],
+    "awards": [],
+    "active": "1987-present",
+    "netWorth": "$5 Million",
+    "spouse": "Marina Gharabegian",
+    "children": "2"
+  },
+  {
+    "id": 653,
+    "name": "Ayesha Curry",
+    "fullName": "Ayesha Disa Curry",
+    "slug": "ayesha-curry",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 23, 1989",
+    "birthPlace": "Markham, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actress",
+      "Cookbook Author"
+    ],
+    "genre": [
+      "Lifestyle",
+      "Comedy"
+    ],
+    "bio": "Canadian-born TV personality, actress, and wife of NBA star Stephen Curry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ayesha_Curry",
+    "movies": [
+      "Irish Wish"
+    ],
+    "dramas": [
+      "Whittaker Bay",
+      "Gary Unmarried"
+    ],
+    "costars": [
+      "Lindsay Lohan"
+    ],
+    "awards": [],
+    "active": "2008-present",
+    "netWorth": "$10 Million",
+    "spouse": "Stephen Curry",
+    "children": "4"
+  },
+  {
+    "id": 654,
+    "name": "Rachelle Lefevre",
+    "fullName": "Rachelle Marie Lefevre",
+    "slug": "rachelle-lefevre",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 1, 1979",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Known for her role as Victoria in the Twilight Saga and Under the Dome.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rachelle_Lefevre",
+    "movies": [
+      "Twilight",
+      "White House Down"
+    ],
+    "dramas": [
+      "Under the Dome",
+      "Proven Innocent"
+    ],
+    "costars": [
+      "Kristen Stewart"
+    ],
+    "awards": [],
+    "active": "1999-present",
+    "netWorth": "$1.5 Million",
+    "spouse": "Chris Crary",
+    "children": "2"
+  },
+  {
+    "id": 655,
+    "name": "Enrico Colantoni",
+    "fullName": "Enrico Colantoni",
+    "slug": "enrico-colantoni",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 14, 1963",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "bio": "Famous for playing Keith Mars on Veronica Mars and starring in Just Shoot Me!.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enrico_Colantoni",
+    "movies": [
+      "Galaxy Quest",
+      "Contagion"
+    ],
+    "dramas": [
+      "Veronica Mars",
+      "Just Shoot Me!",
+      "Flashpoint"
+    ],
+    "costars": [
+      "Kristen Bell"
+    ],
+    "awards": [],
+    "active": "1987-present",
+    "netWorth": "$3 Million",
+    "spouse": "Rosanna Francioni",
+    "children": "4"
+  },
+  {
+    "id": 656,
+    "name": "Jill Hennessy",
+    "fullName": "Jillian Noel Hennessy",
+    "slug": "jill-hennessy",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 25, 1968",
+    "birthPlace": "Edmonton, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Singer"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Best known for her roles in Law & Order and as Jordan Cavanaugh in Crossing Jordan.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jill_Hennessy",
+    "movies": [
+      "Wild Hogs",
+      "RoboCop 3"
+    ],
+    "dramas": [
+      "Law & Order",
+      "Crossing Jordan",
+      "City on a Hill"
+    ],
+    "costars": [
+      "Jerry Orbach"
+    ],
+    "awards": [],
+    "active": "1988-present",
+    "netWorth": "$12 Million",
+    "spouse": "Paolo Mastropietro",
+    "children": "2"
+  },
+  {
+    "id": 657,
+    "name": "Amanda Tapping",
+    "fullName": "Amanda Tapping",
+    "slug": "amanda-tapping",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "August 28, 1965",
+    "birthPlace": "Rochford, England",
+    "nationality": "Canadian-British",
+    "profession": [
+      "Actress",
+      "Director"
+    ],
+    "genre": [
+      "Sci-Fi"
+    ],
+    "bio": "The 'Grand Dame of Sci-Fi' famous for playing Samantha Carter in Stargate SG-1.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Tapping",
+    "movies": [],
+    "dramas": [
+      "Stargate SG-1",
+      "Sanctuary",
+      "Supernatural"
+    ],
+    "costars": [
+      "Richard Dean Anderson"
+    ],
+    "awards": [],
+    "active": "1991-present",
+    "netWorth": "$4 Million",
+    "spouse": "Alan Kovacs",
+    "children": "1"
+  },
+  {
+    "id": 658,
+    "name": "Jewel Staite",
+    "fullName": "Jewel Belair Staite",
+    "slug": "jewel-staite",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 2, 1982",
+    "birthPlace": "White Rock, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Cult favorite for playing Kaylee Frye in Firefly and Dr. Keller in Stargate Atlantis.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewel_Staite",
+    "movies": [
+      "Serenity"
+    ],
+    "dramas": [
+      "Firefly",
+      "Stargate Atlantis",
+      "Family Law"
+    ],
+    "costars": [
+      "Nathan Fillion"
+    ],
+    "awards": [],
+    "active": "1991-present",
+    "netWorth": "$1 Million",
+    "spouse": "Charlie Ritchie",
+    "children": "1"
+  },
+  {
+    "id": 659,
+    "name": "Emanuelle Vaugier",
+    "fullName": "Emmanuelle Frederique Vaugier",
+    "slug": "emmanuelle-vaugier",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 23, 1976",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "bio": "Known for her roles in Two and a Half Men, Saw II, and CSI: NY.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emmanuelle_Vaugier",
+    "movies": [
+      "Saw II",
+      "Saw IV"
+    ],
+    "dramas": [
+      "Two and a Half Men",
+      "Smallville",
+      "Lost Girl"
+    ],
+    "costars": [
+      "Charlie Sheen"
+    ],
+    "awards": [],
+    "active": "1995-present",
+    "netWorth": "$10 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 660,
+    "name": "Alexander Calvert",
+    "fullName": "Alexander Calvert",
+    "slug": "alexander-calvert",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 15, 1990",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Best known for playing Jack (the son of Lucifer) in the hit series Supernatural.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Calvert",
+    "movies": [
+      "The Edge of Seventeen"
+    ],
+    "dramas": [
+      "Supernatural",
+      "Arrow",
+      "Gen V"
+    ],
+    "costars": [
+      "Jared Padalecki",
+      "Jensen Ackles"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$2 Million",
+    "spouse": "Jenna Berman",
+    "children": "None"
+  },
+  {
+    "id": 661,
+    "name": "Pom Klementieff",
+    "fullName": "Pom Klementieff",
+    "slug": "pom-klementieff",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 3, 1986",
+    "birthPlace": "Quebec City, Canada",
+    "nationality": "French",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "bio": "Canadian-born actress who became a global star playing Mantis in the MCU.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pom_Klementieff",
+    "movies": [
+      "Guardians of the Galaxy",
+      "Avengers: Endgame",
+      "Mission: Impossible 7"
+    ],
+    "dramas": [
+      "Westworld"
+    ],
+    "costars": [
+      "Chris Pratt"
+    ],
+    "awards": [],
+    "active": "2007-present",
+    "netWorth": "$4 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 662,
+    "name": "Tricia Helfer",
+    "fullName": "Tricia Janine Helfer",
+    "slug": "tricia-helfer",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 11, 1974",
+    "birthPlace": "Donalda, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "bio": "Famous for her role as Number Six in Battlestar Galactica and Charlotte in Lucifer.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tricia_Helfer",
+    "movies": [],
+    "dramas": [
+      "Battlestar Galactica",
+      "Lucifer",
+      "Van Helsing"
+    ],
+    "costars": [
+      "Tom Ellis"
+    ],
+    "awards": [],
+    "active": "1992-present",
+    "netWorth": "$10 Million",
+    "spouse": "Jonathan Marshall (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 663,
+    "name": "Gaston Villanueva",
+    "fullName": "Gaston Villanueva",
+    "slug": "gaston-villanueva",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "1984",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Comedy",
+      "Action"
+    ],
+    "bio": "Character actor known for his roles in various Canadian and US TV productions.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "The Flash",
+      "Arrow"
+    ],
+    "costars": [],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 664,
+    "name": "Mackenzie Davis",
+    "fullName": "Mackenzie Rio Davis",
+    "slug": "mackenzie-davis",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "April 1, 1987",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Acclaimed for her roles in San Junipero (Black Mirror), Terminator: Dark Fate, and Station Eleven.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mackenzie_Davis",
+    "movies": [
+      "Terminator: Dark Fate",
+      "The Martian",
+      "Blade Runner 2049"
+    ],
+    "dramas": [
+      "Halt and Catch Fire",
+      "Station Eleven",
+      "Black Mirror"
+    ],
+    "costars": [
+      "Arnold Schwarzenegger"
+    ],
+    "awards": [],
+    "active": "2011-present",
+    "netWorth": "$3 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 665,
+    "name": "Victor Webster",
+    "fullName": "Victor Webster",
+    "slug": "victor-webster",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 7, 1973",
+    "birthPlace": "Calgary, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "bio": "Known for his roles in Mutant X, Continuum, and The Scorpion King movies.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Victor_Webster",
+    "movies": [
+      "The Scorpion King 3",
+      "Surrogates"
+    ],
+    "dramas": [
+      "Mutant X",
+      "Continuum",
+      "Workin' Moms"
+    ],
+    "costars": [
+      "Rachel Nichols"
+    ],
+    "awards": [],
+    "active": "1997-present",
+    "netWorth": "$3 Million",
+    "spouse": "Shantel VanSanten (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 666,
+    "name": "Rachel Nichols",
+    "fullName": "Rachel Nichols",
+    "slug": "rachel-nichols-actress",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "January 8, 1980",
+    "birthPlace": "Augusta, USA",
+    "nationality": "American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "bio": "Famous for the Canadian series Continuum and roles in G.I. Joe and Star Trek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rachel_Nichols_(actress)",
+    "movies": [
+      "G.I. Joe: The Rise of Cobra",
+      "Star Trek",
+      "Conan the Barbarian"
+    ],
+    "dramas": [
+      "Continuum",
+      "Alias"
+    ],
+    "costars": [
+      "Victor Webster"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$4 Million",
+    "spouse": "Michael Kershaw",
+    "children": "None"
+  },
+  {
+    "id": 667,
+    "name": "Dustin Milligan",
+    "fullName": "Dustin Wallace Milligan",
+    "slug": "dustin-milligan",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 28, 1985",
+    "birthPlace": "Yellowknife, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Known for his roles in 90210 and as Ted Mullens in Schitt's Creek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dustin_Milligan",
+    "movies": [
+      "Final Destination 3"
+    ],
+    "dramas": [
+      "Schitt's Creek",
+      "90210",
+      "Dirk Gently"
+    ],
+    "costars": [
+      "Annie Murphy"
+    ],
+    "awards": [],
+    "active": "2004-present",
+    "netWorth": "$2 Million",
+    "spouse": "Amanda Crew (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 668,
+    "name": "Amanda Crew",
+    "fullName": "Amanda Catherine Crew",
+    "slug": "amanda-crew",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 5, 1986",
+    "birthPlace": "Langley, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Best known for her role as Monica Hall in the HBO series Silicon Valley.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Crew",
+    "movies": [
+      "Sex Drive",
+      "Charlie St. Cloud",
+      "The Haunting in Connecticut"
+    ],
+    "dramas": [
+      "Silicon Valley",
+      "Whistler"
+    ],
+    "costars": [
+      "Thomas Middleditch"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$2 Million",
+    "spouse": "Dustin Milligan (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 669,
+    "name": "Thomas Middleditch",
+    "fullName": "Thomas Middleditch",
+    "slug": "thomas-middleditch",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 10, 1982",
+    "birthPlace": "Nelson, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Gained fame as Richard Hendricks in Silicon Valley and for his improv comedy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Middleditch",
+    "movies": [
+      "Godzilla: King of the Monsters",
+      "Tag"
+    ],
+    "dramas": [
+      "Silicon Valley",
+      "B Positive"
+    ],
+    "costars": [
+      "Kumail Nanjiani"
+    ],
+    "awards": [],
+    "active": "2007-present",
+    "netWorth": "$7 Million",
+    "spouse": "Mollie Gates (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 670,
+    "name": "Kumail Nanjiani",
+    "fullName": "Kumail Nanjiani",
+    "slug": "kumail-nanjiani",
+    "country": "Pakistan",
+    "countrySlug": "pakistan",
+    "born": "February 21, 1978",
+    "birthPlace": "Karachi, Pakistan",
+    "nationality": "Pakistani-American",
+    "profession": [
+      "Actor",
+      "Comedian",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy",
+      "Superhero"
+    ],
+    "bio": "Pakistani-born star of Silicon Valley, The Big Sick, and Marvel's Eternals.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kumail_Nanjiani",
+    "movies": [
+      "The Big Sick",
+      "Eternals",
+      "Stuber"
+    ],
+    "dramas": [
+      "Silicon Valley",
+      "Welcome to Chippendales"
+    ],
+    "costars": [
+      "Thomas Middleditch"
+    ],
+    "awards": [],
+    "active": "2008-present",
+    "netWorth": "$8 Million",
+    "spouse": "Emily V. Gordon",
+    "children": "None"
+  },
+  {
+    "id": 671,
+    "name": "Marie Avgeropoulos",
+    "fullName": "Marie Avgeropoulos",
+    "slug": "marie-avgeropoulos",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 17, 1986",
+    "birthPlace": "Thunder Bay, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "bio": "Rose to fame playing the fierce Octavia Blake in the post-apocalyptic series The 100.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marie_Avgeropoulos",
+    "movies": [
+      "Tracers",
+      "50/50"
+    ],
+    "dramas": [
+      "The 100",
+      "Cult"
+    ],
+    "costars": [
+      "Eliza Taylor"
+    ],
+    "awards": [],
+    "active": "2009-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 672,
+    "name": "Serinda Swan",
+    "fullName": "Serinda Swan",
+    "slug": "serinda-swan",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 11, 1984",
+    "birthPlace": "West Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "bio": "Known for her roles in Coroners, Inhumans (as Medusa), and Smallville (as Zatanna).",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Serinda_Swan",
+    "movies": [
+      "Tron: Legacy"
+    ],
+    "dramas": [
+      "Coroner",
+      "Inhumans",
+      "Graceland",
+      "Smallville"
+    ],
+    "costars": [
+      "Anson Mount"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 673,
+    "name": "Anson Mount",
+    "fullName": "Anson Adams Mount IV",
+    "slug": "anson-mount",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "February 25, 1973",
+    "birthPlace": "White Bluff, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Western"
+    ],
+    "bio": "Known for Hell on Wheels and as Captain Christopher Pike in Star Trek: Strange New Worlds.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anson_Mount",
+    "movies": [
+      "Doctor Strange in the Multiverse of Madness"
+    ],
+    "dramas": [
+      "Hell on Wheels",
+      "Star Trek: Strange New Worlds",
+      "Inhumans"
+    ],
+    "costars": [
+      "Serinda Swan"
+    ],
+    "awards": [],
+    "active": "1999-present",
+    "netWorth": "$3 Million",
+    "spouse": "Darah Trang",
+    "children": "1"
+  },
+  {
+    "id": 674,
+    "name": "Graham Abbott",
+    "fullName": "Graham Abbott",
+    "slug": "graham-abbott",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "1980",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "bio": "Character actor seen in many Canadian television series.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "Murdoch Mysteries",
+      "Degrassi"
+    ],
+    "costars": [],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 675,
+    "name": "Hélène Joy",
+    "fullName": "Hélène Joy",
+    "slug": "helene-joy",
+    "country": "Australia",
+    "countrySlug": "australia",
+    "born": "October 21, 1978",
+    "birthPlace": "Perth, Australia",
+    "nationality": "Australian-Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Best known for her role as Dr. Julia Ogden in the long-running Canadian series Murdoch Mysteries.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_Joy",
+    "movies": [],
+    "dramas": [
+      "Murdoch Mysteries",
+      "Durham County"
+    ],
+    "costars": [
+      "Yannick Bisson"
+    ],
+    "awards": [
+      "1 Gemini Award"
+    ],
+    "active": "1996-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "1"
+  },
+  {
+    "id": 676,
+    "name": "Yannick Bisson",
+    "fullName": "Yannick Denis Bisson",
+    "slug": "yannick-bisson",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 16, 1969",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "The face of Canadian television, famous for playing Detective William Murdoch in Murdoch Mysteries.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yannick_Bisson",
+    "movies": [],
+    "dramas": [
+      "Murdoch Mysteries",
+      "Sue Thomas: F.B.Eye"
+    ],
+    "costars": [
+      "Hélène Joy"
+    ],
+    "awards": [],
+    "active": "1984-present",
+    "netWorth": "$5 Million",
+    "spouse": "Chantal Craig",
+    "children": "3"
+  },
+  {
+    "id": 677,
+    "name": "Jonny Harris",
+    "fullName": "Jonathan Harris",
+    "slug": "jonny-harris",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 22, 1975",
+    "birthPlace": "Pouch Cove, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "bio": "Popular for his role as Constable George Crabtree in Murdoch Mysteries and his stand-up comedy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jonny_Harris",
+    "movies": [],
+    "dramas": [
+      "Murdoch Mysteries",
+      "Still Standing"
+    ],
+    "costars": [
+      "Yannick Bisson"
+    ],
+    "awards": [],
+    "active": "2006-present",
+    "netWorth": "$2 Million",
+    "spouse": "Kaitlin Kozell",
+    "children": "None"
+  },
+  {
+    "id": 678,
+    "name": "Sarena Parmar",
+    "fullName": "Sarena Parmar",
+    "slug": "sarena-parmar",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 18, 1986",
+    "birthPlace": "Prince George, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "bio": "South Asian Canadian actress known for How to be Indie and The Next Step.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarena_Parmar",
+    "movies": [
+      "The Animal Project"
+    ],
+    "dramas": [
+      "How to be Indie",
+      "The Next Step"
+    ],
+    "costars": [],
+    "awards": [],
+    "active": "2009-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 679,
+    "name": "Melinda Shankar",
+    "fullName": "Melinda Leanna Shankar",
+    "slug": "melinda-shankar",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 18, 1992",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Teen Drama"
+    ],
+    "bio": "Known for her lead roles as Alli Bhandari in Degrassi and Indie in How to be Indie.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Melinda_Shankar",
+    "movies": [],
+    "dramas": [
+      "Degrassi: The Next Generation",
+      "How to be Indie",
+      "Slasher"
+    ],
+    "costars": [
+      "Nina Dobrev"
+    ],
+    "awards": [],
+    "active": "2008-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 680,
+    "name": "Tom Cavanagh",
+    "fullName": "Thomas Cavanagh",
+    "slug": "tom-cavanagh",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 26, 1963",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "bio": "Extremely versatile actor famous for playing Harrison Wells and Reverse-Flash in The Flash.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tom_Cavanagh",
+    "movies": [
+      "Yogi Bear"
+    ],
+    "dramas": [
+      "The Flash",
+      "Ed",
+      "Scrubs"
+    ],
+    "costars": [
+      "Grant Gustin"
+    ],
+    "awards": [],
+    "active": "1989-present",
+    "netWorth": "$4 Million",
+    "spouse": "Maureen Grise",
+    "children": "4"
+  },
+  {
+    "id": 681,
+    "name": "Rick Cosnett",
+    "fullName": "Richard James Cosnett",
+    "slug": "rick-cosnett",
+    "country": "Zimbabwe",
+    "countrySlug": "zimbabwe",
+    "born": "April 6, 1983",
+    "birthPlace": "Chegutu, Zimbabwe",
+    "nationality": "Zimbabwean-Australian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Known for his roles in The Vampire Diaries and as Eddie Thawne in The Flash.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rick_Cosnett",
+    "movies": [],
+    "dramas": [
+      "The Flash",
+      "The Vampire Diaries",
+      "Quantico"
+    ],
+    "costars": [
+      "Grant Gustin",
+      "Nina Dobrev"
+    ],
+    "awards": [],
+    "active": "2004-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 682,
+    "name": "Danielle Panabaker",
+    "fullName": "Danielle Nicole Panabaker",
+    "slug": "danielle-panabaker",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "September 19, 1987",
+    "birthPlace": "Augusta, USA",
+    "nationality": "American",
+    "profession": [
+      "Actress",
+      "Director"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "bio": "Star of The Flash as Caitlin Snow/Killer Frost and known for various horror films.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Danielle_Panabaker",
+    "movies": [
+      "Friday the 13th",
+      "Sky High",
+      "Piranha 3DD"
+    ],
+    "dramas": [
+      "The Flash",
+      "Shark"
+    ],
+    "costars": [
+      "Grant Gustin",
+      "Tom Cavanagh"
+    ],
+    "awards": [],
+    "active": "2002-present",
+    "netWorth": "$3 Million",
+    "spouse": "Hayes Robbins",
+    "children": "2"
+  },
+  {
+    "id": 683,
+    "name": "Carlos Valdes",
+    "fullName": "Carlos Valdes",
+    "slug": "carlos-valdes",
+    "country": "Colombia",
+    "countrySlug": "colombia",
+    "born": "April 20, 1989",
+    "birthPlace": "Cali, Colombia",
+    "nationality": "Colombian-American",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Musical"
+    ],
+    "bio": "Famous for playing the fan-favorite character Cisco Ramon (Vibe) in The Flash.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carlos_Valdes_(actor)",
+    "movies": [],
+    "dramas": [
+      "The Flash",
+      "Arrow",
+      "Up Here"
+    ],
+    "costars": [
+      "Grant Gustin"
+    ],
+    "awards": [],
+    "active": "2011-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 684,
+    "name": "Jesse Rath",
+    "fullName": "Jesse Rath",
+    "slug": "jesse-rath",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 11, 1989",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "bio": "Known for playing Brainiac 5 in Supergirl and starring in Defiance.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesse_Rath",
+    "movies": [],
+    "dramas": [
+      "Supergirl",
+      "Defiance",
+      "18 to Life"
+    ],
+    "costars": [
+      "Melissa Benoist"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$1.5 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 685,
+    "name": "Meaghan Rath",
+    "fullName": "Meaghan Rath",
+    "slug": "meaghan-rath",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 18, 1986",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Sister of Jesse Rath, known for Being Human, Hawaii Five-0, and Children Ruin Everything.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Meaghan_Rath",
+    "movies": [],
+    "dramas": [
+      "Being Human",
+      "Hawaii Five-0",
+      "Children Ruin Everything"
+    ],
+    "costars": [
+      "Sam Witwer"
+    ],
+    "awards": [],
+    "active": "2001-present",
+    "netWorth": "$3 Million",
+    "spouse": "Jack Cutmore-Scott",
+    "children": "1"
+  },
+  {
+    "id": 686,
+    "name": "Gregory Smith",
+    "fullName": "Gregory Edward Smith",
+    "slug": "gregory-smith",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 6, 1983",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "bio": "Known for his lead roles in Everwood and the Canadian police drama Rookie Blue.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gregory_Smith_(actor)",
+    "movies": [
+      "Small Soldiers",
+      "The Patriot"
+    ],
+    "dramas": [
+      "Everwood",
+      "Rookie Blue"
+    ],
+    "costars": [
+      "Emily VanCamp"
+    ],
+    "awards": [],
+    "active": "1991-present",
+    "netWorth": "$3 Million",
+    "spouse": "Taylor McKay",
+    "children": "2"
+  },
+  {
+    "id": 687,
+    "name": "Missy Peregrym",
+    "fullName": "Melissa Peregrym",
+    "slug": "missy-peregrym",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 16, 1982",
+    "birthPlace": "Montreal, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Lead star of FBI and known for her roles in Rookie Blue and the movie Stick It.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Missy_Peregrym",
+    "movies": [
+      "Stick It"
+    ],
+    "dramas": [
+      "Rookie Blue",
+      "FBI",
+      "Reaper"
+    ],
+    "costars": [
+      "Gregory Smith",
+      "Zeeko Zaki"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$3 Million",
+    "spouse": "Tom Oakley",
+    "children": "2"
+  },
+  {
+    "id": 688,
+    "name": "Charlotte Sullivan",
+    "fullName": "Charlotte Sullivan",
+    "slug": "charlotte-sullivan",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 21, 1983",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Crime"
+    ],
+    "bio": "Canadian actress known for her role as Gail Peck in Rookie Blue.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charlotte_Sullivan",
+    "movies": [],
+    "dramas": [
+      "Rookie Blue",
+      "Chicago Fire",
+      "Law & Order: Organized Crime"
+    ],
+    "costars": [
+      "Missy Peregrym"
+    ],
+    "awards": [],
+    "active": "1996-present",
+    "netWorth": "$2 Million",
+    "spouse": "Peter Stebbings",
+    "children": "1"
+  },
+  {
+    "id": 689,
+    "name": "Enuka Okuma",
+    "fullName": "Enuka Okuma",
+    "slug": "enuka-okuma",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 20, 1976",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Famous for her role as Traci Nash in Rookie Blue and voicing Lady Une in Gundam Wing.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enuka_Okuma",
+    "movies": [],
+    "dramas": [
+      "Rookie Blue",
+      "Madison",
+      "Workin' Moms"
+    ],
+    "costars": [
+      "Missy Peregrym"
+    ],
+    "awards": [],
+    "active": "1990-present",
+    "netWorth": "$2 Million",
+    "spouse": "Joe Gasparik",
+    "children": "None"
+  },
+  {
+    "id": 690,
+    "name": "Ben Bass",
+    "fullName": "Ben Bass",
+    "slug": "ben-bass",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "August 14, 1968",
+    "birthPlace": "Baltimore, USA",
+    "nationality": "American-Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Known for playing Sam Swarek in the Canadian police drama Rookie Blue.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ben_Bass_(actor)",
+    "movies": [],
+    "dramas": [
+      "Rookie Blue",
+      "Forever Knight"
+    ],
+    "costars": [
+      "Missy Peregrym"
+    ],
+    "awards": [],
+    "active": "1987-present",
+    "netWorth": "$2 Million",
+    "spouse": "Laura Carswell (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 691,
+    "name": "Travis Milne",
+    "fullName": "Travis Milne",
+    "slug": "travis-milne",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 18, 1986",
+    "birthPlace": "Lac La Biche, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "bio": "Canadian actor known for his role as Chris Diaz in Rookie Blue.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Travis_Milne",
+    "movies": [],
+    "dramas": [
+      "Rookie Blue"
+    ],
+    "costars": [
+      "Charlotte Sullivan"
+    ],
+    "awards": [],
+    "active": "2006-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 692,
+    "name": "Luke Bilyk",
+    "fullName": "Luke Bilyk",
+    "slug": "luke-bilyk",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "November 10, 1994",
+    "birthPlace": "North York, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Teen Drama"
+    ],
+    "bio": "Gained fame for playing Drew Torres in Degrassi: The Next Generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luke_Bilyk",
+    "movies": [],
+    "dramas": [
+      "Degrassi",
+      "Lost Girl"
+    ],
+    "costars": [
+      "Melinda Shankar"
+    ],
+    "awards": [],
+    "active": "2007-present",
+    "netWorth": "$1 Million",
+    "spouse": "Nicole Dos Santos",
+    "children": "1"
+  },
+  {
+    "id": 693,
+    "name": "Munro Chambers",
+    "fullName": "Munro Chambers",
+    "slug": "munro-chambers",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 29, 1990",
+    "birthPlace": "Ajax, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Teen Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Known for playing Eli Goldsworthy in Degrassi and starring in Turbo Kid.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Munro_Chambers",
+    "movies": [
+      "Turbo Kid"
+    ],
+    "dramas": [
+      "Degrassi",
+      "The Latest Buzz"
+    ],
+    "costars": [
+      "Luke Bilyk"
+    ],
+    "awards": [],
+    "active": "1998-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 694,
+    "name": "Aislinn Paul",
+    "fullName": "Aislinn Paul",
+    "slug": "aislinn-paul",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 5, 1994",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Teen Drama"
+    ],
+    "bio": "Best known for her role as Clare Edwards in Degrassi: The Next Generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aislinn_Paul",
+    "movies": [],
+    "dramas": [
+      "Degrassi",
+      "Heroes Reborn"
+    ],
+    "costars": [
+      "Munro Chambers"
+    ],
+    "awards": [
+      "2 Canadian Screen Awards"
+    ],
+    "active": "2000-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 695,
+    "name": "Jordan Todosey",
+    "fullName": "Jordan Todosey",
+    "slug": "jordan-todosey",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "February 8, 1995",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Teen Drama"
+    ],
+    "bio": "Known for her roles in Life with Derek and playing Adam Torres in Degrassi.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jordan_Todosey",
+    "movies": [],
+    "dramas": [
+      "Life with Derek",
+      "Degrassi"
+    ],
+    "costars": [
+      "Michael Seater"
+    ],
+    "awards": [
+      "1 Gemini Award"
+    ],
+    "active": "2004-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 696,
+    "name": "Michael Seater",
+    "fullName": "Michael Seater",
+    "slug": "michael-seater",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "January 15, 1987",
+    "birthPlace": "Newfoundland, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Famous for playing the lead role in the Canadian sitcom Life with Derek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Seater",
+    "movies": [],
+    "dramas": [
+      "Life with Derek",
+      "Murdoch Mysteries"
+    ],
+    "costars": [
+      "Ashley Leggat"
+    ],
+    "awards": [],
+    "active": "1998-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 697,
+    "name": "Ashley Leggat",
+    "fullName": "Ashley Leggat",
+    "slug": "ashley-leggat",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "September 26, 1986",
+    "birthPlace": "Hamilton, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Best known for playing Casey McDonald in the series Life with Derek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Leggat",
+    "movies": [],
+    "dramas": [
+      "Life with Derek",
+      "Suits"
+    ],
+    "costars": [
+      "Michael Seater"
+    ],
+    "awards": [],
+    "active": "1999-present",
+    "netWorth": "$1 Million",
+    "spouse": "Jeremy Williams",
+    "children": "2"
+  },
+  {
+    "id": 698,
+    "name": "Torri Higginson",
+    "fullName": "Torri Higginson",
+    "slug": "torri-higginson",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 6, 1969",
+    "birthPlace": "Burlington, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Famous for playing Dr. Elizabeth Weir in Stargate SG-1 and Stargate Atlantis.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torri_Higginson",
+    "movies": [
+      "The English Patient"
+    ],
+    "dramas": [
+      "Stargate Atlantis",
+      "Transplant"
+    ],
+    "costars": [
+      "Joe Flanigan"
+    ],
+    "awards": [
+      "1 Gemini Award"
+    ],
+    "active": "1991-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 699,
+    "name": "Joe Flanigan",
+    "fullName": "Joseph Flanigan",
+    "slug": "joe-flanigan",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "January 5, 1967",
+    "birthPlace": "Los Angeles, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Known for his lead role as Major/Lt. Col. John Sheppard in Stargate Atlantis.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Flanigan",
+    "movies": [],
+    "dramas": [
+      "Stargate Atlantis",
+      "General Hospital"
+    ],
+    "costars": [
+      "Torri Higginson"
+    ],
+    "awards": [],
+    "active": "1994-present",
+    "netWorth": "$1 Million",
+    "spouse": "Katherine Kousi (Ex)",
+    "children": "3"
+  },
+  {
+    "id": 701,
+    "name": "Noah Reid",
+    "fullName": "Noah Reid",
+    "slug": "noah-reid",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 29, 1987",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Musician"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Gained international fame playing Patrick Brewer, David's love interest in Schitt's Creek.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Noah_Reid",
+    "movies": [],
+    "dramas": [
+      "Schitt's Creek",
+      "Outer Range",
+      "Franklin (Voice)"
+    ],
+    "costars": [
+      "Dan Levy"
+    ],
+    "awards": [],
+    "active": "1996-present",
+    "netWorth": "$4 Million",
+    "spouse": "Clare Stone",
+    "children": "1"
+  },
+  {
+    "id": 702,
+    "name": "Katheryn Winnick",
+    "fullName": "Katheryn Winnick",
+    "slug": "katheryn-winnick",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 17, 1977",
+    "birthPlace": "Etobicoke, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Martial Artist"
+    ],
+    "genre": [
+      "Historical",
+      "Action"
+    ],
+    "bio": "Famous for her powerful portrayal of Lagertha in the hit series Vikings.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Katheryn_Winnick",
+    "movies": [
+      "The Dark Tower",
+      "Polar"
+    ],
+    "dramas": [
+      "Vikings",
+      "Big Sky",
+      "Wu Assassins"
+    ],
+    "costars": [
+      "Travis Fimmel"
+    ],
+    "awards": [],
+    "active": "1999-present",
+    "netWorth": "$5 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 703,
+    "name": "Ludwig Göransson",
+    "fullName": "Ludwig Göransson",
+    "slug": "ludwig-goransson",
+    "country": "Sweden",
+    "countrySlug": "sweden",
+    "born": "September 1, 1984",
+    "birthPlace": "Linköping, Sweden",
+    "nationality": "Swedish",
+    "profession": [
+      "Composer",
+      "Producer"
+    ],
+    "genre": [
+      "Music",
+      "Film Score"
+    ],
+    "bio": "Oscar-winning composer for Black Panther and Oppenheimer; frequent collaborator with Childish Gambino.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ludwig_G%C3%B6ransson",
+    "movies": [
+      "Oppenheimer",
+      "Black Panther",
+      "Tenet"
+    ],
+    "dramas": [
+      "The Mandalorian",
+      "Community"
+    ],
+    "costars": [
+      "Christopher Nolan"
+    ],
+    "awards": [
+      "2 Oscars",
+      "2 Grammys"
+    ],
+    "active": "2008-present",
+    "netWorth": "$10 Million",
+    "spouse": "Serena McKinney",
+    "children": "None"
+  },
+  {
+    "id": 704,
+    "name": "Jason Priestley",
+    "fullName": "Jason Bradford Priestley",
+    "slug": "jason-priestley",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 28, 1969",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian-American",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Teen Drama",
+      "Crime"
+    ],
+    "bio": "90s heartthrob famous for playing Brandon Walsh in Beverly Hills, 90210.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jason_Priestley",
+    "movies": [
+      "Cas and Dylan"
+    ],
+    "dramas": [
+      "Beverly Hills, 90210",
+      "Private Eyes",
+      "Call Me Fitz"
+    ],
+    "costars": [
+      "Luke Perry"
+    ],
+    "awards": [],
+    "active": "1986-present",
+    "netWorth": "$12 Million",
+    "spouse": "Naomi Lowde-Priestley",
+    "children": "2"
+  },
+  {
+    "id": 705,
+    "name": "Sarah Rafferty",
+    "fullName": "Sarah Rafferty",
+    "slug": "sarah-rafferty",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "December 6, 1972",
+    "birthPlace": "New Canaan, USA",
+    "nationality": "American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Legal Drama"
+    ],
+    "bio": "Though American, she is iconic in the Canadian-filmed series Suits as Donna Paulsen.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Rafferty",
+    "movies": [],
+    "dramas": [
+      "Suits",
+      "Chicago Med",
+      "Grey's Anatomy"
+    ],
+    "costars": [
+      "Gabriel Macht",
+      "Meghan Markle"
+    ],
+    "awards": [],
+    "active": "1998-present",
+    "netWorth": "$9 Million",
+    "spouse": "Santtu Seppälä",
+    "children": "2"
+  },
+  {
+    "id": 706,
+    "name": "Rick Mercer",
+    "fullName": "Richard Vincent Mercer",
+    "slug": "rick-mercer",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "October 17, 1969",
+    "birthPlace": "St. John's, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Comedian",
+      "TV Host"
+    ],
+    "genre": [
+      "Satire",
+      "Comedy"
+    ],
+    "bio": "Famous for the Rick Mercer Report and his biting political satire on Canadian TV.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rick_Mercer",
+    "movies": [],
+    "dramas": [
+      "This Hour Has 22 Minutes",
+      "The Rick Mercer Report"
+    ],
+    "costars": [],
+    "awards": [
+      "25+ Gemini Awards"
+    ],
+    "active": "1990-present",
+    "netWorth": "$5 Million",
+    "spouse": "Gerald Lunz (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 707,
+    "name": "Jann Arden",
+    "fullName": "Jann Arden Anne Richards",
+    "slug": "jann-arden",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 27, 1962",
+    "birthPlace": "Calgary, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Singer",
+      "Actress"
+    ],
+    "genre": [
+      "Music",
+      "Comedy"
+    ],
+    "bio": "Multi-talented star known for her music career and her semi-autobiographical comedy series JANN.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jann_Arden",
+    "movies": [],
+    "dramas": [
+      "JANN",
+      "Workin' Moms"
+    ],
+    "costars": [],
+    "awards": [
+      "8 Juno Awards"
+    ],
+    "active": "1993-present",
+    "netWorth": "$10 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 708,
+    "name": "Catherine Reitman",
+    "fullName": "Catherine Marcelle Reitman",
+    "slug": "catherine-reitman",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "April 28, 1981",
+    "birthPlace": "Los Angeles, USA",
+    "nationality": "American-Canadian",
+    "profession": [
+      "Actress",
+      "Creator",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Daughter of Ivan Reitman; creator and star of the hit Canadian series Workin' Moms.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catherine_Reitman",
+    "movies": [
+      "Knocked Up"
+    ],
+    "dramas": [
+      "Workin' Moms",
+      "Black-ish",
+      "It's Always Sunny in Philadelphia"
+    ],
+    "costars": [
+      "Philip Sternberg"
+    ],
+    "awards": [],
+    "active": "1988-present",
+    "netWorth": "$1.3 Million",
+    "spouse": "Philip Sternberg",
+    "children": "2"
+  },
+  {
+    "id": 709,
+    "name": "Philip Sternberg",
+    "fullName": "Philip Sternberg",
+    "slug": "philip-sternberg",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "1978",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Producer"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Known for playing Nathan Foster in Workin' Moms and being the real-life husband of Catherine Reitman.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "Workin' Moms"
+    ],
+    "costars": [
+      "Catherine Reitman"
+    ],
+    "awards": [],
+    "active": "2005-present",
+    "netWorth": "$1 Million",
+    "spouse": "Catherine Reitman",
+    "children": "2"
+  },
+  {
+    "id": 710,
+    "name": "Dani Kind",
+    "fullName": "Dani Kind",
+    "slug": "dani-kind",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "January 10, 1980",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Popular for her role as Anne Carlson in Workin' Moms and starring in Wynonna Earp.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dani_Kind",
+    "movies": [
+      "The Banana Splits Movie"
+    ],
+    "dramas": [
+      "Workin' Moms",
+      "Wynonna Earp"
+    ],
+    "costars": [
+      "Catherine Reitman"
+    ],
+    "awards": [],
+    "active": "2002-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "2"
+  },
+  {
+    "id": 711,
+    "name": "Juno Rinaldi",
+    "fullName": "Juno Rinaldi",
+    "slug": "juno-rinaldi",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 14, 1977",
+    "birthPlace": "British Columbia, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Best known for her hilarious role as Frankie Coyne in Workin' Moms.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [
+      "It: Chapter Two"
+    ],
+    "dramas": [
+      "Workin' Moms"
+    ],
+    "costars": [
+      "Dani Kind"
+    ],
+    "awards": [],
+    "active": "1990-present",
+    "netWorth": "$1 Million",
+    "spouse": "Michael Rinaldi",
+    "children": "2"
+  },
+  {
+    "id": 712,
+    "name": "Sarah McVie",
+    "fullName": "Sarah McVie",
+    "slug": "sarah-mcvie",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "1978",
+    "birthPlace": "Ottawa, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "bio": "Known for her role as Val Szalinsky in Workin' Moms.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "Workin' Moms",
+      "The Handmaid's Tale"
+    ],
+    "costars": [
+      "Catherine Reitman"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 713,
+    "name": "Beau Bridges",
+    "fullName": "Lloyd Vernet Bridges III",
+    "slug": "beau-bridges",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "December 9, 1941",
+    "birthPlace": "Hollywood, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Veteran actor who led Stargate SG-1 as Major General Hank Landry in later seasons.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beau_Bridges",
+    "movies": [
+      "The Fabulous Baker Boys"
+    ],
+    "dramas": [
+      "Stargate SG-1",
+      "Homeland",
+      "Masters of Sex"
+    ],
+    "costars": [
+      "Amanda Tapping"
+    ],
+    "awards": [
+      "3 Emmys",
+      "2 Golden Globes"
+    ],
+    "active": "1948-present",
+    "netWorth": "$16 Million",
+    "spouse": "Wendy Treece",
+    "children": "5"
+  },
+  {
+    "id": 714,
+    "name": "Michael Shanks",
+    "fullName": "Michael Shanks",
+    "slug": "michael-shanks",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 15, 1970",
+    "birthPlace": "Vancouver, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Famous for playing Dr. Daniel Jackson in the long-running Stargate SG-1 franchise.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Shanks",
+    "movies": [
+      "Elysium"
+    ],
+    "dramas": [
+      "Stargate SG-1",
+      "Saving Hope"
+    ],
+    "costars": [
+      "Amanda Tapping"
+    ],
+    "awards": [
+      "1 Leo Award"
+    ],
+    "active": "1993-present",
+    "netWorth": "$2 Million",
+    "spouse": "Lexa Doig",
+    "children": "3"
+  },
+  {
+    "id": 715,
+    "name": "Lexa Doig",
+    "fullName": "Alexandra Lecciones Doig",
+    "slug": "lexa-doig",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 8, 1973",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "bio": "Lead star of the sci-fi series Andromeda and known for Stargate SG-1 and Arrow.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lexa_Doig",
+    "movies": [
+      "Jason X"
+    ],
+    "dramas": [
+      "Andromeda",
+      "Stargate SG-1",
+      "Arrow",
+      "Virgin River"
+    ],
+    "costars": [
+      "Michael Shanks"
+    ],
+    "awards": [],
+    "active": "1993-present",
+    "netWorth": "$500,000",
+    "spouse": "Michael Shanks",
+    "children": "2"
+  },
+  {
+    "id": 716,
+    "name": "Christopher Judge",
+    "fullName": "Douglas Christopher Judge",
+    "slug": "christopher-judge",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "October 13, 1964",
+    "birthPlace": "Los Angeles, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor",
+      "Voice Actor"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Gaming"
+    ],
+    "bio": "Famous as Teal'c in Stargate SG-1 and the iconic voice of Kratos in God of War.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christopher_Judge",
+    "movies": [
+      "The Dark Knight Rises"
+    ],
+    "dramas": [
+      "Stargate SG-1"
+    ],
+    "costars": [
+      "Michael Shanks"
+    ],
+    "awards": [
+      "The Game Award for Best Performance"
+    ],
+    "active": "1990-present",
+    "netWorth": "$3 Million",
+    "spouse": "Gianna Patton",
+    "children": "4"
+  },
+  {
+    "id": 717,
+    "name": "Don S. Davis",
+    "fullName": "Donald Sinclair Davis",
+    "slug": "don-s-davis",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "August 4, 1942",
+    "birthPlace": "Aurora, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor",
+      "Artist"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "bio": "Beloved for playing General George Hammond in Stargate SG-1 and Major Briggs in Twin Peaks.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Don_S._Davis",
+    "movies": [
+      "Con Air"
+    ],
+    "dramas": [
+      "Stargate SG-1",
+      "Twin Peaks",
+      "The X-Files"
+    ],
+    "costars": [
+      "Richard Dean Anderson"
+    ],
+    "awards": [],
+    "active": "1980-2008",
+    "netWorth": "$2 Million",
+    "spouse": "Ruby Fleming-Davis",
+    "children": "None"
+  },
+  {
+    "id": 718,
+    "name": "Kavan Smith",
+    "fullName": "Kavan Joel Smith",
+    "slug": "kavan-smith",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "May 6, 1970",
+    "birthPlace": "Edmonton, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bio": "Known for When Calls the Heart and playing Major Lorne in the Stargate franchise.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kavan_Smith",
+    "movies": [
+      "Mission to Mars"
+    ],
+    "dramas": [
+      "When Calls the Heart",
+      "Stargate Atlantis",
+      "Eureka"
+    ],
+    "costars": [
+      "Pascale Hutton"
+    ],
+    "awards": [],
+    "active": "1993-present",
+    "netWorth": "$800,000",
+    "spouse": "Corrine Clark",
+    "children": "2"
+  },
+  {
+    "id": 719,
+    "name": "Pascale Hutton",
+    "fullName": "Pascale Hutton",
+    "slug": "pascale-hutton",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "June 14, 1979",
+    "birthPlace": "Creston, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "bio": "Best known for her role as Rosemary LeVeaux Coulter in When Calls the Heart.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pascale_Hutton",
+    "movies": [
+      "Fantastic Four"
+    ],
+    "dramas": [
+      "When Calls the Heart",
+      "Arctic Air",
+      "Sanctuary"
+    ],
+    "costars": [
+      "Kavan Smith"
+    ],
+    "awards": [
+      "2 Leo Awards"
+    ],
+    "active": "2003-present",
+    "netWorth": "$2 Million",
+    "spouse": "Danny Dorosh",
+    "children": "2"
+  },
+  {
+    "id": 721,
+    "name": "Carrie-Anne Moss",
+    "fullName": "Carrie-Anne Moss",
+    "slug": "carrie-anne-moss",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "August 21, 1967",
+    "birthPlace": "Burnaby, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "bio": "International star famous for playing Trinity in The Matrix trilogy and Jeri Hogarth in Marvel's Jessica Jones.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carrie-Anne_Moss",
+    "movies": [
+      "The Matrix",
+      "Memento",
+      "Disturbia"
+    ],
+    "dramas": [
+      "Jessica Jones",
+      "Tell Me a Story"
+    ],
+    "costars": [
+      "Keanu Reeves"
+    ],
+    "awards": [],
+    "active": "1989-present",
+    "netWorth": "$3 Million",
+    "spouse": "Steven Roy",
+    "children": "3"
+  },
+  {
+    "id": 722,
+    "name": "Jared Keeso",
+    "fullName": "Jared Keeso",
+    "slug": "jared-keeso",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "July 1, 1984",
+    "birthPlace": "Listowel, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Writer",
+      "Producer"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "The creator and star of the cult-hit Canadian comedy series Letterkenny and Shoresy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jared_Keeso",
+    "movies": [
+      "Elysium",
+      "Godzilla"
+    ],
+    "dramas": [
+      "Letterkenny",
+      "19-2",
+      "Shoresy"
+    ],
+    "costars": [
+      "Nathan Dales"
+    ],
+    "awards": [
+      "3 Canadian Screen Awards"
+    ],
+    "active": "2004-present",
+    "netWorth": "$4 Million",
+    "spouse": "Magali Brunelle Keeso",
+    "children": "None"
+  },
+  {
+    "id": 723,
+    "name": "Nathan Dales",
+    "fullName": "Nathan Dales",
+    "slug": "nathan-dales",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "1986",
+    "birthPlace": "Calgary, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Best known for his role as Daryl in the popular Canadian sitcom Letterkenny.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nathan_Dales",
+    "movies": [
+      "Goon: Last of the Enforcers"
+    ],
+    "dramas": [
+      "Letterkenny"
+    ],
+    "costars": [
+      "Jared Keeso"
+    ],
+    "awards": [],
+    "active": "2009-present",
+    "netWorth": "$1 Million",
+    "spouse": "Jasper Savage (Partner)",
+    "children": "None"
+  },
+  {
+    "id": 724,
+    "name": "Michelle Mylett",
+    "fullName": "Robyn Michelle Mylett",
+    "slug": "michelle-mylett",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "January 4, 1989",
+    "birthPlace": "Ladysmith, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Horror"
+    ],
+    "bio": "Stars as Katy in Letterkenny and has appeared in various thriller films.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michelle_Mylett",
+    "movies": [
+      "Antisocial"
+    ],
+    "dramas": [
+      "Letterkenny",
+      "Bad Blood"
+    ],
+    "costars": [
+      "Jared Keeso"
+    ],
+    "awards": [],
+    "active": "2013-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 725,
+    "name": "K. Trevor Wilson",
+    "fullName": "Kevin Trevor Wilson",
+    "slug": "k-trevor-wilson",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "March 9, 1981",
+    "birthPlace": "Toronto, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "bio": "Famous stand-up comedian known for playing Squirrely Dan in Letterkenny.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/K._Trevor_Wilson",
+    "movies": [],
+    "dramas": [
+      "Letterkenny"
+    ],
+    "costars": [
+      "Jared Keeso"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$2 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 727,
+    "name": "Josh Bowman",
+    "fullName": "Joshua Tobias Bowman",
+    "slug": "josh-bowman",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "March 4, 1988",
+    "birthPlace": "Berkshire, England",
+    "nationality": "British",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama"
+    ],
+    "bio": "Known for his role as Daniel Grayson in Revenge, where he met his wife Emily VanCamp.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Josh_Bowman",
+    "movies": [],
+    "dramas": [
+      "Revenge",
+      "Time After Time"
+    ],
+    "costars": [
+      "Emily VanCamp"
+    ],
+    "awards": [],
+    "active": "2007-present",
+    "netWorth": "$3 Million",
+    "spouse": "Emily VanCamp",
+    "children": "1"
+  },
+  {
+    "id": 728,
+    "name": "Keegan Connor Tracy",
+    "fullName": "Keegan Connor Tracy",
+    "slug": "keegan-connor-tracy",
+    "country": "Canada",
+    "countrySlug": "canada",
+    "born": "December 3, 1971",
+    "birthPlace": "Windsor, Canada",
+    "nationality": "Canadian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Horror"
+    ],
+    "bio": "Known for roles in Once Upon a Time (Blue Fairy), Bates Motel, and The Magicians.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keegan_Connor_Tracy",
+    "movies": [
+      "Final Destination 2"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "The Magicians",
+      "Bates Motel"
+    ],
+    "costars": [
+      "Lana Parrilla"
+    ],
+    "awards": [
+      "1 Leo Award"
+    ],
+    "active": "1997-present",
+    "netWorth": "$2 Million",
+    "spouse": "Ez Mitchell",
+    "children": "2"
+  },
+  {
+    "id": 729,
+    "name": "Lana Parrilla",
+    "fullName": "Lana Maria Parrilla",
+    "slug": "lana-parrilla",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "July 15, 1977",
+    "birthPlace": "Brooklyn, USA",
+    "nationality": "American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Gained a massive following playing Regina Mills/The Evil Queen in Once Upon a Time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lana_Parrilla",
+    "movies": [],
+    "dramas": [
+      "Once Upon a Time",
+      "Spin City",
+      "Why Women Kill"
+    ],
+    "costars": [
+      "Ginnifer Goodwin"
+    ],
+    "awards": [
+      "1 Teen Choice Award"
+    ],
+    "active": "1999-present",
+    "netWorth": "$4 Million",
+    "spouse": "Fred Di Blasio (Ex)",
+    "children": "None"
+  },
+  {
+    "id": 730,
+    "name": "Ginnifer Goodwin",
+    "fullName": "Jennifer Michelle Goodwin",
+    "slug": "ginnifer-goodwin",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "May 22, 1978",
+    "birthPlace": "Memphis, USA",
+    "nationality": "American",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Animation"
+    ],
+    "bio": "Known for Once Upon a Time (Snow White) and voicing Judy Hopps in Zootopia.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ginnifer_Goodwin",
+    "movies": [
+      "Zootopia",
+      "Walk the Line"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "Big Love"
+    ],
+    "costars": [
+      "Josh Dallas"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$8 Million",
+    "spouse": "Josh Dallas",
+    "children": "2"
+  },
+  {
+    "id": 731,
+    "name": "Josh Dallas",
+    "fullName": "Joshua Paul Dallas",
+    "slug": "josh-dallas",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "December 18, 1978",
+    "birthPlace": "Louisville, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "bio": "Famous for playing Prince Charming in Once Upon a Time and Ben Stone in Manifest.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Josh_Dallas",
+    "movies": [
+      "Thor"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "Manifest"
+    ],
+    "costars": [
+      "Ginnifer Goodwin"
+    ],
+    "awards": [],
+    "active": "2006-present",
+    "netWorth": "$4 Million",
+    "spouse": "Ginnifer Goodwin",
+    "children": "2"
+  },
+  {
+    "id": 732,
+    "name": "Robert Carlyle",
+    "fullName": "Robert Carlyle",
+    "slug": "robert-carlyle",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "April 14, 1961",
+    "birthPlace": "Glasgow, Scotland",
+    "nationality": "Scottish",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "bio": "Acclaimed actor known for Trainspotting and playing Rumplestiltskin in Once Upon a Time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Carlyle",
+    "movies": [
+      "Trainspotting",
+      "The Full Monty",
+      "The World Is Not Enough"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "Stargate Universe"
+    ],
+    "costars": [
+      "Lana Parrilla"
+    ],
+    "awards": [
+      "1 BAFTA"
+    ],
+    "active": "1990-present",
+    "netWorth": "$10 Million",
+    "spouse": "Anastasia Shirley",
+    "children": "3"
+  },
+  {
+    "id": 733,
+    "name": "Colin O'Donoghue",
+    "fullName": "Colin Arthur O'Donoghue",
+    "slug": "colin-odonoghue",
+    "country": "Ireland",
+    "countrySlug": "ireland",
+    "born": "January 26, 1981",
+    "birthPlace": "Drogheda, Ireland",
+    "nationality": "Irish",
+    "profession": [
+      "Actor",
+      "Musician"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Gained a huge fanbase as Captain Hook in the fantasy series Once Upon a Time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Colin_O'Donoghue",
+    "movies": [
+      "The Rite"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "The Right Stuff"
+    ],
+    "costars": [
+      "Jennifer Morrison"
+    ],
+    "awards": [],
+    "active": "2001-present",
+    "netWorth": "$2 Million",
+    "spouse": "Helen O'Donoghue",
+    "children": "2"
+  },
+  {
+    "id": 734,
+    "name": "Jennifer Morrison",
+    "fullName": "Jennifer Marie Morrison",
+    "slug": "jennifer-morrison",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "April 12, 1979",
+    "birthPlace": "Chicago, USA",
+    "nationality": "American",
+    "profession": [
+      "Actress",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "bio": "Known for House M.D. as Dr. Cameron and as Emma Swan in Once Upon a Time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jennifer_Morrison",
+    "movies": [
+      "Star Trek"
+    ],
+    "dramas": [
+      "House",
+      "Once Upon a Time",
+      "This Is Us"
+    ],
+    "costars": [
+      "Hugh Laurie",
+      "Colin O'Donoghue"
+    ],
+    "awards": [],
+    "active": "1994-present",
+    "netWorth": "$8 Million",
+    "spouse": "Gerardo Celasco",
+    "children": "None"
+  },
+  {
+    "id": 735,
+    "name": "Emilie de Ravin",
+    "fullName": "Emilie de Ravin",
+    "slug": "emilie-de-ravin",
+    "country": "Australia",
+    "countrySlug": "australia",
+    "born": "December 27, 1981",
+    "birthPlace": "Mount Eliza, Australia",
+    "nationality": "Australian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "bio": "Known for her roles in Lost (Claire) and Once Upon a Time (Belle).",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emilie_de_Ravin",
+    "movies": [
+      "Remember Me",
+      "The Hills Have Eyes"
+    ],
+    "dramas": [
+      "Lost",
+      "Once Upon a Time",
+      "Roswell"
+    ],
+    "costars": [
+      "Robert Carlyle"
+    ],
+    "awards": [],
+    "active": "1999-present",
+    "netWorth": "$6 Million",
+    "spouse": "Eric Bilitch (Partner)",
+    "children": "2"
+  },
+  {
+    "id": 736,
+    "name": "Rebecca Mader",
+    "fullName": "Rebecca Leigh Mader",
+    "slug": "rebecca-mader",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "April 24, 1977",
+    "birthPlace": "Cambridge, England",
+    "nationality": "British",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "Famous for playing the Wicked Witch of the West (Zelena) in Once Upon a Time and her role in Lost.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rebecca_Mader",
+    "movies": [
+      "Iron Man 3"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "Lost"
+    ],
+    "costars": [
+      "Lana Parrilla"
+    ],
+    "awards": [],
+    "active": "2000-present",
+    "netWorth": "$4 Million",
+    "spouse": "Marcus Kayne",
+    "children": "2"
+  },
+  {
+    "id": 737,
+    "name": "Sean Maguire",
+    "fullName": "Sean Maguire",
+    "slug": "sean-maguire",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "April 18, 1976",
+    "birthPlace": "London, England",
+    "nationality": "British",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "bio": "English actor best known for playing Robin Hood in the series Once Upon a Time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sean_Maguire",
+    "movies": [
+      "Meet the Spartans"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "EastEnders"
+    ],
+    "costars": [
+      "Lana Parrilla"
+    ],
+    "awards": [],
+    "active": "1982-present",
+    "netWorth": "$3 Million",
+    "spouse": "Tanya Flynn",
+    "children": "3"
+  },
+  {
+    "id": 738,
+    "name": "Robbie Kay",
+    "fullName": "Robert Andrew Kay",
+    "slug": "robbie-kay",
+    "country": "United Kingdom",
+    "countrySlug": "united-kingdom",
+    "born": "September 13, 1995",
+    "birthPlace": "Lymington, England",
+    "nationality": "British",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Fantasy",
+      "Action"
+    ],
+    "bio": "Known for his chilling portrayal of Peter Pan in Once Upon a Time and starring in Heroes Reborn.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robbie_Kay",
+    "movies": [
+      "Pirates of the Caribbean: On Stranger Tides"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "Heroes Reborn"
+    ],
+    "costars": [
+      "Jennifer Morrison"
+    ],
+    "awards": [],
+    "active": "2006-present",
+    "netWorth": "$1 Million",
+    "spouse": "None",
+    "children": "None"
+  },
+  {
+    "id": 739,
+    "name": "Eion Bailey",
+    "fullName": "Eion Francis Hamilton Bailey",
+    "slug": "eion-bailey",
+    "country": "United States",
+    "countrySlug": "united-states",
+    "born": "June 8, 1976",
+    "birthPlace": "Santa Ynez, USA",
+    "nationality": "American",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "bio": "Known for Band of Brothers, Ray Donovan, and playing August (Pinocchio) in Once Upon a Time.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eion_Bailey",
+    "movies": [
+      "Fight Club",
+      "Center Stage"
+    ],
+    "dramas": [
+      "Once Upon a Time",
+      "Band of Brothers",
+      "From"
+    ],
+    "costars": [
+      "Jennifer Morrison"
+    ],
+    "awards": [
+      "1 Emmy"
+    ],
+    "active": "1997-present",
+    "netWorth": "$3 Million",
+    "spouse": "Weyni Mengesha",
+    "children": "2"
   }
 ]
